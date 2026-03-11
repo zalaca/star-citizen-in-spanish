@@ -114,6 +114,14 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Look at desert but don't see you` → `Miro el desierto y no te veo` (no: "Mirar el desierto pero no verte")
 - **Evitar repetición de intensificadores**: si el original repite "very/muy" dos veces seguidas, reformular para que suene natural
   - `Very simple but very effective` → `Simple, pero tremendamente efectiva` (no: "Muy simple pero muy efectiva")
+- **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
+  - `on him` (posesión física) → `encima` (no: "sobre él") — ej: `what intel he might have had on him` → `qué información podría llevar encima`
+  - `no love lost` → `hay mala sangre` (no: "no hay amor perdido")
+  - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
+  - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
+  - `first things first` → `antes lo prioritario` / `primero lo esencial` (no: "lo primero es lo primero")
+  - `see you on the other side` → `nos vemos al otro lado`
+  - `swarmed` en contexto militar → `rodeados` (no: "enjambrados")
 - **Lenguaje corporativo/idiomático**: traducir el sentido real, no la literalidad. En textos de facciones/empresas, expresiones como "extracting value" o "building its name" tienen equivalentes más naturales en español
   - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
   - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
@@ -193,7 +201,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | fade (barbería/peluquería) | degradado |
 | now contracting | abre nuevos contratos |
 | landing procedure (UI/HUD) | aterrizaje |
-| livery / livrea | diseño (concordancia: "el diseño", "este diseño", "un diseño") |
+| livery / livrea | pintura (preferido); concordancia: "la pintura", "esta pintura", "una pintura" |
 | Salvaging | Chatarrería |
 | Livery Services | Servicios de transporte |
 | Quantum Travel / QT | Viaje cuántico / QT |
