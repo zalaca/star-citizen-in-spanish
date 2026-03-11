@@ -88,7 +88,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `GuideStar Taxi` (NO: GuiaStar Taxi)
   - `Sidekick Shuttles` (NO: Lanzaderas complementarias)
   - `United Workers of Hurston - UWH` (NO: Trabajadores Unidos de Hurston)
-  - `Civilian Defense Force` (NO: Fuerza de Defensa Civil)
+  - `Civilian Defense Force` / `CDF` (NO: "Fuerza de Defensa Civil", "FDC", "FCD"). Siempre `la CDF` en singular — nunca "las FDC" ni "las FCD"
   - `Breaker Station` (NO: Estación Rompedora)
 - Términos de juego sin traducción establecida: `Ammo` (cuando aparece suelto como etiqueta), `Gym` (en `Vehicle_room_gym`)
 - Tags de estado entre corchetes: `[FABRICADO]` sí se traduce; `[P]` se mantiene como prefijo decorativo
@@ -126,6 +126,14 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - **Shattered Blade NPCs**: tono amenazante, confiado, criminal. Hablan con frialdad y superioridad.
     - `Oh bravo, you decrypted the data. Don't make a lick of difference to me.` → `Oh, vaya, descifraste los datos. No cambia nada para mí.`
   - **NPCs de Levski (People's Alliance)**: tono casual, idealistico, anti-UEE. Hablan de forma coloquial y directa.
+  - **NPCs militares/policiales (CDF, SAIC, agentes)**: tono seco, directo, protocolo de radio. Usar convenciones de radio en español:
+    - `This is X` / `X here` → `Habla X` o `Aquí X` (NO: "Este es X" / "X aquí")
+    - `Listen up` → `Atención` o `Escucha` (NO: "Escuchen" — mantener tuteo)
+    - `Do you copy?` → `¿Me copias?` o `¿Me recibes?` (NO: "¿Copia?" / "¿Tu copia?")
+    - `X here. Listen.` → `Aquí X. Escucha.`
+    - `Attention, CDF` (vocativo grupal) → `Atención, CDF`
+    - Identificaciones: `SAIC Dulli here` → `SAIC Dulli al habla` / `Special Agent Dulli with the CDF` → `Agente Especial Dulli del CDF`
+    - La CDF como organización: siempre singular → `la CDF` (NO: "las FDC", "la FDC", "FCD")
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
 
