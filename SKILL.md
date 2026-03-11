@@ -167,7 +167,16 @@ Para detectarlas:
 grep -P '=(?:El|el)$' es-ES.ini
 ```
 
-#### 5c. Saltos de línea en valores
+#### 5c. Sin tildes ni ñ
+Las traducciones del fichero `es-ES.ini` **no usan tildes ni ñ**. Escribir siempre sin acentos y sin ñ:
+- `a, e, i, o, u` en lugar de `á, é, í, ó, ú`
+- `n` en lugar de `ñ`
+- Correcto: `Atencion`, `esta`, `mision`, `seran`, `espana`, `manana`
+- Incorrecto: `Atención`, `está`, `misión`, `serán`, `España`, `mañana`
+
+Esto aplica a **todos los valores traducidos**. Los scripts de busqueda/reemplazo tampoco deben usar tildes ni n en los patrones para evitar problemas de codificacion.
+
+#### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
 
 **MAL** (newline real — rompe el parser):
