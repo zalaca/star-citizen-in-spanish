@@ -82,7 +82,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - Tecnología: `mobiGlas`, `comm array`, `quantum drive`, `QT`, `Master Modes`
 - Razas/culturas alien: `Banu`, `Xi'an`, `Vanduul`, `Tevarin`
 - Facciones y compañías (nunca traducir):
-  - `XenoThreat`, `Headhunters`, `Citizens for Prosperity`, `Frontier Fighters`, `Miners Amalgamated`
+  - `XenoThreat` (artículo masculino plural → `los XenoThreat`), `Headhunters`, `Citizens for Prosperity`, `Frontier Fighters`, `Miners Amalgamated`
   - `Bounty Hunters Guild` (NO: Gremio de Cazarrecompensas)
   - `Mercenary Guild` (NO: Gremio de Mercenarios)
   - `Interstellar Transport Guild` (NO: Gremio de transporte)
