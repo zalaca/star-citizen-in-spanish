@@ -167,6 +167,20 @@ Para detectarlas:
 grep -P '=(?:El|el)$' es-ES.ini
 ```
 
+#### 5c. Saltos de línea en valores
+El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
+
+**MAL** (newline real — rompe el parser):
+```
+alguna_clave=Primera parte del texto
+segunda parte
+```
+**BIEN** (escape literal):
+```
+alguna_clave=Primera parte del texto\n\nsegunda parte
+```
+Al escribir traducciones con scripts Python, usar siempre `\\n` en los strings para evitar que Python interprete `\n` como salto de línea real. Verificar siempre que la entrada siguiente en el fichero sea otra clave válida (`KEY=`).
+
 #### 6. Orden de las claves
 El orden de las claves en el archivo de salida debe ser **exactamente el mismo que en el en-EN.ini**. No reordenes, no agrupes, no alphabetices.
 
