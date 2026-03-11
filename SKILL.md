@@ -132,6 +132,14 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
   - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
 - Descripciones de facciones (`RepUI_Description`): tono formal/corporativo
+- **Títulos de descenso de rango (`_Demotion_Title`, `_Demotion_ShortTitle`)**: usar patrón `Descenso [Faccion]: [Rango]`. NO usar "Degradacion" como sustantivo en títulos (suena a castigo militar). "Degradado/a" sí es válido como verbo en el cuerpo del texto.
+  - `Hurston Dynamics Demotion: Contractor` → `Descenso Hurston Dynamics: Contratista`
+  - `[Autoridad] Degradacion - Agente junior` → `[Autoridad] Descenso: Agente Junior`
+  - `Degradacion de Crusader Security - Asociado` → `Descenso Crusader Security: Asociado`
+- **Campos de UI de reputación (`RepUI_`)**: usar patrón `Concepto Xi'an` (sin artículo intermedio). NO: `Concepto de Xi'an`
+  - `Xian_RepUI_Headquarters` → `Sede Xi'an` (no: "Sede de Xian")
+  - `Xian_RepUI_Focus` → `Enfoque Xi'an`
+  - `Xian_RepUI_Leadership` → `Liderazgo Xi'an`
 - UI corta (`_Title`, `_Short`, botones): conciso y directo
 - Diálogos de NPC: tono conversacional acorde al personaje
   - **Wikelo** (The Collector): alien con forma de hablar entrecortada y peculiar. Frases cortas, a veces sin artículo, ritmo telegráfico. Preservar ese estilo aunque suene "raro" — es intencional.
