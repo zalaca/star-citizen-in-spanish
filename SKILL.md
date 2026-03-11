@@ -114,6 +114,9 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Look at desert but don't see you` → `Miro el desierto y no te veo` (no: "Mirar el desierto pero no verte")
 - **Evitar repetición de intensificadores**: si el original repite "very/muy" dos veces seguidas, reformular para que suene natural
   - `Very simple but very effective` → `Simple, pero tremendamente efectiva` (no: "Muy simple pero muy efectiva")
+- **Lenguaje corporativo/idiomático**: traducir el sentido real, no la literalidad. En textos de facciones/empresas, expresiones como "extracting value" o "building its name" tienen equivalentes más naturales en español
+  - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
+  - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
 - Descripciones de facciones (`RepUI_Description`): tono formal/corporativo
 - UI corta (`_Title`, `_Short`, botones): conciso y directo
 - Diálogos de NPC: tono conversacional acorde al personaje
