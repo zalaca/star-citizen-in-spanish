@@ -73,7 +73,7 @@ Si una palabra o grupo de palabras aparece **en mayúscula inicial en mitad de u
 #### 2. Términos técnicos que se mantienen en inglés
 Algunos términos del universo y de la UI no se traducen aunque tengan equivalente:
 - Moneda: `UEC`, `aUEC`
-- Tecnología: `mobiGlas`, `comm array`, `quantum drive`, `QT`
+- Tecnología: `mobiGlas`, `comm array`, `quantum drive`, `QT`, `Master Modes`
 - Razas/culturas alien: `Banu`, `Xi'an`, `Vanduul`, `Tevarin`
 - Facciones y compañías (nunca traducir):
   - `XenoThreat`, `Headhunters`, `Citizens for Prosperity`, `Frontier Fighters`, `Miners Amalgamated`
@@ -120,6 +120,11 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - **Wikelo** (The Collector): alien con forma de hablar entrecortada y peculiar. Frases cortas, a veces sin artículo, ritmo telegráfico. Preservar ese estilo aunque suene "raro" — es intencional.
     - `Want big ship? But not too big?` → `¿Quieres nave grande? ¿Pero no demasiado grande?` (no: "¿Quieres una nave grande pero no demasiado?")
 - Mantener la estructura de párrafos y listas del original (`\n`, `•`, `>`)
+  - **Shattered Blade NPCs**: tono amenazante, confiado, criminal. Hablan con frialdad y superioridad.
+    - `Oh bravo, you decrypted the data. Don't make a lick of difference to me.` → `Oh, vaya, descifraste los datos. No cambia nada para mí.`
+  - **NPCs de Levski (People's Alliance)**: tono casual, idealistico, anti-UEE. Hablan de forma coloquial y directa.
+- **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
+  - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
 
 #### 5. Claves con diferencias de capitalización
 El archivo es-ES puede tener las claves con capitalización ligeramente distinta al en-EN. Esto es normal; respeta la capitalización del es-ES existente si estás actualizando entradas ya presentes.
@@ -138,7 +143,32 @@ Salvo que se indique explícitamente lo contrario, **traduce únicamente las cla
 
 **Excepción — revisión explícita:** Si el usuario indica que una clave existente tiene una traducción incorrecta o incompleta (p. ej., estaba en inglés sin querer, o es un placeholder), corrígela aunque ya exista.
 
-#### 8. Fin de archivo
+#### 8. Fichas técnicas de items (bloques de especificaciones)
+Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque de especificaciones al inicio con formato fijo. Traducir siempre con estos términos:
+
+| en-EN | es-ES |
+|-------|-------|
+| `Item Type:` | `Tipo de objeto:` |
+| `Manufacturer:` | `Fabricante:` |
+| `Size:` | `Tamaño:` |
+| `Grade:` | `Grado:` |
+| `Class:` | `Clase:` |
+| `Damage Reduction:` | `Reducción de daño:` |
+| `Temp. Rating:` | `Clasificación de Temp.:` |
+| `Radiation Protection:` | `Protección contra la radiación:` |
+| `Radiation Scrub Rate:` | `Tasa de limpieza de radiación:` |
+| `Carrying Capacity:` | `Capacidad de carga:` |
+| `Core Compatibility:` | `Compatibilidad de torso:` |
+| `Backpacks:` | `Mochilas:` |
+| Class `Industrial` | `Industrial` |
+| Class `Military` | `Militar` |
+| Class `Competition` | `Competición` |
+| `Heavy Backpack` | `Mochila pesada` |
+| `Light Backpack` | `Mochila ligera` |
+| `Light Armor` | `Armadura ligera` |
+| `Heavy Armor` | `Armadura pesada` |
+
+#### 9. Fin de archivo
 El archivo debe terminar con una **nueva línea al final** (no terminar la última línea sin `\n`).
 
 ---
@@ -160,6 +190,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Tractor Station | Estación de tracción |
 | Offline (UI) | Desconectado |
 | Crafted (etiqueta) | FABRICADO |
+| operating suite / operating room | quirófano |
+| this is not a drill | esto no es un simulacro |
+| first responders | equipos de primera respuesta / primeros en responder |
+| entry-level | nivel básico |
+| Energizing (efecto comida) | Energizante |
+| Hyper-Metabolic (efecto comida) | Hipermetabólico |
+| None (efectos comida/bebida) | Ninguno |
 | cockpit | Cabina |
 | airlock | Esclusa |
 | docking bay | Bahía de atraque |
@@ -197,6 +234,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Tractor Station` | `Estación de tracción` |
 | `- Offline -` | `- Desconectado -` |
 | `OMPoint 2` | `PuntoOM 2` |
+| `Vanduul Swarm` | `Enjambre Vanduul` |
 | `gravity generator` | `Generador de gravedad` |
 | `ladder access` | `Acceso por escalera` |
 | `secure storage` | `Almacenamiento seguro` |
