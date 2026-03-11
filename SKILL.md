@@ -151,14 +151,21 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
 
-#### 5. Claves con diferencias de capitalización
-El archivo es-ES puede tener las claves con capitalización ligeramente distinta al en-EN. Esto es normal; respeta la capitalización del es-ES existente si estás actualizando entradas ya presentes.
+#### 5. Capitalización de claves
+La capitalización de las claves en es-ES.ini debe seguir **exactamente** la del en-EN.ini. Este es el fichero de referencia. No inventar ni modificar la capitalización de ninguna clave.
 
-**Patrones conocidos de corrección de capitalización:**
-- `RepUi_Leadership` / `RepUi_DisplayName` / `RepUi_Name` / `RepUi_Founded` / `RepUi_Association` → usar `RepUI_` (mayúsculas en UI) si la clave es nueva
-- Claves `vehicle_room_*` nuevas: iniciar en minúscula
-- Claves `vehicle_NameVNCL_*` y `vehicle_NameXIAN_*` nuevas: iniciar en minúscula
-- Claves `actor_species_*` y `acquirepart_*` nuevas: iniciar en minúscula
+#### 5b. Entradas truncadas/incompletas
+Durante ediciones manuales o fusiones antiguas pueden aparecer entradas con el valor truncado, normalmente dejando solo `El` o `el` como valor:
+```
+alguna_clave=El
+otra_clave=el
+```
+Estas entradas deben completarse buscando su equivalente en en-EN.ini y traduciendo desde ahí. **No eliminarlas** — la clave debe existir en es-ES.ini aunque el valor esté incompleto.
+
+Para detectarlas:
+```
+grep -P '=(?:El|el)$' es-ES.ini
+```
 
 #### 6. Orden de las claves
 El orden de las claves en el archivo de salida debe ser **exactamente el mismo que en el en-EN.ini**. No reordenes, no agrupes, no alphabetices.
