@@ -151,6 +151,9 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Look at desert but don't see you` → `Miro el desierto y no te veo` (no: "Mirar el desierto pero no verte")
 - **Evitar repetición de intensificadores**: si el original repite "very/muy" dos veces seguidas, reformular para que suene natural
   - `Very simple but very effective` → `Simple, pero tremendamente efectiva` (no: "Muy simple pero muy efectiva")
+- **Arranques nominales** — evitar empezar una frase con un sustantivo plural o grupo nominal calcado del inglés cuando en español suena más natural empezar por la consecuencia, el sujeto agente o una reformulación verbal:
+  - `Faulty air filters have caused...` → `Una avería en los filtros de aire ha desatado...` (no: "Filtros de aire defectuosos han causado...")
+  - `Damaged systems are preventing...` → `Un fallo en los sistemas impide...` (no: "Sistemas dañados están impidiendo...")
 - **Calcos estructurales a evitar** — construcciones que suenan traducidas literalmente del inglés:
   - `en terminos de` → `en cuanto a` / `respecto a` (calco de "in terms of")
   - `en lo que respecta a` → `en cuanto a` / `en materia de` / simplificar con `con` (calco de "as far as X goes")
@@ -296,6 +299,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Easy` | `Facil` |
 | `Medium` | `Medio` |
 | `Hard` | `Dificil` (NO: "Duro/Dura" — suena a material, no a dificultad) |
+| `Cull` (misiones de animales) | `Eliminar` (NO: "Reduccion" — suena administrativo, no a acción) |
 | `Timed` | `Cronometrado` |
 | `Intro` | `Intro` (mantener) |
 
@@ -370,6 +374,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Breaker Station` | `Breaker Station` (nombre propio, NO traducir) |
 | `Metro Center` | `Metro Center` (NO: "Centro del Metro") |
 | `Teasa Spaceport` | `Teasa Spaceport` (NO: "Espaciopuerto Teasa") |
+| `Last Ditch on Monox (Pyro II)` | `Last Ditch en Monox (Pyro II)` — `on` → `en` en ubicaciones (`mission_location_*`) |
 | `Keene, Killian System` | `Keene, Sistema Killian` |
 | `New York, Earth, Sol System` | `Nueva York, La Tierra, Sistema Solar` |
 | `Salvaging` | `Chatarreria` |
