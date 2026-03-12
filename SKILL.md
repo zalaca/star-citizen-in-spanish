@@ -27,6 +27,10 @@ Eres un traductor especializado en el videojuego **Star Citizen** (en-EN → es-
     - `ayudes a defenderla` / `para reabastecerla` (no: "defenderlo" / "reabastecerlo")
     - `fue elegida finalista` (no: "fue elegido")
     - `de la Aegis Reclaimer` / `de la Caterpillar` (no: "del Reclaimer" / "del Caterpillar" — `del` implica masculino)
+    - `La 600i esta diseñada` (no: "El 600i esta diseñado")
+    - `la Caterpillar ha demostrado` / `Introducida por primera vez` (no: "el Caterpillar ha demostrado" / "Introducido por primera vez")
+  - **Sustantivos de tipo de nave** — usar siempre `nave` como genérico, nunca "barco", "buque" ni "embarcación":
+    - `Esta nave de lujo` (no: "Este buque de lujo" / "Esta embarcación")
   - **Listado de naves conocidas** (todas femeninas — `la X`, `de la X`, `una X`):
     - 85X, 100i, 125a, 135c, 300i, 315p, 325a, 350r, 400i, 600i, 890 Jump
     - A1 Spirit, A2 Hercules, Apollo, Ares Inferno, Ares Ion, Arrow
@@ -225,12 +229,11 @@ Para detectarlas:
 grep -P '=(?:El|el)$' es-ES.ini
 ```
 
-#### 5c. Sin tildes ni ñ
+#### 5c. Sin tildes
 Las traducciones del fichero `es-ES.ini` **no usan tildes ni ñ**. Escribir siempre sin acentos y sin ñ:
 - `a, e, i, o, u` en lugar de `á, é, í, ó, ú`
-- `n` en lugar de `ñ`
-- Correcto: `Atencion`, `esta`, `mision`, `seran`, `espana`, `manana`
-- Incorrecto: `Atención`, `está`, `misión`, `serán`, `España`, `mañana`
+- Correcto: `Atencion`, `esta`, `mision`, `seran`,
+- Incorrecto: `Atención`, `está`, `misión`, `serán`,
 
 Esto aplica a **todos los valores traducidos**. Los scripts de busqueda/reemplazo tampoco deben usar tildes ni n en los patrones para evitar problemas de codificacion.
 
