@@ -309,6 +309,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | landing procedure (UI/HUD) | aterrizaje |
 | livery / livrea | pintura (preferido); concordancia: "la pintura", "esta pintura", "una pintura" |
 | Salvaging / salvage (actividad/sector) | Chatarreria (NO: "salvamento"). Ej: "salvage game" → "juego de la chatarreria", "salvage ship" → "nave de chatarreria", "salvage pilots" → "pilotos de chatarreria" |
+| Scrap (material de chatarreo) | Scrap (mantener en ingles — es un recurso especifico del juego). Ej: "Scrap Salvage at X" → "Chatarreo de Scrap en X" |
 | Livery Services | Servicios de transporte |
 | Quantum Travel / QT | Viaje cuántico / QT |
 | CrimeStat | CrimeStat (no traducir). Sin artículo → `¿Cómo diablos conseguiste CrimeStat?` / `tener CrimeStat activo` (no: "una estadística de criminalidad") |
