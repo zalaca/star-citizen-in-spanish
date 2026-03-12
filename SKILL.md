@@ -121,6 +121,9 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - **Evitar repetición de intensificadores**: si el original repite "very/muy" dos veces seguidas, reformular para que suene natural
   - `Very simple but very effective` → `Simple, pero tremendamente efectiva` (no: "Muy simple pero muy efectiva")
 - **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
+  - `understand that` (aviso/advertencia imperativa) → `ten en cuenta que` (NO: "comprende que" — suena formal y forzado). Mantener "comprende" solo en tercera persona: "la empresa comprende que..."
+  - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
+  - En narrativa de acción: `but understand you will be the hunted` → `ten en cuenta que ahora seras el cazado` (mantener el dramatismo del original)
   - `on him` (posesión física) → `encima` (no: "sobre él") — ej: `what intel he might have had on him` → `qué información podría llevar encima`
   - `no love lost` → `hay mala sangre` (no: "no hay amor perdido")
   - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
@@ -271,6 +274,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | first responders | equipos de primera respuesta / primeros en responder |
 | entry-level | nivel básico |
 | eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos |
+| capable (personas/militares) | competente/competentes (NO: "capaz/capaces" en contextos de personas o agentes). Mantener "capaces" para objetos ("canones capaces de...") y expresiones idiomaticas ("ver de lo que son capaces") |
+| redeem (ticket/bono) | canjear (NO: "convertir") |
 | Energizing (efecto comida) | Energizante |
 | Hyper-Metabolic (efecto comida) | Hipermetabólico |
 | None (efectos comida/bebida) | Ninguno |
