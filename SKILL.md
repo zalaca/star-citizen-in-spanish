@@ -111,7 +111,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `RDR LOCK` → `BLOQUEO RDR`
 - **Compresión de frases en UI**: cuando el contexto hace evidente el significado, las frases compuestas pueden reducirse a su núcleo
   - `landing procedure` → `aterrizaje` (en etiquetas de HUD/UI)
-- Nombres de **facciones y compañías** no se traducen, pero sus descripciones sí
+- Nombres de **facciones y compañías** no se traducen, pero sus descripciones sí. En frases donde el nombre de facción actúa como genitivo, mantener el nombre en inglés al final: `de Hurston Security` (NO: "de seguridad de Hurston")
 - **Puntos de marcador orbital**: `OMPoint` → `PuntoOM` (abreviatura de Punto de Marcador Orbital)
 
 #### 4. Tono y estilo
@@ -236,6 +236,18 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 
 ---
 
+### Dificultades de misión
+
+| en-EN | es-ES |
+|-------|-------|
+| `Easy` | `Facil` |
+| `Medium` | `Medio` |
+| `Hard` | `Dificil` (NO: "Duro/Dura" — suena a material, no a dificultad) |
+| `Timed` | `Cronometrado` |
+| `Intro` | `Intro` (mantener) |
+
+---
+
 ### Glosario de términos establecidos
 
 | en-EN | es-ES |
@@ -258,6 +270,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | this is not a drill | esto no es un simulacro |
 | first responders | equipos de primera respuesta / primeros en responder |
 | entry-level | nivel básico |
+| eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos |
 | Energizing (efecto comida) | Energizante |
 | Hyper-Metabolic (efecto comida) | Hipermetabólico |
 | None (efectos comida/bebida) | Ninguno |
