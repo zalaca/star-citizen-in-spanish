@@ -144,6 +144,13 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Xian_RepUI_Focus` → `Enfoque Xi'an`
   - `Xian_RepUI_Leadership` → `Liderazgo Xi'an`
 - UI corta (`_Title`, `_Short`, botones): conciso y directo
+- **"Please" / "Por favor"**: en diálogo informal de NPC puede omitirse si el contexto ya implica cortesía (en español el imperativo lleva cortesía implícita). Mantener "por favor" en textos formales escritos y cuando el inglés lo enfatiza expresamente.
+  - `"Come on, please listen"` → `"Vamos, escuchame"` (NO: "por favor escuchame")
+  - `"we need help, please"` → `"necesitamos ayuda, por favor"` (énfasis explícito, mantener)
+- **Tono de diálogo criminal** — usar vocabulario coloquial que encaje con el personaje:
+  - `scoundrels / thieves` → `bribones` (tono coloquial, funciona bien para criminales)
+  - `ruthless / merciless` → `despiadados`
+  - `guys / people` (informal) → `tipos`
 - Diálogos de NPC: tono conversacional acorde al personaje
   - **Wikelo** (The Collector): alien con forma de hablar entrecortada y peculiar. Frases cortas, a veces sin artículo, ritmo telegráfico. Preservar ese estilo aunque suene "raro" — es intencional.
     - `Want big ship? But not too big?` → `¿Quieres nave grande? ¿Pero no demasiado grande?` (no: "¿Quieres una nave grande pero no demasiado?")
@@ -274,6 +281,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | first responders | equipos de primera respuesta / primeros en responder |
 | entry-level | nivel básico |
 | eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos |
+| outlaw / outlaws | forajido / forajidos (contexto espacial/criminal)
+| criminal (termino legal formal) | delincuente / criminal |
+| thief / scoundrel (coloquial) | bribón / ratero (segun contexto) |
+| vicious criminal | forajido despiadado / criminal violento |
+| neutralize (combate) | neutralizar |
+| apprehend (contexto policial) | detener / capturar |
+| clear [location] of enemies | limpiar [ubicacion] de / despejar |
 | capable (personas/militares) | competente/competentes (NO: "capaz/capaces" en contextos de personas o agentes). Mantener "capaces" para objetos ("canones capaces de...") y expresiones idiomaticas ("ver de lo que son capaces") |
 | redeem (ticket/bono) | canjear (NO: "convertir") |
 | Energizing (efecto comida) | Energizante |
