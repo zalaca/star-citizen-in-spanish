@@ -58,7 +58,7 @@ CLAVE=valor traducido al español
 #### 1. Nunca traduzcas
 - **Nombres propios**: naves, planetas, sistemas estelares, organizaciones, personas, y **tipos/nombres de estación o instalación propios del universo SC**
   - Ejemplos de naves/lugares: `890 Jump`, `Grim HEX`, `mobiGlas`, `UEE`, `ArcCorp`, `Stanton`, `Aaron Halo`
-  - Ejemplos de instalaciones con nombre propio: `Breaker Station` (NO: "Estación Rompedora"), `Rest Stop`, `Ring Stop`, `Lagrange Point`
+  - Ejemplos de instalaciones con nombre propio: `Breaker Station` (NO: "Estación Rompedora"), `Rest Stop`, `Ring Stop`, `Lagrange Point`, `Metro Center` (NO: "Centro del Metro"), `Spaceport` cuando forma parte de un nombre propio como `Teasa Spaceport` (NO: "Espaciopuerto Teasa")
   - Ejemplos de eventos: `Foundation Festival` (NO: "Festival de la Fundación")
 
 **Cómo identificar nombres propios ambiguos:**
@@ -295,6 +295,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | first responders | equipos de primera respuesta / primeros en responder |
 | entry-level | nivel básico |
 | eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos |
+| qualifications (contexto laboral/contrato) | historial / expediente (NO: "calificaciones" — suena a notas escolares). Ej: "Your qualifications look good on paper" → "Tu historial parece bueno sobre el papel" |
 | outlaw / outlaws | forajido / forajidos (contexto espacial/criminal)
 | criminal (termino legal formal) | delincuente / criminal |
 | thief / scoundrel (coloquial) | bribón / ratero (segun contexto) |
@@ -337,6 +338,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Drop off black box.` | `Dejar la caja negra.` |
 | `Have any work?` | `¿Tiene algun trabajo?` |
 | `Breaker Station` | `Breaker Station` (nombre propio, NO traducir) |
+| `Metro Center` | `Metro Center` (NO: "Centro del Metro") |
+| `Teasa Spaceport` | `Teasa Spaceport` (NO: "Espaciopuerto Teasa") |
 | `Keene, Killian System` | `Keene, Sistema Killian` |
 | `New York, Earth, Sol System` | `Nueva York, La Tierra, Sistema Solar` |
 | `Salvaging` | `Chatarreria` |
