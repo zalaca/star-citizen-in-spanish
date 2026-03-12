@@ -83,6 +83,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - Razas/culturas alien: `Banu`, `Xi'an`, `Vanduul`, `Tevarin`
 - Facciones y compañías (nunca traducir):
   - `XenoThreat` (artículo masculino plural → `los XenoThreat`), `Headhunters`, `Citizens for Prosperity`, `Frontier Fighters`, `Miners Amalgamated`
+  - `Nine Tails` (artículo masculino plural → `los Nine Tails`, NO: "las Nine Tails")
   - `Bounty Hunters Guild` (NO: Gremio de Cazarrecompensas)
   - `Mercenary Guild` (NO: Gremio de Mercenarios)
   - `Interstellar Transport Guild` (NO: Gremio de transporte)
@@ -120,6 +121,18 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Look at desert but don't see you` → `Miro el desierto y no te veo` (no: "Mirar el desierto pero no verte")
 - **Evitar repetición de intensificadores**: si el original repite "very/muy" dos veces seguidas, reformular para que suene natural
   - `Very simple but very effective` → `Simple, pero tremendamente efectiva` (no: "Muy simple pero muy efectiva")
+- **Calcos estructurales a evitar** — construcciones que suenan traducidas literalmente del inglés:
+  - `en terminos de` → `en cuanto a` / `respecto a` (calco de "in terms of")
+  - `en lo que respecta a` → `en cuanto a` / `en materia de` / simplificar con `con` (calco de "as far as X goes")
+  - `hacer referencia a` → `referirse a` / `llamar` (calco de "to reference something as")
+  - `hacer frente a` → `enfrentarse a` / `combatir` / `detener` / `neutralizar` segun contexto (calco de "deal with")
+  - `al mismo tiempo` → `a la vez` en dialogo y narración. Mantener en descripciones técnicas de producto donde funciona como "while also providing X"
+  - `por parte de` → evitar cuando sea posible; usar voz activa o genitivo directo `de`. Excepcion: texto legal formal donde es correcto
+    - `la compra por parte de Crusader` → `la compra de Crusader` / `antes de que Crusader comprara`
+    - `entrega programada por parte de ~mission(Client)` → `~mission(Client) ha programado una entrega`
+  - `a nivel de` → simplificar: `de administrador` (no "a nivel de administrador"), `a escala de especie`, `para todo el sistema`
+  - `se encuentra` (pasiva) → `esta` / voz activa cuando sea posible. Excepcion: texto formal donde la pasiva es apropiada
+  - `en este momento` → `ahora` / `ahora mismo` en dialogo de NPC. Mantener en textos formales escritos
 - **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
   - `understand that` (aviso/advertencia imperativa) → `ten en cuenta que` (NO: "comprende que" — suena formal y forzado). Mantener "comprende" solo en tercera persona: "la empresa comprende que..."
   - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
@@ -165,6 +178,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
     - `X here. Listen.` → `Aquí X. Escucha.`
     - `Attention, CDF` (vocativo grupal) → `Atención, CDF`
     - Identificaciones: `SAIC Dulli here` → `SAIC Dulli al habla` / `Special Agent Dulli with the CDF` → `Agente Especial Dulli del CDF`
+    - Cierre de radio: `X out.` → `X fuera.` (NO: "Fuera X.") → `Dulli out.` → `Dulli fuera.` / `Ruto out.` → `Ruto fuera.`
     - La CDF como organización: siempre singular → `la CDF` (NO: "las FDC", "la FDC", "FCD")
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
