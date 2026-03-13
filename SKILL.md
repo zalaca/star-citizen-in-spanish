@@ -171,6 +171,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
   - En narrativa de acción: `but understand you will be the hunted` → `ten en cuenta que ahora seras el cazado` (mantener el dramatismo del original)
   - `on him` (posesión física) → `encima` (no: "sobre él") — ej: `what intel he might have had on him` → `qué información podría llevar encima`
+  - `on the job` (durante un encargo/misión) → `mientras dure el encargo` (no: "mientras estés en el trabajo" — suena a empleo ordinario)
   - `no love lost` → `hay mala sangre` (no: "no hay amor perdido")
   - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
   - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
