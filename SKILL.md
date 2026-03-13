@@ -301,6 +301,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Medium` | `Medio` |
 | `Hard` | `Dificil` (NO: "Duro/Dura" — suena a material, no a dificultad) |
 | `Cull` (misiones de animales) | `Eliminar` (NO: "Reduccion" — suena administrativo, no a acción) |
+| `Major Malfunction` | `Fallo critico` (NO: "Fallo Mayor" — suena a rango militar) |
 | `Timed` | `Cronometrado` |
 | `Intro` | `Intro` (mantener) |
 
