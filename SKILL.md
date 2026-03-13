@@ -311,6 +311,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | en-EN | es-ES |
 |-------|-------|
 | monorail / monorriel | Monorail |
+| to pilot (verb) | pilotar (NO: "pilotear") → `pilotan`, `pilota`, `pilotaba` |
 | cargo pod | contenedor de carga |
 | fade (barbería/peluquería) | degradado |
 | now contracting | abre nuevos contratos |
