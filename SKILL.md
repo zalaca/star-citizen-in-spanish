@@ -127,6 +127,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `United Workers of Hurston - UWH` (NO: Trabajadores Unidos de Hurston)
   - `Civilian Defense Force` / `CDF` (NO: "Fuerza de Defensa Civil", "FDC", "FCD"). Siempre `la CDF` en singular — nunca "las FDC" ni "las FCD"
   - `Breaker Station` (NO: Estación Rompedora)
+  - `X Gateway` (estaciones de punto de salto: `Pyro Gateway`, `Terra Gateway`, `Nyx Gateway`, etc.) — mantener siempre en inglés como nombre propio (NO: "Puerta de enlace de X", "Estacion P.S X")
 - Términos de juego sin traducción establecida: `Ammo` (cuando aparece suelto como etiqueta), `Gym` (en `Vehicle_room_gym`)
 - Tags de estado entre corchetes: `[FABRICADO]` sí se traduce; `[P]` se mantiene como prefijo decorativo
 
