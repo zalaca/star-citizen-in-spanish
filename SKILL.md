@@ -177,10 +177,15 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
   - `fit to burst with cargo` → `cargada hasta los topes` (no: "a punto de estallar de carga")
   - `free-for-all` → `saqueo general` / `todos contra todos` según contexto (no: "todo por todo")
+  - `I hope this message finds you well` → `Espero que estés bien` (no: "Espero que este mensaje te encuentre bien" — calco literal del inglés corporativo)
   - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
   - `first things first` → `antes lo prioritario` / `primero lo esencial` (no: "lo primero es lo primero")
   - `see you on the other side` → `nos vemos al otro lado`
   - `swarmed` en contexto militar → `rodeados` (no: "enjambrados")
+  - `overwhelmed` (servicios/instalaciones saturados) → `desbordado/desbordadas` (no: "abrumado" — suena latinoamericano). Ej: "medical facilities overwhelmed" → "instalaciones médicas desbordadas"
+  - `overwhelmed` (persona agobiada, contexto personal) → `agobiado` (no: "abrumado")
+  - `overwhelmed` (en combate, superado por el enemigo) → `superado` / `desbordado` (no: "abrumado")
+  - `overwhelming` (adjetivo de intensidad militar: probabilidades, fuerza, evidencia) → `aplastante` / `arrollador` (no: "abrumador" — aceptable pero menos natural en España)
 - **Lenguaje corporativo/idiomático**: traducir el sentido real, no la literalidad. En textos de facciones/empresas, expresiones como "extracting value" o "building its name" tienen equivalentes más naturales en español
   - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
   - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
