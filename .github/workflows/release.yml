@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create ZIP
+        run: |
+          cd copy
+          zip -r ../star-citizen-en-espanol.zip . -x "**/.DS_Store"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: star-citizen-en-espanol.zip
+          generate_release_notes: true
