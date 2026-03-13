@@ -255,6 +255,19 @@ alguna_clave=Primera parte del texto\n\nsegunda parte
 ```
 Al escribir traducciones con scripts Python, usar siempre `\\n` en los strings para evitar que Python interprete `\n` como salto de línea real. Verificar siempre que la entrada siguiente en el fichero sea otra clave válida (`KEY=`).
 
+**Regla crítica al generar el fichero:** Nunca escribas el valor de una clave en múltiples líneas reales aunque el texto sea largo. Todo el contenido de una clave, incluyendo párrafos, debe ir en una sola línea con `\n` literales. Si usas un script o herramienta para escribir las traducciones, asegúrate de que el resultado final sea siempre `CLAVE=todo el texto en una sola línea\n`.
+
+**Verificación de integridad:** Tras escribir el fichero, comprueba que ninguna línea carece de `=` (salvo líneas vacías). Una línea sin `=` indica un salto de línea real que ha roto una clave.
+
+#### 5e. El signo `=` dentro de los valores
+El signo `=` puede aparecer como parte del **contenido** de un valor, no solo como separador de clave. El separador es únicamente el **primer** `=` de la línea. Todo lo que va después forma parte del valor, incluidos otros `=`.
+
+Ejemplo real del fichero:
+```
+alguna_clave=TIPO DE CONTRATO: Recuperar Carga\nCódigo de aprobación: = ~mission(ApprovalCode)\n\n...
+```
+Aquí `Código de aprobación: = ~mission(ApprovalCode)` es texto del valor — el `=` forma parte del formato del contrato y **no debe eliminarse**. Al traducir o procesar estas claves, conservar siempre el `=` tal como aparece en el original en-EN.
+
 #### 6. Orden de las claves
 El orden de las claves en el archivo de salida debe ser **exactamente el mismo que en el en-EN.ini**. No reordenes, no agrupes, no alphabetices.
 
