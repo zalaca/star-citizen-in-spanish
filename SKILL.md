@@ -174,6 +174,8 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `on the job` (durante un encargo/misión) → `mientras dure el encargo` (no: "mientras estés en el trabajo" — suena a empleo ordinario)
   - `no love lost` → `hay mala sangre` (no: "no hay amor perdido")
   - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
+  - `fit to burst with cargo` → `cargada hasta los topes` (no: "a punto de estallar de carga")
+  - `free-for-all` → `saqueo general` / `todos contra todos` según contexto (no: "todo por todo")
   - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
   - `first things first` → `antes lo prioritario` / `primero lo esencial` (no: "lo primero es lo primero")
   - `see you on the other side` → `nos vemos al otro lado`
@@ -353,6 +355,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | neutralize (combate) | neutralizar |
 | apprehend (contexto policial) | detener / capturar |
 | clear [location] of enemies | limpiar [ubicacion] de / despejar |
+| Data Runner | transporte de datos (NO: "corredor de datos") |
+| Escaped Ships (contador UI) | Naves huidas |
 | capable (personas/militares) | competente/competentes (NO: "capaz/capaces" en contextos de personas o agentes). Mantener "capaces" para objetos ("canones capaces de...") y expresiones idiomaticas ("ver de lo que son capaces") |
 | redeem (ticket/bono) | canjear (NO: "convertir") |
 | Energizing (efecto comida) | Energizante |
