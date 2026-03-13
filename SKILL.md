@@ -176,6 +176,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `no love lost` → `hay mala sangre` (no: "no hay amor perdido")
   - `watch your six` → `cuida tu espalda` (no: "cuida tus seis")
   - `fit to burst with cargo` → `cargada hasta los topes` (no: "a punto de estallar de carga")
+  - `take to the next level` → `llevar al siguiente nivel` es válido en jerga criminal/informal y en marketing. En narración neutral preferir variantes como "a otro nivel" o "más lejos".
   - `free-for-all` → `saqueo general` / `todos contra todos` según contexto (no: "todo por todo")
   - `I hope this message finds you well` → `Espero que estés bien` (no: "Espero que este mensaje te encuentre bien" — calco literal del inglés corporativo)
   - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
@@ -241,13 +242,14 @@ Para detectarlas:
 grep -P '=(?:El|el)$' es-ES.ini
 ```
 
-#### 5c. Sin tildes
-Las traducciones del fichero `es-ES.ini` **no usan tildes**
+#### 5c. Sin tildes (pero con ñ)
+Las traducciones del fichero `es-ES.ini` **no usan tildes** pero **sí usan ñ**.
 - `a, e, i, o, u` en lugar de `á, é, í, ó, ú`
-- Correcto: `Atencion`, `esta`, `mision`, `seran`,
-- Incorrecto: `Atención`, `está`, `misión`, `serán`,
+- La `ñ` sí se escribe: `diseño`, `año`, `señal`, `compañia`, `tecnologia`
+- Correcto: `Atencion`, `esta`, `mision`, `seran`, `tecnologia`
+- Incorrecto: `Atención`, `está`, `misión`, `serán`, `tecnología`
 
-Esto aplica a **todos los valores traducidos**. Los scripts de busqueda/reemplazo tampoco deben usar tildes ni n en los patrones para evitar problemas de codificacion.
+Esto aplica a **todos los valores traducidos**. Los scripts de busqueda/reemplazo no deben usar tildes en los patrones para evitar problemas de codificacion.
 
 #### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
