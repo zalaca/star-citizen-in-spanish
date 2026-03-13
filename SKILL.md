@@ -234,7 +234,7 @@ grep -P '=(?:El|el)$' es-ES.ini
 ```
 
 #### 5c. Sin tildes
-Las traducciones del fichero `es-ES.ini` **no usan tildes ni ñ**. Escribir siempre sin acentos y sin ñ:
+Las traducciones del fichero `es-ES.ini` **no usan tildes**
 - `a, e, i, o, u` en lugar de `á, é, í, ó, ú`
 - Correcto: `Atencion`, `esta`, `mision`, `seran`,
 - Incorrecto: `Atención`, `está`, `misión`, `serán`,
