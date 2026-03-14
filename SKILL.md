@@ -423,6 +423,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Ready up / Ready or not (preparación/transición) | Preparado o no / Atencion (NO: "Listo" como calco de "ready up" — "listo" en español solo significa "ready" en primera persona) |
 | on the way / inbound (refuerzos llegando) | Llega el refuerzo / de camino (NO: "en camino" como calco de "on the way" en frases cortas de radio) |
 | pronombre sujeto (yo/nosotros/ellos) | omitir siempre salvo ambigüedad — el español no necesita pronombre sujeto explícito. Ej: "Nosotros hemos terminado" → "Hemos terminado"; "Ellos son míos" → "Son míos" |
+| worn out their welcome (ha agotado la paciencia ajena) | se ha pasado de la raya (NO: "ha agotado su bienvenida" — calco literal sin sentido en español) |
+| Word is that / Word has it (coloquial: se dice que) | Parece que / Segun nuestros informes (NO: "La palabra es que" — calco literal del inglés) |
+| naughty list (lista de personas non gratas) | lista negra (NO: "lista de no gratos" — calco literal) |
+| hardly a surprise / it's hardly surprising | No es de extrañar (NO: "Apenas es sorprendente" — calco literal; en español "apenas" modifica cantidad, no probabilidad) |
+| caution is advised / so exercise caution (advertencia informal) | ten cuidado / procede con precaucion (NO: "se aconseja precaucion" — pasiva impersonal innecesaria en texto informal) |
+| rich in material (contexto minero/asteroide) | rico en recursos (NO: "rico en material" — "material" en español no equivale a materia prima minera). Distinguir: "rich in ore" → "rico en mineral"; "rich in minerals" → "rico en minerales" |
 
 ---
 
