@@ -402,7 +402,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy") |
 | CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay") |
 | no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco) |
-| Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" — eso es un diseño genérico, no una pintura de nave). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo" |
+| Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" ni "decoracion" — ambos son incorrectos). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo" |
+| Focal: (campo en descripciones de vehiculos, ej: "Fabricante: ...\nFocal: Caza Medio") | Enfoque: (NO: "Focal:" — calco del inglés "Focus") |
 | Gauntlet (serie de combate) | Guantelete. Ej: "Combat Gauntlet" → "Guantelete de Combate" — SALVO que el proyecto lo tenga establecido como "Desafio", en cuyo caso mantener |
 | Naval (adjetivo militar) | Naval (NO: "de la Armada" — más largo e incorrecto). Ej: "Naval Patrol Training" → "Entrenamiento de Patrulla Naval" |
 | Floor [N] (planta de edificio) | Planta [N] (NO: "Piso" — eso es apartamento en español de España) |
@@ -410,6 +411,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | was heading to / was en route to | se dirigia a (NO: "estaba en ruta hacia" — calco de "en route") |
 | outlaw attack / outlaw activity | ataque de forajidos (NO: "fuera de la ley" — esa es una descripción legal, no un sustantivo) |
 | IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE") |
+| [vehicle/ship] down (en combate: destruido/derribado) | destruido/a o derribado/a según contexto (NO: "hacia abajo" — calco literal). Ej: "Scan ship down" → "Nave de escaneo destruida"; "Hostile down" → "Hostil abatido"; "Flagship's down" → "La nave insignia ha caido" |
+| scan ship (nave dedicada al escaneo en misiones de flota) | nave de escaneo (NO: "escanear la nave" — eso es una acción, no un sustantivo) |
 
 ---
 

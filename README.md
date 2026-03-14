@@ -1,6 +1,6 @@
 # Star Citizen en Español
 
-Traducción al español de España para **Star Citizen**.
+Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.7.0**.
 
 ---
 
@@ -47,6 +47,19 @@ LIVE/
 
 ---
 
+## Metodología
+
+Un proyecto hecho por entretenimiento y para aportar a la comunidad hispanohablante de Star Citizen.
+
+El proceso combina dos elementos:
+
+- **SKILL.md** — una guía de estilo propia que recoge reglas de traducción, glosario de términos del universo, criterios de género gramatical (naves en femenino, planetas en masculino), y convenciones tipográficas específicas para Star Citizen.
+- **Revisión manual** — cada entrada se contrasta con el texto original en inglés (`en-EN.ini`) para garantizar fidelidad al contexto y al tono.
+
+El objetivo es una traducción natural al español de España, evitando calcos del inglés y adaptando expresiones idiomáticas sin perder el sabor del universo de Star Citizen.
+
+---
+
 ## Notas
 
 - Compatible con la versión **LIVE** de Star Citizen.
@@ -57,4 +70,4 @@ LIVE/
 
 ## Contribuir
 
-Si encuentras errores o quieres sugerir mejoras, abre un [issue](../../issues) en este repositorio.
+Si encuentras errores o quieres sugerir mejoras, abre un [issue](../../issues) en este repositorio. Cualquier aportación es bienvenida y muy agradecida.
