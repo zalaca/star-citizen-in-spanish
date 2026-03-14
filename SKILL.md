@@ -479,6 +479,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Have any work?` | `¿Tiene algun trabajo?` |
 | `Breaker Station` | `Breaker Station` (nombre propio, NO traducir) |
 | `The Endeavor is less of a ship and more of a roaming university` | `La Endeavor es, mas que una nave, una universidad volante` — nave científica de RSI |
+| `you sail one to a teammate and they just tap it in` (Sataball) | `le mandas un pase perfecto a un compañero y el lo mete sin esfuerzo` (NO: "le envias uno y lo toca" — demasiado literal, pierde la imagen del pase fluido) |
+| `taking care of business` (coloquial: funcionando a tope, sin que nadie los pare) | `no hay quien los pare` (NO: "se ocupan de sus asuntos" — calco que suena a burocracia, no a combate) |
 | `less of a X and more of a Y` (estructura comparativa) | `mas que una X, una Y` (NO: "menos una X y mas una Y" — calco literal que suena raro en español) |
 | `scientific vessel` (en contexto Endeavor) | `nave cientifica` — femenino: "esta es la que quieres", NO "este es el que quieres" |
 | `Metro Center` | `Metro Center` (NO: "Centro del Metro") |
