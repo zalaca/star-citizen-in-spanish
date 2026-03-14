@@ -439,6 +439,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | cull / culling (fauna invasora) | reducir su poblacion / eliminar ejemplares (NO: "controlar su poblacion" — "controlar" implica gestión, no matanza) |
 | there's a good/strong chance (that) | es probable que / es muy probable que / probablemente (NO: "hay una buena/fuerte posibilidad de que" / "hay muchas posibilidades de que" — calco de "there is a chance") |
 | backup (militar: refuerzos) | refuerzos (NO: "copia de seguridad" — eso es backup de datos informáticos) |
+| ace pilot (piloto experto/de élite) | piloto de elite (NO: "piloto as" — "as" es anglicismo; NO: "piloto estrella" — suena a celebrity) |
 | So what. (desafío/indiferencia) | ¿Y que? (NO: "Asi que lo que" — calco literal sin sentido) |
 | shot (disparo, impacto balístico) | disparo / impacto (NO: "foto" — eso es photograph) |
 | turning on [facción] (traicionar) | traicionando a [faccion] (NO: "activando" — eso es encender un dispositivo) |
@@ -448,6 +449,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Fight it is. / Then we fight. | Entonces pelea. / A pelear se ha dicho. (NO: "Lucha es" — calco literal sin estructura española) |
 | deal with you (combate, confrontación) | enfrentarse a ti / encargarse de ti / vérselas contigo (NO: "tratar contigo" — en español "tratar con alguien" es negociar, no combatir) |
 | at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español) |
+| Scorch (apodo/callsign de piloto Nine Tails) | Scorch — NO traducir jamás (NO: "Quemador", "Chamuscado" — es un nombre propio, igual que Stax o Acker) |
+| burner (argot: información/oportunidad caliente) | algo jugoso / oportunidad de primera / soplo (NO: "quemador" — false friend; "burner" en jerga significa "insider tip", no el aparato ni el apodo Scorch) |
 
 ---
 
