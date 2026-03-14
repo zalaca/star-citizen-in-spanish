@@ -25,9 +25,15 @@ Luego copia el contenido de la carpeta `copy/` en el directorio de instalación:
 
 ### Directorio de destino
 
+El directorio de instalación depende de dónde tengas instalado el juego. **No tiene por qué estar en `C:`** — si lo instalaste en otro disco o carpeta, busca la carpeta `LIVE` dentro de tu instalación de Star Citizen.
+
+La ruta por defecto es:
+
 ```
-C:\Program Files\Robert Space Industries\Star Citizen\LIVE
+C:\Program Files\Roberts Space Industries\Star Citizen\LIVE
 ```
+
+> Si no sabes dónde tienes el juego instalado, ábrelo desde el RSI Launcher, ve a **Settings** y busca la ruta de instalación.
 
 La estructura de archivos debe quedar así:
 
