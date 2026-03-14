@@ -402,6 +402,14 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy") |
 | CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay") |
 | no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco) |
+| Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" — eso es un diseño genérico, no una pintura de nave). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo" |
+| Gauntlet (serie de combate) | Guantelete. Ej: "Combat Gauntlet" → "Guantelete de Combate" — SALVO que el proyecto lo tenga establecido como "Desafio", en cuyo caso mantener |
+| Naval (adjetivo militar) | Naval (NO: "de la Armada" — más largo e incorrecto). Ej: "Naval Patrol Training" → "Entrenamiento de Patrulla Naval" |
+| Floor [N] (planta de edificio) | Planta [N] (NO: "Piso" — eso es apartamento en español de España) |
+| Nombres propios de ubicaciones (Research Outpost, City Gates, etc.) | Mantener en inglés si es el nombre oficial del lugar. NO traducir. Ej: "Hickes Research Outpost" → "Hickes Research Outpost" (NO: "Puesto de investigacion de Hickes") |
+| was heading to / was en route to | se dirigia a (NO: "estaba en ruta hacia" — calco de "en route") |
+| outlaw attack / outlaw activity | ataque de forajidos (NO: "fuera de la ley" — esa es una descripción legal, no un sustantivo) |
+| IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE") |
 
 ---
 
