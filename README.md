@@ -35,6 +35,8 @@ C:\Program Files\Roberts Space Industries\Star Citizen\LIVE
 
 > Si no sabes dónde tienes el juego instalado, ábrelo desde el RSI Launcher, ve a **Settings** y busca la ruta de instalación.
 
+> La traducción es compatible tanto con **LIVE** como con **PTU**. Si quieres usarla en PTU, repite el proceso copiando los archivos en la carpeta `PTU` en lugar de `LIVE`.
+
 La estructura de archivos debe quedar así:
 
 ```
