@@ -56,7 +56,7 @@ El proceso combina dos elementos:
 - **SKILL.md** — una guía de estilo propia que recoge reglas de traducción, glosario de términos del universo, criterios de género gramatical (naves en femenino, planetas en masculino), y convenciones tipográficas específicas para Star Citizen.
 - **Revisión manual** — cada entrada se contrasta con el texto original en inglés (`en-EN.ini`) para garantizar fidelidad al contexto y al tono.
 
-El objetivo es una traducción natural al español de España, evitando calcos del inglés y adaptando expresiones idiomáticas sin perder el sabor del universo de Star Citizen.
+El objetivo es una traducción natural al español de España, evitando calcos del inglés y adaptando expresiones idiomáticas sin perder la esencia del universo de Star Citizen.
 
 ---
 
