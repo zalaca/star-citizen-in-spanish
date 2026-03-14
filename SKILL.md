@@ -40,7 +40,7 @@ Eres un traductor especializado en el videojuego **Star Citizen** (en-EN → es-
     - C1 Spirit, C2 Hercules, Carrack, Caterpillar, Corsair
     - Constellation Andromeda, Constellation Aquila, Constellation Phoenix, Constellation Taurus
     - Cutlass Black, Cutlass Blue, Cutlass Red, Cutlass Steel
-    - Dragonfly, E1 Spirit, Eclipse, Endeavor
+    - Dragonfly, E1 Spirit, Eclipse, Endeavour
     - F7 Hornet, F8 Lightning
     - Freelancer, Freelancer DUR, Freelancer MAX, Freelancer MIS
     - Genesis Starliner, Gladiator, Gladius, Glaive, Hammerhead, Hawk, Herald
