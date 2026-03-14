@@ -429,6 +429,17 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | hardly a surprise / it's hardly surprising | No es de extrañar (NO: "Apenas es sorprendente" — calco literal; en español "apenas" modifica cantidad, no probabilidad) |
 | caution is advised / so exercise caution (advertencia informal) | ten cuidado / procede con precaucion (NO: "se aconseja precaucion" — pasiva impersonal innecesaria en texto informal) |
 | rich in material (contexto minero/asteroide) | rico en recursos (NO: "rico en material" — "material" en español no equivale a materia prima minera). Distinguir: "rich in ore" → "rico en mineral"; "rich in minerals" → "rico en minerales" |
+| personally (adverbio de modo: él mismo, en primera persona) | personalmente (NO: "en persona" — reservar "en persona" solo para presencia física: "quedar en persona", "conocerse en persona") |
+| there is a strong chance / there is a good chance | es muy probable que (NO: "hay una fuerte posibilidad de que" — calco literal) |
+| the station itself / la propia estacion | la propia estacion (NO: "la estacion misma" — suena a énfasis arcaico; "misma" es válido solo con pronombre: "ella misma") |
+| that particular area / that area in particular | esa zona / esa area (NO: "esa area en particular" — "en particular" es redundante cuando el contexto ya lo precisa) |
+| [adjective] problems (ej: serious problems) | [adjetivo] + problemas con adjetivo delante: "serios problemas" (NO: "problemas serios" — el orden inglés SN+adj suena a calco; en español el adj valorativo va delante) |
+| we will offer you payment / you will receive payment | te compensaremos / recibirás pago (NO: "te ofreceremos pago" — calco de "offer payment"; en español se usa el verbo directamente) |
+| double "para" (para X para Y) | restructurar: "para dejar X listo para su reparacion" → "para dejar X listo de cara a su reparacion" o reformular con "con vistas a" |
+| cull / culling (fauna invasora) | reducir su poblacion / eliminar ejemplares (NO: "controlar su poblacion" — "controlar" implica gestión, no matanza) |
+| there's a good/strong chance (that) | es probable que / es muy probable que / probablemente (NO: "hay una buena/fuerte posibilidad de que" / "hay muchas posibilidades de que" — calco de "there is a chance") |
+| deal with you (combate, confrontación) | enfrentarse a ti / encargarse de ti / vérselas contigo (NO: "tratar contigo" — en español "tratar con alguien" es negociar, no combatir) |
+| at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español) |
 
 ---
 
