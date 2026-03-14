@@ -438,6 +438,14 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | double "para" (para X para Y) | restructurar: "para dejar X listo para su reparacion" → "para dejar X listo de cara a su reparacion" o reformular con "con vistas a" |
 | cull / culling (fauna invasora) | reducir su poblacion / eliminar ejemplares (NO: "controlar su poblacion" — "controlar" implica gestión, no matanza) |
 | there's a good/strong chance (that) | es probable que / es muy probable que / probablemente (NO: "hay una buena/fuerte posibilidad de que" / "hay muchas posibilidades de que" — calco de "there is a chance") |
+| backup (militar: refuerzos) | refuerzos (NO: "copia de seguridad" — eso es backup de datos informáticos) |
+| So what. (desafío/indiferencia) | ¿Y que? (NO: "Asi que lo que" — calco literal sin sentido) |
+| shot (disparo, impacto balístico) | disparo / impacto (NO: "foto" — eso es photograph) |
+| turning on [facción] (traicionar) | traicionando a [faccion] (NO: "activando" — eso es encender un dispositivo) |
+| scrap (pelea informal, bronca) | pelea / bronca (NO: "desecho" — eso es waste/junk material) |
+| You're done. (amenaza: estás acabado) | Estas acabado. (NO: "Ya terminaste" — eso es pasado, implica que ya acabó algo, no amenaza) |
+| feed you your teeth (amenaza violenta) | hacerte tragar tus propios dientes (calco aceptable con "propios" añadido para sonar más natural) |
+| Fight it is. / Then we fight. | Entonces pelea. / A pelear se ha dicho. (NO: "Lucha es" — calco literal sin estructura española) |
 | deal with you (combate, confrontación) | enfrentarse a ti / encargarse de ti / vérselas contigo (NO: "tratar contigo" — en español "tratar con alguien" es negociar, no combatir) |
 | at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español) |
 
