@@ -459,6 +459,11 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | pissed (enfadado, muy cabreado) | cabreado/a (NO: "enojado" — demasiado suave para el registro coloquial de "pissed") |
 | Functional to a fault (excesivamente funcional, idiom) | Funcional hasta el extremo (NO: "Funcional a una falla" — calco literal sin sentido) |
 | Concordancia de género con «nave» (femenino) | Todos los adjetivos y pronombres que acompañen a «nave» deben ir en femenino: "una nave bonita", "esta podria ser la nave que deseas", "pocas naves", "la adecuada", "esta nave es perfecta" (NO: "bonito", "este", "pocos", "el adecuado", "perfecto") |
+| cap ships | naves capitales (NO: "naves de tapa" — calco literal de "cap") |
+| gunship (nave de combate pesada) | cañonera (NO: "helicoptero de combate" — un helicoptero vuela en atmosfera, no en el espacio) |
+| a real rush (emoción, subidón) | un subidón de verdad (NO: "una verdadera prisa" — "prisa" = hurry, no rush/thrill) |
+| ass whoopin / ass kicking (paliza, zurra) | una buena paliza / una tunda de verdad (NO: "grito de culo" — no tiene sentido en español) |
+| a big F you / middle finger (gesto de desprecio) | un corte de mangas (expresión española equivalente al "F you" anglosajón) |
 
 ---
 
