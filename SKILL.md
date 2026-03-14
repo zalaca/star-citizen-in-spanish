@@ -418,6 +418,11 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | move out (orden militar: avanzar/partir) | ¡En marcha! (NO: "Mudarse" — eso es cambiar de domicilio) |
 | hostiles inbound / incoming enemies | ¡Hostiles detectados! (NO: "Hostiles entrantes" — suena a llamadas de teléfono) |
 | quantum dampener (dispositivo que bloquea el viaje cuántico) | inhibidor cuantico (NO: "amortiguador Quantum" — amortiguador es un componente mecánico) |
+| should be approached with caution (advertencia de precaución) | hay que acercarse con precaucion (NO: "deben abordarse" — "abordar" en contexto espacial significa subir a una nave) |
+| Go! / Go! Go! Go! (orden urgente de movimiento) | ¡Muevete! / ¡Vamos! (NO: "¡Ir!" — calco literal, no es natural en español) |
+| Ready up / Ready or not (preparación/transición) | Preparado o no / Atencion (NO: "Listo" como calco de "ready up" — "listo" en español solo significa "ready" en primera persona) |
+| on the way / inbound (refuerzos llegando) | Llega el refuerzo / de camino (NO: "en camino" como calco de "on the way" en frases cortas de radio) |
+| pronombre sujeto (yo/nosotros/ellos) | omitir siempre salvo ambigüedad — el español no necesita pronombre sujeto explícito. Ej: "Nosotros hemos terminado" → "Hemos terminado"; "Ellos son míos" → "Son míos" |
 
 ---
 
