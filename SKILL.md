@@ -40,7 +40,7 @@ Eres un traductor especializado en el videojuego **Star Citizen** (en-EN → es-
     - C1 Spirit, C2 Hercules, Carrack, Caterpillar, Corsair
     - Constellation Andromeda, Constellation Aquila, Constellation Phoenix, Constellation Taurus
     - Cutlass Black, Cutlass Blue, Cutlass Red, Cutlass Steel
-    - Dragonfly, E1 Spirit, Eclipse, Endeavour
+    - Dragonfly, E1 Spirit, Eclipse, Endeavor
     - F7 Hornet, F8 Lightning
     - Freelancer, Freelancer DUR, Freelancer MAX, Freelancer MIS
     - Genesis Starliner, Gladiator, Gladius, Glaive, Hammerhead, Hawk, Herald
@@ -478,8 +478,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | `Drop off black box.` | `Dejar la caja negra.` |
 | `Have any work?` | `¿Tiene algun trabajo?` |
 | `Breaker Station` | `Breaker Station` (nombre propio, NO traducir) |
-| `The Endeavor is less of a ship and more of a roaming university` | `El Endeavour es menos una nave y mas una universidad itinerante` — nave científica de RSI; en el juego se escribe **Endeavour** (con u final) |
-| `scientific vessel` (en contexto Endeavour) | `nave cientifica` — femenino: "esta es la que quieres", NO "este es el que quieres" |
+| `The Endeavor is less of a ship and more of a roaming university` | `El Endeavor es menos una nave y mas una universidad itinerante` — nave científica de RSI; en el juego se escribe **Endeavor** (con u final) |
+| `scientific vessel` (en contexto Endeavor) | `nave cientifica` — femenino: "esta es la que quieres", NO "este es el que quieres" |
 | `Metro Center` | `Metro Center` (NO: "Centro del Metro") |
 | `Teasa Spaceport` | `Teasa Spaceport` (NO: "Espaciopuerto Teasa") |
 | `Last Ditch on Monox (Pyro II)` | `Last Ditch en Monox (Pyro II)` — `on` → `en` en ubicaciones (`mission_location_*`) |
