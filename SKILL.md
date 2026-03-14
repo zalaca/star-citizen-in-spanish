@@ -451,6 +451,14 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español) |
 | Scorch (apodo/callsign de piloto Nine Tails) | Scorch — NO traducir jamás (NO: "Quemador", "Chamuscado" — es un nombre propio, igual que Stax o Acker) |
 | burner (argot: información/oportunidad caliente) | algo jugoso / oportunidad de primera / soplo (NO: "quemador" — false friend; "burner" en jerga significa "insider tip", no el aparato ni el apodo Scorch) |
+| Right. (sarcástico, respuesta de relleno) | Ya, claro. (NO: "Derecho" — eso es "straight/upright"; en contexto sarcástico: "Ya, claro." / "Como no.") |
+| You don't say? (sarcástico) | ¿No me digas? (NO: "¿No lo dices?" — calco literal sin sentido en español) |
+| Yeah right. (sarcástico: "sí, ya") | Si, claro. / Venga, ya. (NO: "Si cierto" — falta puntuación y suena a afirmación sincera) |
+| Like now / like right now (urgencia coloquial) | ahora mismo (NO: "como ahora" — calco literal; "like" coloquial de urgencia no se traduce) |
+| stuff's gonna go down (amenaza: las cosas se van a poner feas) | las cosas se van a poner feas (NO: "las cosas van a bajar" — calco de "go down") |
+| pissed (enfadado, muy cabreado) | cabreado/a (NO: "enojado" — demasiado suave para el registro coloquial de "pissed") |
+| Functional to a fault (excesivamente funcional, idiom) | Funcional hasta el extremo (NO: "Funcional a una falla" — calco literal sin sentido) |
+| Concordancia de género con «nave» (femenino) | Todos los adjetivos y pronombres que acompañen a «nave» deben ir en femenino: "una nave bonita", "esta podria ser la nave que deseas", "pocas naves", "la adecuada", "esta nave es perfecta" (NO: "bonito", "este", "pocos", "el adecuado", "perfecto") |
 
 ---
 
