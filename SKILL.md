@@ -396,6 +396,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer" |
 | wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido) |
 | cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro) |
+| wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal) |
+| quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés) |
+| power usage / power consumption | Consumo de energia (NO: "Uso de Energia" — calco de "usage") |
+| [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy") |
+| CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay") |
+| no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco) |
 
 ---
 
