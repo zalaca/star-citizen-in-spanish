@@ -381,6 +381,21 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | messhall | Comedor |
 | habitation | Habitación |
 | escape pods | Cápsulas de escape |
+| gunship | Cañonera (NO: "nave de guerra" — demasiado genérico). Concordancia femenina: "Cañonera pesada" |
+| heavy gunship | Cañonera pesada |
+| carrier-based [tipo] | [tipo] de portanaves. Ej: "Carrier-Based Bomber" → "Bombardero de portanaves" (NO: "basado en portador") |
+| Scout (rol de nave) | Reconocimiento (NO: dejar en inglés) |
+| Touring (rol de nave) | Turismo (NO: dejar en inglés "Touring") |
+| Repair (rol de nave) | Reparacion (sustantivo, NO: "Reparar" — infinitivo) |
+| Short Range Patrol | Patrulla de corto alcance (NO: añadir "Caza" si no está en el original) |
+| UltraLight Ground | Terrestre ultraligero (Ground = terrestre, NO: "Suelo") |
+| Snub Fighter | Caza SNUB (mantener SNUB — término específico del juego) |
+| slippery (difícil de atrapar, evasivo) | escurridizo (NO: "resbaladizo" — eso es físico, como suelo mojado) |
+| slick (apodo/trato coloquial, como "buddy") | listillo (NO: "resbaladizo"). Ej: "Hey, slick." → "Oye, listillo." |
+| Slippery [Nombre] (apodo criminal) | [Nombre] el Escurridizo. Ej: "Slippery Mike" → "Mike el Escurridizo" |
+| taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer" |
+| wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido) |
+| cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro) |
 
 ---
 
