@@ -395,6 +395,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Slippery [Nombre] (apodo criminal) | [Nombre] el Escurridizo. Ej: "Slippery Mike" → "Mike el Escurridizo" |
 | taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer" |
 | wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido) |
+| I'll be damned (exclamación de sorpresa/asombro) | Segun contexto: "¡No me lo puedo creer!" (sorpresa positiva), "Anda." (sorpresa contenida), "¿Esto es lo que se siente?" (agonía). (NO: "sere condenado" / "voy a ser condenado" — calco literal sin sentido en español) |
 | cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro) |
 | wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal) |
 | quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés) |
@@ -413,6 +414,10 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE") |
 | [vehicle/ship] down (en combate: destruido/derribado) | destruido/a o derribado/a según contexto (NO: "hacia abajo" — calco literal). Ej: "Scan ship down" → "Nave de escaneo destruida"; "Hostile down" → "Hostil abatido"; "Flagship's down" → "La nave insignia ha caido" |
 | scan ship (nave dedicada al escaneo en misiones de flota) | nave de escaneo (NO: "escanear la nave" — eso es una acción, no un sustantivo) |
+| on the run (huida táctica en combate) | en retirada / huyendo (NO: "en la carrera" — calco literal sin sentido) |
+| move out (orden militar: avanzar/partir) | ¡En marcha! (NO: "Mudarse" — eso es cambiar de domicilio) |
+| hostiles inbound / incoming enemies | ¡Hostiles detectados! (NO: "Hostiles entrantes" — suena a llamadas de teléfono) |
+| quantum dampener (dispositivo que bloquea el viaje cuántico) | inhibidor cuantico (NO: "amortiguador Quantum" — amortiguador es un componente mecánico) |
 
 ---
 
