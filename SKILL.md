@@ -487,6 +487,14 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | creep (persona que da mal rollo, merodeador) | bicho raro (NO: "canalla" — "canalla" implica maldad/villanía, "creep" es alguien que da escalofríos o merodea de forma inquietante) |
 | Can't get enough, huh? (dirigido al cliente que vuelve) | ¿No tienes suficiente, eh? (NO: "No puedo tener suficiente" — primera persona errónea; el dependiente interpela al cliente, no habla de sí mismo) |
 | Go. Just go. Stop looking and go. (dependiente hastiado echando al cliente) | Vete. Simplemente vete. Deja de mirar y vete. (NO: "Ir. Solo vamos." — infinitivos y primera persona del plural sin sentido) |
+| cover (cobertura táctica en combate) | cobertura (NO: "portada" — portada es la cubierta de un libro o revista; la cobertura táctica es siempre "cobertura") |
+| We've been breached! (han entrado por la fuerza) | ¡Han entrado! (NO: "¡Hemos sido violados!" — "violar" tiene connotación sexual; NO: "¡Nos han infiltrado!" — "infiltrar" implica espionaje/sigilo, no irrupción por la fuerza) |
+| bagged one (se cargaron a uno, lo abatieron) | se cargaron a uno (NO: "se embolsaron uno" — calco de "bag"; en español "cargarse a alguien" = eliminarlo) |
+| We're moving out! (orden militar de partida) | ¡En marcha! (NO: "Nos estamos mudando" — "mudarse" = cambiar de domicilio, no desplazarse en combate) |
+| fan out (dispersarse tácticamente) | Dispersemonos. (NO: "Vamos a admirar" — "admirar" = to admire, no tiene nada que ver con "fan out") |
+| die trying (idiom: morir en el intento) | morir en el intento (NO: "morir intentando" — calco literal; la expresión hecha en español es "morir en el intento") |
+| Contact ahead. (avistamiento militar: hay contacto por delante) | Contacto adelante. (NO: "Contacta con antelacion" — "contact" aquí es un sustantivo militar, no un verbo) |
+| They mean business (van en serio, no es un juego) | van en serio (NO: "significan negocios" — calco de "mean business"; en español "ir en serio" transmite la misma amenaza) |
 
 ---
 
