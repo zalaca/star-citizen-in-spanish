@@ -495,6 +495,19 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | die trying (idiom: morir en el intento) | morir en el intento (NO: "morir intentando" — calco literal; la expresión hecha en español es "morir en el intento") |
 | Contact ahead. (avistamiento militar: hay contacto por delante) | Contacto adelante. (NO: "Contacta con antelacion" — "contact" aquí es un sustantivo militar, no un verbo) |
 | They mean business (van en serio, no es un juego) | van en serio (NO: "significan negocios" — calco de "mean business"; en español "ir en serio" transmite la misma amenaza) |
+| kill the crap out of something (destruir completamente, intensificador coloquial) | dejar para el arrastre / destrozar (NO: "matar la basura de" — calco literal sin sentido; "kill the crap out of" = arrasar con algo) |
+| it was nice of you to try (fue un gesto/detalle intentarlo) | estuvo bien por tu parte intentarlo (NO: "fue muy amable de tu parte" — "amable" implica cortesía formal; aquí se expresa apreciación por el esfuerzo, no por los modales) |
+| Unless you've got a death wish (amenaza: como no quieras morir) | Como no quieras acabar muerto (NO: "A menos que tengas deseos de morir" — demasiado formal y literal; la amenaza en español se expresa de forma más directa) |
+| turn that ship around (dar media vuelta con la nave) | dar media vuelta (NO: "darle la vuelta a la nave" — ambiguo, podría interpretarse como voltear la nave; "dar media vuelta" es la expresión natural de retroceder) |
+| Screw it (expresión de hartazgo/abandono) | ¡Al diablo! (NO: "Atornillarlo" — calco literal de "screw"; en español "screw it" = desestimar algo con frustración) |
+| Look sharp (alerta táctica: estar atentos) | ¡Atentos! (NO: "Mira agudo" — calco literal sin sentido; "look sharp" = estar alerta/preparado) |
+| We're down a ship (perdimos una nave en combate) | Perdimos una nave (NO: "Estamos en una nave" — "down" aquí significa que falta una unidad, no que están dentro) |
+| got the drop on us (nos pillaron desprevenidos, sorpresa táctica) | Nos pillaron desprevenidos (NO: "tienen la gota sobre nosotros" — calco literal de "drop"; "get the drop on" = coger por sorpresa) |
+| missing them (errar los tiros, no acertar) | errando los tiros (NO: "extrañarlos" — "miss" en contexto de disparo = fallar el tiro, no echar de menos a alguien) |
+| dead to rights (pillado sin escapatoria, cazado) | me tiene pillado (NO: "muerto a los derechos" — expresión idiomática; "dead to rights" = atrapado sin argumentos posibles) |
+| quitter (cobarde que abandona, rajado) | rajado (NO: "dejar de fumar" — "quit" aquí no es dejar el tabaco sino rajarse/abandonar; "quitter" = persona que no aguanta) |
+| Missile away (misil lanzado, comunicación táctica) | ¡Misil lanzado! (NO: "Misiles lejos" — plural incorrecto + calco de "away"; en contexto táctico = confirmación de lanzamiento) |
+| That's a friendly / friendly fire (aliado, unidad propia) | ¡Es de los nuestros! (NO: "es un amistoso" — calco de "friendly"; en español militar "de los nuestros" = unidad aliada) |
 
 ---
 
