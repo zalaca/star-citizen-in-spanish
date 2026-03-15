@@ -474,6 +474,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | you'll be peeling metal (hipérbole de velocidad extrema, rozar estructuras) | vas a salir echando chispas (NO: "pelando metal" — calco literal sin gracia en español; NO: "raspando paredes" — demasiado literal) |
 | easiest move (mudanza, relocation — no confundir con maniobra) | mudanza mas facil (NO: "movimiento mas facil" — "movimiento" es maniobra/gesto, no mudanza) |
 | check out the simcab (probar la cabina de simulador) | probar la cabina de simulador (NO: "consultar la cabina" — "consultar" implica buscar información, no experimentar algo) |
+| Concordancia de demostrativos con «nave» | Usar "esta/estas/una/algunas" (NO: "este/estos/uno/algunos" — la nave es femenino aunque el nombre propio parezca masculino: "esta Avenger", "una de estas", "esta es la nave") |
+| Concordancia de cuantificadores con «naves» (plural) | "cuantas naves", "todas las naves", "otras naves" (NO: "cuantos naves", "todos los naves", "demas naves") |
+| Nombres de naves no se traducen aunque tengan equivalente en español | Mantener en inglés: Avenger (NO: "Vengador/Vengadores"), Mercury (NO: "Mercurio"), Retaliator (NO: "represalia"), Vulcan (NO: "Vulcano") — son nombres propios de naves, no descripciones |
+| Orden del nombre de nave: fabricante + nombre | Aegis Vulcan (NO: "Vulcano de Aegis" — el orden en español sigue el original inglés sin preposición) |
+| sleep on something (idiom: subestimar, pasar por alto) | pasar por alto / subestimar (NO: "dormir en" — calco literal sin sentido; "sleep on X" = no darle el mérito que merece) |
+| you need to bomb something yesterday (expresión: lo necesitas para ayer) | necesitas bombardear algo para ayer (NO: "la semana pasada" — "yesterday" en este idiom = urgencia inmediata, no literalmente ayer ni la semana pasada) |
+| it's a killer / it's deadly (referido a una nave) | es una asesina / es letal (NO: "es un asesino" — concordar con nave en femenino) |
 
 ---
 
