@@ -508,6 +508,9 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | quitter (cobarde que abandona, rajado) | rajado (NO: "dejar de fumar" — "quit" aquí no es dejar el tabaco sino rajarse/abandonar; "quitter" = persona que no aguanta) |
 | Missile away (misil lanzado, comunicación táctica) | ¡Misil lanzado! (NO: "Misiles lejos" — plural incorrecto + calco de "away"; en contexto táctico = confirmación de lanzamiento) |
 | That's a friendly / friendly fire (aliado, unidad propia) | ¡Es de los nuestros! (NO: "es un amistoso" — calco de "friendly"; en español militar "de los nuestros" = unidad aliada) |
+| hack down CrimeStat / clear CrimeStat (reducir/borrar el registro criminal hackeando una terminal) | borrar su CrimeStat (NO: "hackee su CrimeStat" — "hackear" es el acto, pero la acción concreta es borrar/reducir el registro; más claro y natural) |
+| opportunity (en títulos de contrato/misión) | oportunidad (NO cambiar a "puesto" — respetar siempre el término original si el en-EN dice "opportunity") |
+| nombres de lugares como destino de acción (protect X, defend X) | sin preposición "a" antes del lugar — los topónimos no llevan "a personal". Ej: "protect Kareah" → "proteger Kareah" (NO: "proteger a Kareah" — la "a personal" es para personas, no lugares) |
 
 ---
 
