@@ -332,138 +332,148 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 
 ### Glosario de términos establecidos
 
-| en-EN | es-ES |
-|-------|-------|
-| monorail / monorriel | Monorail |
-| to pilot (verb) | pilotar (NO: "pilotear") → `pilotan`, `pilota`, `pilotaba` |
-| cargo pod | contenedor de carga |
-| fade (barbería/peluquería) | degradado |
-| now contracting | abre nuevos contratos |
-| landing procedure (UI/HUD) | aterrizaje |
-| livery / livrea | pintura (preferido); concordancia: "la pintura", "esta pintura", "una pintura" |
-| Salvaging / salvage (actividad/sector) | Chatarreria (NO: "salvamento"). Ej: "salvage game" → "juego de la chatarreria", "salvage ship" → "nave de chatarreria", "salvage pilots" → "pilotos de chatarreria" |
-| Scrap (material de chatarreo) | Scrap (mantener en ingles — es un recurso especifico del juego). Ej: "Scrap Salvage at X" → "Chatarreo de Scrap en X" |
-| Livery Services | Servicios de transporte |
-| Quantum Travel / QT | Viaje cuántico / QT |
-| CrimeStat | CrimeStat (no traducir). Sin artículo → `¿Cómo diablos conseguiste CrimeStat?` / `tener CrimeStat activo` (no: "una estadística de criminalidad") |
-| OMPoint | PuntoOM |
-| Tractor Station | Estación de tracción |
-| Offline (UI) | Desconectado |
-| Crafted (etiqueta) | FABRICADO |
-| operating suite / operating room | quirófano |
-| this is not a drill | esto no es un simulacro |
-| first responders | equipos de primera respuesta / primeros en responder |
-| entry-level | nivel básico |
-| eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos |
-| qualifications (contexto laboral/contrato) | historial / expediente (NO: "calificaciones" — suena a notas escolares). Ej: "Your qualifications look good on paper" → "Tu historial parece bueno sobre el papel" |
-| outlaw / outlaws | forajido / forajidos (contexto espacial/criminal)
-| criminal (termino legal formal) | delincuente / criminal |
-| thief / scoundrel (coloquial) | bribón / ratero (segun contexto) |
-| vicious criminal | forajido despiadado / criminal violento |
-| neutralize (combate) | neutralizar |
-| apprehend (contexto policial) | detener / capturar |
-| clear [location] of enemies | limpiar [ubicacion] de / despejar |
-| Data Runner | transporte de datos (NO: "corredor de datos") |
-| Escaped Ships (contador UI) | Naves huidas |
-| capable (personas/militares) | competente/competentes (NO: "capaz/capaces" en contextos de personas o agentes). Mantener "capaces" para objetos ("canones capaces de...") y expresiones idiomaticas ("ver de lo que son capaces") |
-| redeem (ticket/bono) | canjear (NO: "convertir") |
-| Energizing (efecto comida) | Energizante |
-| Hyper-Metabolic (efecto comida) | Hipermetabólico |
-| None (efectos comida/bebida) | Ninguno |
-| cockpit | Cabina |
-| airlock | Esclusa |
-| docking bay | Bahía de atraque |
-| cargo bay | Compartimento de carga |
-| turret | Torreta |
-| engineering | Ingeniería |
-| fabrication | Fabricación |
-| lounge | Salón |
-| messhall | Comedor |
-| habitation | Habitación |
-| escape pods | Cápsulas de escape |
-| gunship | Cañonera (NO: "nave de guerra" — demasiado genérico). Concordancia femenina: "Cañonera pesada" |
-| heavy gunship | Cañonera pesada |
-| carrier-based [tipo] | [tipo] de portanaves. Ej: "Carrier-Based Bomber" → "Bombardero de portanaves" (NO: "basado en portador") |
-| Scout (rol de nave) | Reconocimiento (NO: dejar en inglés) |
-| Touring (rol de nave) | Turismo (NO: dejar en inglés "Touring") |
-| Repair (rol de nave) | Reparacion (sustantivo, NO: "Reparar" — infinitivo) |
-| Short Range Patrol | Patrulla de corto alcance (NO: añadir "Caza" si no está en el original) |
-| UltraLight Ground | Terrestre ultraligero (Ground = terrestre, NO: "Suelo") |
-| Snub Fighter | Caza SNUB (mantener SNUB — término específico del juego) |
-| slippery (difícil de atrapar, evasivo) | escurridizo (NO: "resbaladizo" — eso es físico, como suelo mojado) |
-| slick (apodo/trato coloquial, como "buddy") | listillo (NO: "resbaladizo"). Ej: "Hey, slick." → "Oye, listillo." |
-| Slippery [Nombre] (apodo criminal) | [Nombre] el Escurridizo. Ej: "Slippery Mike" → "Mike el Escurridizo" |
-| taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer" |
-| wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido) |
-| I'll be damned (exclamación de sorpresa/asombro) | Segun contexto: "¡No me lo puedo creer!" (sorpresa positiva), "Anda." (sorpresa contenida), "¿Esto es lo que se siente?" (agonía). (NO: "sere condenado" / "voy a ser condenado" — calco literal sin sentido en español) |
-| cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro) |
-| wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal) |
-| quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés) |
-| power usage / power consumption | Consumo de energia (NO: "Uso de Energia" — calco de "usage") |
-| [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy") |
-| CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay") |
-| no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco) |
-| Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" ni "decoracion" — ambos son incorrectos). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo" |
-| Focal: (campo en descripciones de vehiculos, ej: "Fabricante: ...\nFocal: Caza Medio") | Enfoque: (NO: "Focal:" — calco del inglés "Focus") |
-| Gauntlet (serie de combate) | Guantelete. Ej: "Combat Gauntlet" → "Guantelete de Combate" — SALVO que el proyecto lo tenga establecido como "Desafio", en cuyo caso mantener |
-| Naval (adjetivo militar) | Naval (NO: "de la Armada" — más largo e incorrecto). Ej: "Naval Patrol Training" → "Entrenamiento de Patrulla Naval" |
-| Floor [N] (planta de edificio) | Planta [N] (NO: "Piso" — eso es apartamento en español de España) |
-| Nombres propios de ubicaciones (Research Outpost, City Gates, etc.) | Mantener en inglés si es el nombre oficial del lugar. NO traducir. Ej: "Hickes Research Outpost" → "Hickes Research Outpost" (NO: "Puesto de investigacion de Hickes") |
-| was heading to / was en route to | se dirigia a (NO: "estaba en ruta hacia" — calco de "en route") |
-| outlaw attack / outlaw activity | ataque de forajidos (NO: "fuera de la ley" — esa es una descripción legal, no un sustantivo) |
-| IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE") |
-| [vehicle/ship] down (en combate: destruido/derribado) | destruido/a o derribado/a según contexto (NO: "hacia abajo" — calco literal). Ej: "Scan ship down" → "Nave de escaneo destruida"; "Hostile down" → "Hostil abatido"; "Flagship's down" → "La nave insignia ha caido" |
-| scan ship (nave dedicada al escaneo en misiones de flota) | nave de escaneo (NO: "escanear la nave" — eso es una acción, no un sustantivo) |
-| on the run (huida táctica en combate) | en retirada / huyendo (NO: "en la carrera" — calco literal sin sentido) |
-| move out (orden militar: avanzar/partir) | ¡En marcha! (NO: "Mudarse" — eso es cambiar de domicilio) |
-| hostiles inbound / incoming enemies | ¡Hostiles detectados! (NO: "Hostiles entrantes" — suena a llamadas de teléfono) |
-| quantum dampener (dispositivo que bloquea el viaje cuántico) | inhibidor cuantico (NO: "amortiguador Quantum" — amortiguador es un componente mecánico) |
-| should be approached with caution (advertencia de precaución) | hay que acercarse con precaucion (NO: "deben abordarse" — "abordar" en contexto espacial significa subir a una nave) |
-| Go! / Go! Go! Go! (orden urgente de movimiento) | ¡Muevete! / ¡Vamos! (NO: "¡Ir!" — calco literal, no es natural en español) |
-| Ready up / Ready or not (preparación/transición) | Preparado o no / Atencion (NO: "Listo" como calco de "ready up" — "listo" en español solo significa "ready" en primera persona) |
-| on the way / inbound (refuerzos llegando) | Llega el refuerzo / de camino (NO: "en camino" como calco de "on the way" en frases cortas de radio) |
-| pronombre sujeto (yo/nosotros/ellos) | omitir siempre salvo ambigüedad — el español no necesita pronombre sujeto explícito. Ej: "Nosotros hemos terminado" → "Hemos terminado"; "Ellos son míos" → "Son míos" |
-| worn out their welcome (ha agotado la paciencia ajena) | se ha pasado de la raya (NO: "ha agotado su bienvenida" — calco literal sin sentido en español) |
-| Word is that / Word has it (coloquial: se dice que) | Parece que / Segun nuestros informes (NO: "La palabra es que" — calco literal del inglés) |
-| naughty list (lista de personas non gratas) | lista negra (NO: "lista de no gratos" — calco literal) |
-| hardly a surprise / it's hardly surprising | No es de extrañar (NO: "Apenas es sorprendente" — calco literal; en español "apenas" modifica cantidad, no probabilidad) |
-| caution is advised / so exercise caution (advertencia informal) | ten cuidado / procede con precaucion (NO: "se aconseja precaucion" — pasiva impersonal innecesaria en texto informal) |
-| rich in material (contexto minero/asteroide) | rico en recursos (NO: "rico en material" — "material" en español no equivale a materia prima minera). Distinguir: "rich in ore" → "rico en mineral"; "rich in minerals" → "rico en minerales" |
-| personally (adverbio de modo: él mismo, en primera persona) | personalmente (NO: "en persona" — reservar "en persona" solo para presencia física: "quedar en persona", "conocerse en persona") |
-| there is a strong chance / there is a good chance | es muy probable que (NO: "hay una fuerte posibilidad de que" — calco literal) |
-| the station itself / la propia estacion | la propia estacion (NO: "la estacion misma" — suena a énfasis arcaico; "misma" es válido solo con pronombre: "ella misma") |
-| that particular area / that area in particular | esa zona / esa area (NO: "esa area en particular" — "en particular" es redundante cuando el contexto ya lo precisa) |
-| [adjective] problems (ej: serious problems) | [adjetivo] + problemas con adjetivo delante: "serios problemas" (NO: "problemas serios" — el orden inglés SN+adj suena a calco; en español el adj valorativo va delante) |
-| we will offer you payment / you will receive payment | te compensaremos / recibirás pago (NO: "te ofreceremos pago" — calco de "offer payment"; en español se usa el verbo directamente) |
-| double "para" (para X para Y) | restructurar: "para dejar X listo para su reparacion" → "para dejar X listo de cara a su reparacion" o reformular con "con vistas a" |
-| cull / culling (fauna invasora) | reducir su poblacion / eliminar ejemplares (NO: "controlar su poblacion" — "controlar" implica gestión, no matanza) |
-| there's a good/strong chance (that) | es probable que / es muy probable que / probablemente (NO: "hay una buena/fuerte posibilidad de que" / "hay muchas posibilidades de que" — calco de "there is a chance") |
-| backup (militar: refuerzos) | refuerzos (NO: "copia de seguridad" — eso es backup de datos informáticos) |
-| ace pilot (piloto experto/de élite) | piloto de elite (NO: "piloto as" — "as" es anglicismo; NO: "piloto estrella" — suena a celebrity) |
-| So what. (desafío/indiferencia) | ¿Y que? (NO: "Asi que lo que" — calco literal sin sentido) |
-| shot (disparo, impacto balístico) | disparo / impacto (NO: "foto" — eso es photograph) |
-| turning on [facción] (traicionar) | traicionando a [faccion] (NO: "activando" — eso es encender un dispositivo) |
-| scrap (pelea informal, bronca) | pelea / bronca (NO: "desecho" — eso es waste/junk material) |
-| You're done. (amenaza: estás acabado) | Estas acabado. (NO: "Ya terminaste" — eso es pasado, implica que ya acabó algo, no amenaza) |
-| feed you your teeth (amenaza violenta) | hacerte tragar tus propios dientes (calco aceptable con "propios" añadido para sonar más natural) |
-| Fight it is. / Then we fight. | Entonces pelea. / A pelear se ha dicho. (NO: "Lucha es" — calco literal sin estructura española) |
-| deal with you (combate, confrontación) | enfrentarse a ti / encargarse de ti / vérselas contigo (NO: "tratar contigo" — en español "tratar con alguien" es negociar, no combatir) |
-| at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español) |
-| Scorch (apodo/callsign de piloto Nine Tails) | Scorch — NO traducir jamás (NO: "Quemador", "Chamuscado" — es un nombre propio, igual que Stax o Acker) |
-| burner (argot: información/oportunidad caliente) | algo jugoso / oportunidad de primera / soplo (NO: "quemador" — false friend; "burner" en jerga significa "insider tip", no el aparato ni el apodo Scorch) |
-| Right. (sarcástico, respuesta de relleno) | Ya, claro. (NO: "Derecho" — eso es "straight/upright"; en contexto sarcástico: "Ya, claro." / "Como no.") |
-| You don't say? (sarcástico) | ¿No me digas? (NO: "¿No lo dices?" — calco literal sin sentido en español) |
-| Yeah right. (sarcástico: "sí, ya") | Si, claro. / Venga, ya. (NO: "Si cierto" — falta puntuación y suena a afirmación sincera) |
-| Like now / like right now (urgencia coloquial) | ahora mismo (NO: "como ahora" — calco literal; "like" coloquial de urgencia no se traduce) |
-| stuff's gonna go down (amenaza: las cosas se van a poner feas) | las cosas se van a poner feas (NO: "las cosas van a bajar" — calco de "go down") |
-| pissed (enfadado, muy cabreado) | cabreado/a (NO: "enojado" — demasiado suave para el registro coloquial de "pissed") |
-| Functional to a fault (excesivamente funcional, idiom) | Funcional hasta el extremo (NO: "Funcional a una falla" — calco literal sin sentido) |
+| en-EN | es-ES                                                                                                                                                                                                                                                |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| monorail / monorriel | Monorail                                                                                                                                                                                                                                             |
+| to pilot (verb) | pilotar (NO: "pilotear") → `pilotan`, `pilota`, `pilotaba`                                                                                                                                                                                           |
+| cargo pod | contenedor de carga                                                                                                                                                                                                                                  |
+| fade (barbería/peluquería) | degradado                                                                                                                                                                                                                                            |
+| now contracting | abre nuevos contratos                                                                                                                                                                                                                                |
+| landing procedure (UI/HUD) | aterrizaje                                                                                                                                                                                                                                           |
+| livery / livrea | pintura (preferido); concordancia: "la pintura", "esta pintura", "una pintura"                                                                                                                                                                       |
+| Salvaging / salvage (actividad/sector) | Chatarreria (NO: "salvamento"). Ej: "salvage game" → "juego de la chatarreria", "salvage ship" → "nave de chatarreria", "salvage pilots" → "pilotos de chatarreria"                                                                                  |
+| Scrap (material de chatarreo) | Scrap (mantener en ingles — es un recurso especifico del juego). Ej: "Scrap Salvage at X" → "Chatarreo de Scrap en X"                                                                                                                                |
+| Livery Services | Servicios de transporte                                                                                                                                                                                                                              |
+| Quantum Travel / QT | Viaje cuántico / QT                                                                                                                                                                                                                                  |
+| CrimeStat | CrimeStat (no traducir). Sin artículo → `¿Cómo diablos conseguiste CrimeStat?` / `tener CrimeStat activo` (no: "una estadística de criminalidad")                                                                                                    |
+| OMPoint | PuntoOM                                                                                                                                                                                                                                              |
+| Tractor Station | Estación de tracción                                                                                                                                                                                                                                 |
+| Offline (UI) | Desconectado                                                                                                                                                                                                                                         |
+| Crafted (etiqueta) | FABRICADO                                                                                                                                                                                                                                            |
+| operating suite / operating room | quirófano                                                                                                                                                                                                                                            |
+| this is not a drill | esto no es un simulacro                                                                                                                                                                                                                              |
+| first responders | equipos de primera respuesta / primeros en responder                                                                                                                                                                                                 |
+| entry-level | nivel básico                                                                                                                                                                                                                                         |
+| eligible / not eligible | apto / no apto (NO: "elegible" — anglicismo). Concordar en genero: apta para sustantivos femeninos                                                                                                                                                   |
+| qualifications (contexto laboral/contrato) | historial / expediente (NO: "calificaciones" — suena a notas escolares). Ej: "Your qualifications look good on paper" → "Tu historial parece bueno sobre el papel"                                                                                   |
+| outlaw / outlaws | forajido / forajidos (contexto espacial/criminal)                                                                                                                                                                                                    
+| criminal (termino legal formal) | delincuente / criminal                                                                                                                                                                                                                               |
+| thief / scoundrel (coloquial) | bribón / ratero (segun contexto)                                                                                                                                                                                                                     |
+| vicious criminal | forajido despiadado / criminal violento                                                                                                                                                                                                              |
+| neutralize (combate) | neutralizar                                                                                                                                                                                                                                          |
+| apprehend (contexto policial) | detener / capturar                                                                                                                                                                                                                                   |
+| clear [location] of enemies | limpiar [ubicacion] de / despejar                                                                                                                                                                                                                    |
+| Data Runner | transporte de datos (NO: "corredor de datos")                                                                                                                                                                                                        |
+| Escaped Ships (contador UI) | Naves huidas                                                                                                                                                                                                                                         |
+| capable (personas/militares) | competente/competentes (NO: "capaz/capaces" en contextos de personas o agentes). Mantener "capaces" para objetos ("canones capaces de...") y expresiones idiomaticas ("ver de lo que son capaces")                                                   |
+| redeem (ticket/bono) | canjear (NO: "convertir")                                                                                                                                                                                                                            |
+| Energizing (efecto comida) | Energizante                                                                                                                                                                                                                                          |
+| Hyper-Metabolic (efecto comida) | Hipermetabólico                                                                                                                                                                                                                                      |
+| None (efectos comida/bebida) | Ninguno                                                                                                                                                                                                                                              |
+| cockpit | Cabina                                                                                                                                                                                                                                               |
+| airlock | Esclusa                                                                                                                                                                                                                                              |
+| docking bay | Bahía de atraque                                                                                                                                                                                                                                     |
+| cargo bay | Compartimento de carga                                                                                                                                                                                                                               |
+| turret | Torreta                                                                                                                                                                                                                                              |
+| engineering | Ingeniería                                                                                                                                                                                                                                           |
+| fabrication | Fabricación                                                                                                                                                                                                                                          |
+| lounge | Salón                                                                                                                                                                                                                                                |
+| messhall | Comedor                                                                                                                                                                                                                                              |
+| habitation | Habitación                                                                                                                                                                                                                                           |
+| escape pods | Cápsulas de escape                                                                                                                                                                                                                                   |
+| gunship | Cañonera (NO: "nave de guerra" — demasiado genérico). Concordancia femenina: "Cañonera pesada"                                                                                                                                                       |
+| heavy gunship | Cañonera pesada                                                                                                                                                                                                                                      |
+| carrier-based [tipo] | [tipo] de portanaves. Ej: "Carrier-Based Bomber" → "Bombardero de portanaves" (NO: "basado en portador")                                                                                                                                             |
+| Scout (rol de nave) | Reconocimiento (NO: dejar en inglés)                                                                                                                                                                                                                 |
+| Touring (rol de nave) | dejar en inglés "Touring                                                                                                                                                                                                                             |
+| Repair (rol de nave) | Reparacion (sustantivo, NO: "Reparar" — infinitivo)                                                                                                                                                                                                  |
+| Short Range Patrol | Patrulla de corto alcance (NO: añadir "Caza" si no está en el original)                                                                                                                                                                              |
+| UltraLight Ground | Terrestre ultraligero (Ground = terrestre, NO: "Suelo")                                                                                                                                                                                              |
+| Snub Fighter | Caza SNUB (mantener SNUB — término específico del juego)                                                                                                                                                                                             |
+| slippery (difícil de atrapar, evasivo) | escurridizo (NO: "resbaladizo" — eso es físico, como suelo mojado)                                                                                                                                                                                   |
+| slick (apodo/trato coloquial, como "buddy") | listillo (NO: "resbaladizo"). Ej: "Hey, slick." → "Oye, listillo."                                                                                                                                                                                   |
+| Slippery [Nombre] (apodo criminal) | [Nombre] el Escurridizo. Ej: "Slippery Mike" → "Mike el Escurridizo"                                                                                                                                                                                 |
+| taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer"                                                                                                     |
+| wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido)                                                                                                                                                                                     |
+| I'll be damned (exclamación de sorpresa/asombro) | Segun contexto: "¡No me lo puedo creer!" (sorpresa positiva), "Anda." (sorpresa contenida), "¿Esto es lo que se siente?" (agonía). (NO: "sere condenado" / "voy a ser condenado" — calco literal sin sentido en español)                             |
+| cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro)                                                                                                                                                                                            |
+| wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal)                                                                                                                                                                              |
+| quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés)                                                                                                                                                                                   |
+| power usage / power consumption | Consumo de energia (NO: "Uso de Energia" — calco de "usage")                                                                                                                                                                                         |
+| [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy")                                                                                                                                                              |
+| CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay")                                                                                                                                                                                                     |
+| no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco)                                                                                                                                                                                  |
+| Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" ni "decoracion" — ambos son incorrectos). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo"                                                                                                          |
+| Focal: (campo en descripciones de vehiculos, ej: "Fabricante: ...\nFocal: Caza Medio") | Enfoque: (NO: "Focal:" — calco del inglés "Focus")                                                                                                                                                                                                   |
+| Gauntlet (serie de combate) | Guantelete. Ej: "Combat Gauntlet" → "Guantelete de Combate" — SALVO que el proyecto lo tenga establecido como "Desafio", en cuyo caso mantener                                                                                                       |
+| Naval (adjetivo militar) | Naval (NO: "de la Armada" — más largo e incorrecto). Ej: "Naval Patrol Training" → "Entrenamiento de Patrulla Naval"                                                                                                                                 |
+| Floor [N] (planta de edificio) | Planta [N] (NO: "Piso" — eso es apartamento en español de España)                                                                                                                                                                                    |
+| Nombres propios de ubicaciones (Research Outpost, City Gates, etc.) | Mantener en inglés si es el nombre oficial del lugar. NO traducir. Ej: "Hickes Research Outpost" → "Hickes Research Outpost" (NO: "Puesto de investigacion de Hickes")                                                                               |
+| was heading to / was en route to | se dirigia a (NO: "estaba en ruta hacia" — calco de "en route")                                                                                                                                                                                      |
+| outlaw attack / outlaw activity | ataque de forajidos (NO: "fuera de la ley" — esa es una descripción legal, no un sustantivo)                                                                                                                                                         |
+| IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE")                                                                                                                                                      |
+| [vehicle/ship] down (en combate: destruido/derribado) | destruido/a o derribado/a según contexto (NO: "hacia abajo" — calco literal). Ej: "Scan ship down" → "Nave de escaneo destruida"; "Hostile down" → "Hostil abatido"; "Flagship's down" → "La nave insignia ha caido"                                 |
+| scan ship (nave dedicada al escaneo en misiones de flota) | nave de escaneo (NO: "escanear la nave" — eso es una acción, no un sustantivo)                                                                                                                                                                       |
+| on the run (huida táctica en combate) | en retirada / huyendo (NO: "en la carrera" — calco literal sin sentido)                                                                                                                                                                              |
+| move out (orden militar: avanzar/partir) | ¡En marcha! (NO: "Mudarse" — eso es cambiar de domicilio)                                                                                                                                                                                            |
+| hostiles inbound / incoming enemies | ¡Hostiles detectados! (NO: "Hostiles entrantes" — suena a llamadas de teléfono)                                                                                                                                                                      |
+| quantum dampener (dispositivo que bloquea el viaje cuántico) | inhibidor cuantico (NO: "amortiguador Quantum" — amortiguador es un componente mecánico)                                                                                                                                                             |
+| should be approached with caution (advertencia de precaución) | hay que acercarse con precaucion (NO: "deben abordarse" — "abordar" en contexto espacial significa subir a una nave)                                                                                                                                 |
+| Go! / Go! Go! Go! (orden urgente de movimiento) | ¡Muevete! / ¡Vamos! (NO: "¡Ir!" — calco literal, no es natural en español)                                                                                                                                                                           |
+| Ready up / Ready or not (preparación/transición) | Preparado o no / Atencion (NO: "Listo" como calco de "ready up" — "listo" en español solo significa "ready" en primera persona)                                                                                                                      |
+| on the way / inbound (refuerzos llegando) | Llega el refuerzo / de camino (NO: "en camino" como calco de "on the way" en frases cortas de radio)                                                                                                                                                 |
+| pronombre sujeto (yo/nosotros/ellos) | omitir siempre salvo ambigüedad — el español no necesita pronombre sujeto explícito. Ej: "Nosotros hemos terminado" → "Hemos terminado"; "Ellos son míos" → "Son míos"                                                                               |
+| worn out their welcome (ha agotado la paciencia ajena) | se ha pasado de la raya (NO: "ha agotado su bienvenida" — calco literal sin sentido en español)                                                                                                                                                      |
+| Word is that / Word has it (coloquial: se dice que) | Parece que / Segun nuestros informes (NO: "La palabra es que" — calco literal del inglés)                                                                                                                                                            |
+| naughty list (lista de personas non gratas) | lista negra (NO: "lista de no gratos" — calco literal)                                                                                                                                                                                               |
+| hardly a surprise / it's hardly surprising | No es de extrañar (NO: "Apenas es sorprendente" — calco literal; en español "apenas" modifica cantidad, no probabilidad)                                                                                                                             |
+| caution is advised / so exercise caution (advertencia informal) | ten cuidado / procede con precaucion (NO: "se aconseja precaucion" — pasiva impersonal innecesaria en texto informal)                                                                                                                                |
+| rich in material (contexto minero/asteroide) | rico en recursos (NO: "rico en material" — "material" en español no equivale a materia prima minera). Distinguir: "rich in ore" → "rico en mineral"; "rich in minerals" → "rico en minerales"                                                        |
+| personally (adverbio de modo: él mismo, en primera persona) | personalmente (NO: "en persona" — reservar "en persona" solo para presencia física: "quedar en persona", "conocerse en persona")                                                                                                                     |
+| there is a strong chance / there is a good chance | es muy probable que (NO: "hay una fuerte posibilidad de que" — calco literal)                                                                                                                                                                        |
+| the station itself / la propia estacion | la propia estacion (NO: "la estacion misma" — suena a énfasis arcaico; "misma" es válido solo con pronombre: "ella misma")                                                                                                                           |
+| that particular area / that area in particular | esa zona / esa area (NO: "esa area en particular" — "en particular" es redundante cuando el contexto ya lo precisa)                                                                                                                                  |
+| [adjective] problems (ej: serious problems) | [adjetivo] + problemas con adjetivo delante: "serios problemas" (NO: "problemas serios" — el orden inglés SN+adj suena a calco; en español el adj valorativo va delante)                                                                             |
+| we will offer you payment / you will receive payment | te compensaremos / recibirás pago (NO: "te ofreceremos pago" — calco de "offer payment"; en español se usa el verbo directamente)                                                                                                                    |
+| double "para" (para X para Y) | restructurar: "para dejar X listo para su reparacion" → "para dejar X listo de cara a su reparacion" o reformular con "con vistas a"                                                                                                                 |
+| cull / culling (fauna invasora) | reducir su poblacion / eliminar ejemplares (NO: "controlar su poblacion" — "controlar" implica gestión, no matanza)                                                                                                                                  |
+| there's a good/strong chance (that) | es probable que / es muy probable que / probablemente (NO: "hay una buena/fuerte posibilidad de que" / "hay muchas posibilidades de que" — calco de "there is a chance")                                                                             |
+| backup (militar: refuerzos) | refuerzos (NO: "copia de seguridad" — eso es backup de datos informáticos)                                                                                                                                                                           |
+| ace pilot (piloto experto/de élite) | piloto de elite (NO: "piloto as" — "as" es anglicismo; NO: "piloto estrella" — suena a celebrity)                                                                                                                                                    |
+| So what. (desafío/indiferencia) | ¿Y que? (NO: "Asi que lo que" — calco literal sin sentido)                                                                                                                                                                                           |
+| shot (disparo, impacto balístico) | disparo / impacto (NO: "foto" — eso es photograph)                                                                                                                                                                                                   |
+| turning on [facción] (traicionar) | traicionando a [faccion] (NO: "activando" — eso es encender un dispositivo)                                                                                                                                                                          |
+| scrap (pelea informal, bronca) | pelea / bronca (NO: "desecho" — eso es waste/junk material)                                                                                                                                                                                          |
+| You're done. (amenaza: estás acabado) | Estas acabado. (NO: "Ya terminaste" — eso es pasado, implica que ya acabó algo, no amenaza)                                                                                                                                                          |
+| feed you your teeth (amenaza violenta) | hacerte tragar tus propios dientes (calco aceptable con "propios" añadido para sonar más natural)                                                                                                                                                    |
+| Fight it is. / Then we fight. | Entonces pelea. / A pelear se ha dicho. (NO: "Lucha es" — calco literal sin estructura española)                                                                                                                                                     |
+| deal with you (combate, confrontación) | enfrentarse a ti / encargarse de ti / vérselas contigo (NO: "tratar contigo" — en español "tratar con alguien" es negociar, no combatir)                                                                                                             |
+| at this very moment / right this moment | ahora mismo / en estos momentos / en ese instante (NO: "en este mismo momento" / "en ese mismo momento" — calco de "at this very moment", redundante en español)                                                                                     |
+| Scorch (apodo/callsign de piloto Nine Tails) | Scorch — NO traducir jamás (NO: "Quemador", "Chamuscado" — es un nombre propio, igual que Stax o Acker)                                                                                                                                              |
+| burner (argot: información/oportunidad caliente) | algo jugoso / oportunidad de primera / soplo (NO: "quemador" — false friend; "burner" en jerga significa "insider tip", no el aparato ni el apodo Scorch)                                                                                            |
+| Right. (sarcástico, respuesta de relleno) | Ya, claro. (NO: "Derecho" — eso es "straight/upright"; en contexto sarcástico: "Ya, claro." / "Como no.")                                                                                                                                            |
+| You don't say? (sarcástico) | ¿No me digas? (NO: "¿No lo dices?" — calco literal sin sentido en español)                                                                                                                                                                           |
+| Yeah right. (sarcástico: "sí, ya") | Si, claro. / Venga, ya. (NO: "Si cierto" — falta puntuación y suena a afirmación sincera)                                                                                                                                                            |
+| Like now / like right now (urgencia coloquial) | ahora mismo (NO: "como ahora" — calco literal; "like" coloquial de urgencia no se traduce)                                                                                                                                                           |
+| stuff's gonna go down (amenaza: las cosas se van a poner feas) | las cosas se van a poner feas (NO: "las cosas van a bajar" — calco de "go down")                                                                                                                                                                     |
+| pissed (enfadado, muy cabreado) | cabreado/a (NO: "enojado" — demasiado suave para el registro coloquial de "pissed")                                                                                                                                                                  |
+| Functional to a fault (excesivamente funcional, idiom) | Funcional hasta el extremo (NO: "Funcional a una falla" — calco literal sin sentido)                                                                                                                                                                 |
 | Concordancia de género con «nave» (femenino) | Todos los adjetivos y pronombres que acompañen a «nave» deben ir en femenino: "una nave bonita", "esta podria ser la nave que deseas", "pocas naves", "la adecuada", "esta nave es perfecta" (NO: "bonito", "este", "pocos", "el adecuado", "perfecto") |
-| cap ships | naves capitales (NO: "naves de tapa" — calco literal de "cap") |
-| gunship (nave de combate pesada) | cañonera (NO: "helicoptero de combate" — un helicoptero vuela en atmosfera, no en el espacio) |
-| a real rush (emoción, subidón) | un subidón de verdad (NO: "una verdadera prisa" — "prisa" = hurry, no rush/thrill) |
-| ass whoopin / ass kicking (paliza, zurra) | una buena paliza / una tunda de verdad (NO: "grito de culo" — no tiene sentido en español) |
-| a big F you / middle finger (gesto de desprecio) | un corte de mangas (expresión española equivalente al "F you" anglosajón) |
+| cap ships | naves capitales (NO: "naves de tapa" — calco literal de "cap")                                                                                                                                                                                       |
+| gunship (nave de combate pesada) | cañonera (NO: "helicoptero de combate" — un helicoptero vuela en atmosfera, no en el espacio)                                                                                                                                                        |
+| a real rush (emoción, subidón) | un subidón de verdad (NO: "una verdadera prisa" — "prisa" = hurry, no rush/thrill)                                                                                                                                                                   |
+| ass whoopin / ass kicking (paliza, zurra) | una buena paliza / una tunda de verdad (NO: "grito de culo" — no tiene sentido en español)                                                                                                                                                           |
+| a big F you / middle finger (gesto de desprecio) | un corte de mangas (expresión española equivalente al "F you" anglosajón)                                                                                                                                                                            |
+| sit back, take in the space and let your ship call to you | tomarselo con calma, sentir el espacio y esperar a que una nave te hable (NO: "absorber el ambiente y dejar que la nave te llame" — forzado) |
+| I'll leave you to it (despedida informal) | Te dejo tranquilo (NO: "Te dejo con eso" — calco de "leave you to it") |
+| Too much too soon (demasiado rápido, coloquial) | Demasiado, demasiado pronto (NO: "Ok seguro Demasiado..." — falta puntuacion; usar "Vale" no "Ok") |
+| Got it. (entendido, coloquial) | Entendido. (NO: "Lo tengo" — calco literal) |
+| just slip past (colarse/pasar de lado) | pasar un momento / pasar por tu lado (NO: "pasar simplemente"; NO: "deslizarte por ti" — error de reflexividad) |
+| fortitude (resistencia, aguante — contexto de durabilidad de nave) | aguante (NO: "fortaleza" — en español "fortaleza" evoca una construcción física o virtud moral elevada, no la resistencia continua de una máquina) |
+| grind away for hours / eat that up and ask for more (trabajar sin parar y aguantarlo todo) | echarle horas y mas horas / tragarselo todo y pedir mas (NO: "molerla" — suena a triturar físicamente; NO: "comérselo" — en este contexto suena raro) |
+| you'll be peeling metal (hipérbole de velocidad extrema, rozar estructuras) | vas a salir echando chispas (NO: "pelando metal" — calco literal sin gracia en español; NO: "raspando paredes" — demasiado literal) |
+| easiest move (mudanza, relocation — no confundir con maniobra) | mudanza mas facil (NO: "movimiento mas facil" — "movimiento" es maniobra/gesto, no mudanza) |
+| check out the simcab (probar la cabina de simulador) | probar la cabina de simulador (NO: "consultar la cabina" — "consultar" implica buscar información, no experimentar algo) |
 
 ---
 
