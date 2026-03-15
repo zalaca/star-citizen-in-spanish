@@ -481,6 +481,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | sleep on something (idiom: subestimar, pasar por alto) | pasar por alto / subestimar (NO: "dormir en" — calco literal sin sentido; "sleep on X" = no darle el mérito que merece) |
 | you need to bomb something yesterday (expresión: lo necesitas para ayer) | necesitas bombardear algo para ayer (NO: "la semana pasada" — "yesterday" en este idiom = urgencia inmediata, no literalmente ayer ni la semana pasada) |
 | it's a killer / it's deadly (referido a una nave) | es una asesina / es letal (NO: "es un asesino" — concordar con nave en femenino) |
+| looking into X (estar interesado en, estar considerando) | ¿X, eh? / ¿Interesado en X? (NO: "mirando en X" — calco literal; "look into" = considerar/explorar, no mirar dentro de) |
+| Fast, lean, stripped down (descripción de naves ligeras) | Rapidas, ligeras y sin florituras (NO: "Rapido, delgado y sencillo" — concordar en femenino plural con "naves"; "stripped down" = sin florituras, no "simple/sencillo") |
+| Center Mass (nombre de tienda) | CenterMass (NO: "Centro de Misa" — nombre propio, no traducir; "mass" aquí es centro de gravedad, no misa religiosa) |
+| creep (persona que da mal rollo, merodeador) | bicho raro (NO: "canalla" — "canalla" implica maldad/villanía, "creep" es alguien que da escalofríos o merodea de forma inquietante) |
+| Can't get enough, huh? (dirigido al cliente que vuelve) | ¿No tienes suficiente, eh? (NO: "No puedo tener suficiente" — primera persona errónea; el dependiente interpela al cliente, no habla de sí mismo) |
+| Go. Just go. Stop looking and go. (dependiente hastiado echando al cliente) | Vete. Simplemente vete. Deja de mirar y vete. (NO: "Ir. Solo vamos." — infinitivos y primera persona del plural sin sentido) |
 
 ---
 
