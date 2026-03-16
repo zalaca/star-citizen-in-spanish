@@ -512,6 +512,11 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | opportunity (en títulos de contrato/misión) | oportunidad (NO cambiar a "puesto" — respetar siempre el término original si el en-EN dice "opportunity") |
 | nombres de lugares como destino de acción (protect X, defend X) | sin preposición "a" antes del lugar — los topónimos no llevan "a personal". Ej: "protect Kareah" → "proteger Kareah" (NO: "proteger a Kareah" — la "a personal" es para personas, no lugares) |
 | Comm Array / comm array | mantener en inglés — es un nombre propio. Capitalización según el original: "Comm Array" en UI formal, "comm array" en diálogos/terminales. Artículo "el/un". Ej: "Disable uplink at Comm Array 625" → "Desactiva la conexion en el Comm Array 625"; "Hack a comm array" → "Piratea un comm array" (NO: "matriz de comunicaciones") |
+| Imperativo en objetivos de misión | usar siempre 2ª persona del singular informal (tú): "Viaja", "Localiza", "Protege", "Contacta", "Elimina" (NO: "Viaje", "Localice", "Proteger", "Informe" — son formas de usted/infinitivo, incorrectas en objetivos dirigidos al jugador) |
+| Report to [NPC/lugar] (objetivo de misión) | Contacta con [NPC/lugar] (NO: "Informe a" — "informar" en imperativo de usted suena arcaico y formal) |
+| Travel to [ubicación] (objetivo de misión) | Viaja a [ubicacion] (NO: "Viaje a" — usted formal; NO: "al [código]" — usar "en [código]" para coordenadas/identificadores) |
+| [verbo en infinitivo] como objetivo de misión | convertir a imperativo informal. Ej: "Proteger al civil" → "Protege al civil"; "Localizar restos" → mantener infinitivo solo en _Short, imperativo en _Long |
+| pirate threat attacking X (amenaza pirata atacando) | los piratas que atacan X (NO: "la amenaza pirata atacando" — gerundio adjetival incorrecto en español; usar oración de relativo) |
 | uplink (en contexto de Comm Array/misiones) | conexion (NO: "enlace ascendente" — calco técnico que suena raro en español) |
 
 ---
