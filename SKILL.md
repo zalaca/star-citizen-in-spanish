@@ -459,6 +459,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | evidence (contexto policial/investigación) | pruebas / prueba encontrada (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "submit evidence" → "presentar pruebas" |
 | Nombres propios de instalaciones/ubicaciones del juego (Covalex Shipping Hub, etc.) | Mantener en inglés — NO traducir nombres propios de instalaciones. Ej: "Go to Covalex Shipping Hub" → "Ve al Covalex Shipping Hub" (NO: "Centro de envio de Covalex") |
 | Imperativos en objetivos de misión (verbos de acción) | Usar formas naturales del español: registrar, investigar, examinar, localizar, entrar (NO: "Busque", "Ubique", "Ingrese" — suenan a calco formal del inglés) |
+| outsourcing / outsource (cabeceras de contratos corporativos) | subcontratación / subcontratar (NO: "outsourcing" — anglicismo; en cabeceras de misión usar "SUBCONTRATACIÓN DE [EMPRESA]"; el campo "Outsource Manager" → "Responsable de Subcontratacion"). Ej: "HURSTON DYNAMICS OUTSOURCING" → "SUBCONTRATACIÓN DE HURSTON DYNAMICS" |
 | rat (argot criminal: soplón, traidor, persona que no paga) | rata (NO: "chincheta" — "rat" en argot no es el roedor ni el objeto de papelería; es un insulto a alguien desleal o que no cumple). Ej: "Take care of a rat I've been dealing with" → "ocuparme de una rata con la que llevo tratando" |
 | burner (argot: información/oportunidad caliente) | algo jugoso / oportunidad de primera / soplo (NO: "quemador" — false friend; "burner" en jerga significa "insider tip", no el aparato ni el apodo Scorch)                                                                                            |
 | Right. (sarcástico, respuesta de relleno) | Ya, claro. (NO: "Derecho" — eso es "straight/upright"; en contexto sarcástico: "Ya, claro." / "Como no.")                                                                                                                                            |
@@ -531,9 +532,21 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 
 ---
 
-### Personajes recurrentes en misiones GoblinG (OPERACIÓN DE RECURSOS)
+### Misiones GoblinG — OPERACIÓN DE RECURSOS
 
-Todas las misiones GoblinG usan el prefijo **OPERACIÓN DE RECURSOS:** en el título. Los oficiales de enlace de contratistas que firman los mensajes son:
+- Prefijo de título: **OPERACIÓN DE RECURSOS:** (NO: "Impulso de Recursos", "Iniciativa de Recursos" — se unificó todo)
+- Cabeceras de los mensajes de Hurston: **SUBCONTRATACIÓN DE HURSTON DYNAMICS** (NO: "OUTSOURCING DE HURSTON DYNAMICS")
+- Campo de cabecera: **RESPONSABLE DE SUBCONTRATACION:** (NO: "GESTOR DE OUTSOURCING", "Outsource Manager")
+- Referencia interna al tracker del juego: **Operacion de Recursos Second Life** (nombre propio del journal in-game)
+
+Oficiales de enlace que firman los mensajes:
+
+| Facción | Nombre | Cargo (es-ES) |
+|---------|--------|---------------|
+| MicroTech | Aster Remmington | Oficial de Enlace de Contratistas |
+| Hurston Dynamics | A. Carmichael | Responsable de Subcontratacion |
+| ArcCorp | Ella Tieno | Oficial de Enlace de Contratistas |
+| Crusader Industries | Denver Samuels | Oficial de Enlace con Contratistas |
 
 **Nota:** "El" en los mensajes de ArcCorp es el apodo de **Ella Tieno** — NO es el artículo español. Mantener como "El" (sin tilde, es un nombre propio abreviado).
 ---
