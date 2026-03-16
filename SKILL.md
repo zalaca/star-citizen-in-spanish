@@ -530,6 +530,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 
 ---
 
+### Personajes recurrentes en misiones GoblinG (OPERACIÓN DE RECURSOS)
+
+Todas las misiones GoblinG usan el prefijo **OPERACIÓN DE RECURSOS:** en el título. Los oficiales de enlace de contratistas que firman los mensajes son:
+
+**Nota:** "El" en los mensajes de ArcCorp es el apodo de **Ella Tieno** — NO es el artículo español. Mantener como "El" (sin tilde, es un nombre propio abreviado).
+---
+
 ### Ejemplos de referencia
 
 | en-EN | es-ES |
