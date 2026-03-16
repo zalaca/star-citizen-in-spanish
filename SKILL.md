@@ -531,6 +531,9 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | [verbo en infinitivo] como objetivo de misión | convertir a imperativo informal. Ej: "Proteger al civil" → "Protege al civil"; "Localizar restos" → mantener infinitivo solo en _Short, imperativo en _Long |
 | pirate threat attacking X (amenaza pirata atacando) | los piratas que atacan X (NO: "la amenaza pirata atacando" — gerundio adjetival incorrecto en español; usar oración de relativo) |
 | uplink (en contexto de Comm Array/misiones) | conexion (NO: "enlace ascendente" — calco técnico que suena raro en español) |
+| undersuit (prenda interior del traje espacial) | mono (NO: "pijama espacial" — suena informal y confuso; NO: "traje interior" — demasiado genérico). Plural: monos. Ej: "Clothing & Undersuits" → "Ropa y monos" |
+| debris / wreckage (restos de nave destruida) | restos (NO: "escombros" — eso es rubble de edificios). "Debris field" → campo de restos. "Heavy Debris" (característica de carrera) → Gran Densidad de Restos |
+| evidence (contexto policial/investigación) | pruebas (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "destroy evidence" → "destruir pruebas" |
 | Delivery Drop Off (marcador de misión) | Punto de entrega (NO: "Entrega de entrega" — duplicado sin sentido) |
 | Pick-up location / collection point (marcador de misión) | Punto de recogida (NO: "Sitio de recogida" — usar siempre "punto" para unificar con "Punto de entrega") |
 | recovery (sustantivo: acción de recuperar algo) | la recuperación — femenino (NO: "el recuperacion" — recuperación es femenino; ej: "la recuperacion segura", "la recuperacion del sitio") |
