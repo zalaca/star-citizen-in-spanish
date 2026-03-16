@@ -70,4 +70,9 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 
 ## Contribuir
 
-Si encuentras errores o quieres sugerir mejoras, abre un [issue](../../issues) en este repositorio. Cualquier aportación es bienvenida y muy agradecida.
+Si encuentras errores o quieres sugerir mejoras:
+
+- Abre un [issue](../../issues) en este repositorio.
+- O contacta por Discord con **Solyza#0535**.
+
+Cualquier aportación es bienvenida y muy agradecida.

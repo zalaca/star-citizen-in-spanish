@@ -531,6 +531,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | [verbo en infinitivo] como objetivo de misión | convertir a imperativo informal. Ej: "Proteger al civil" → "Protege al civil"; "Localizar restos" → mantener infinitivo solo en _Short, imperativo en _Long |
 | pirate threat attacking X (amenaza pirata atacando) | los piratas que atacan X (NO: "la amenaza pirata atacando" — gerundio adjetival incorrecto en español; usar oración de relativo) |
 | uplink (en contexto de Comm Array/misiones) | conexion (NO: "enlace ascendente" — calco técnico que suena raro en español) |
+| Delivery Drop Off (marcador de misión) | Punto de entrega (NO: "Entrega de entrega" — duplicado sin sentido) |
+| Pick-up location / collection point (marcador de misión) | Punto de recogida (NO: "Sitio de recogida" — usar siempre "punto" para unificar con "Punto de entrega") |
+| recovery (sustantivo: acción de recuperar algo) | la recuperación — femenino (NO: "el recuperacion" — recuperación es femenino; ej: "la recuperacion segura", "la recuperacion del sitio") |
+| state of the art (tecnología punta) | de última generación (NO: "de arte estatal" — calco literal; NO: "de vanguardia" — demasiado genérico en contexto de item) |
+| Nombres de módulos mineros consumibles (Stampede, Lifeline, Rime, Surge, Torpid, Optimum, Brandt, Forel, Waveshift, Okunis, Sabir, BoreMax, Stalwart, Optimax) | Mantener en inglés como nombres propios — NO traducir. Ej: "Stampede usa una lente de última generación" (NO: "La estampida usa...") |
+| cluster factor / cluster modifier (minería: factor de agrupamiento de fragmentos) | Modificador de fragmentación (nombre del módulo/stat); en descripciones: "mantiene los fragmentos de mineral valioso más agrupados al fracturarse" (NO: "Modificador de cluster", NO: "Modificador de racimo") |
+| mining ship / nave minera | nave minera — femenino (NO: "nave minero" — concordar con el género de "nave"). Ej: "cualquier nave minera compatible" |
 
 ---
 
