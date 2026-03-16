@@ -6,20 +6,12 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 ## Instalación
 
-### Opción 1 — Descarga directa (recomendado)
+### Descarga
 
 1. Descarga el ZIP desde el último release:
    **[⬇ Descargar star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)**
 2. Extrae el ZIP.
 3. Copia el contenido extraído en el directorio de instalación de Star Citizen:
-
-### Opción 2 — Git
-
-```bash
-git clone https://github.com/zalaca/star-citizen-in-spanish.git
-```
-
-Luego copia el contenido de la carpeta `copy/` en el directorio de instalación:
 
 ---
 
