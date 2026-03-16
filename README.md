@@ -15,7 +15,7 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 ---
 
-### Directorio de destino
+### Directorio de instalación
 
 El directorio de instalación depende de dónde tengas instalado el juego. **No tiene por qué estar en `C:`** — si lo instalaste en otro disco o carpeta, busca la carpeta `LIVE` dentro de tu instalación de Star Citizen.
 
