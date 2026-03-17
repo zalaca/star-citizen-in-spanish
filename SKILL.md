@@ -601,7 +601,8 @@ Oficiales de enlace que firman los mensajes:
 | `ladder access` | `Acceso por escalera` |
 | `secure storage` | `Almacenamiento seguro` |
 | `repair bay` | `Bahía de reparación` |
-| `elevator shaft` | `Eje del ascensor` |
+| `elevator shaft` | `Hueco del ascensor` |
+| `maintenance shaft` | `Conducto de mantenimiento` (NO: "Eje de mantenimiento" — suena a pieza mecánica giratoria) |
 | `command module docking` | `Conector del módulo de mando` |
 | `operations deck` | `Cubierta de operaciones` |
 | `owner's room` | `Camarote del propietario` |
