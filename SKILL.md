@@ -541,6 +541,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Nombres de módulos mineros consumibles (Stampede, Lifeline, Rime, Surge, Torpid, Optimum, Brandt, Forel, Waveshift, Okunis, Sabir, BoreMax, Stalwart, Optimax) | Mantener en inglés como nombres propios — NO traducir. Ej: "Stampede usa una lente de última generación" (NO: "La estampida usa...") |
 | cluster factor / cluster modifier (minería: factor de agrupamiento de fragmentos) | Modificador de fragmentación (nombre del módulo/stat); en descripciones: "mantiene los fragmentos de mineral valioso más agrupados al fracturarse" (NO: "Modificador de cluster", NO: "Modificador de racimo") |
 | mining ship / nave minera | nave minera — femenino (NO: "nave minero" — concordar con el género de "nave"). Ej: "cualquier nave minera compatible" |
+| Krypton (commodity, gas noble) | Krypton — mantener en inglés. Es el nombre del gas en el universo de SC (NO: "Criptón") |
+| Fair Chance Act (ley de la UEE) | Ley de Oportunidades Justas (NO: "Ley de Oportunidad Justa", NO: "Fair Chance Act" sin traducir) |
 
 ---
 
