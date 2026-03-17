@@ -114,6 +114,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - Facciones y compañías (nunca traducir):
   - `XenoThreat` (artículo masculino plural → `los XenoThreat`), `Headhunters`, `Citizens for Prosperity`, `Frontier Fighters`, `Miners Amalgamated`
   - `Nine Tails` (artículo masculino plural → `los Nine Tails`, NO: "las Nine Tails")
+  - `Shattered Blade` (artículo masculino plural → `los Shattered Blade`, NO: "Espada Fragmentada")
   - `Bounty Hunters Guild` (NO: Gremio de Cazarrecompensas)
   - `Mercenary Guild` (NO: Gremio de Mercenarios)
   - `Interstellar Transport Guild` (NO: Gremio de transporte)
