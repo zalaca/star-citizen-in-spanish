@@ -554,6 +554,15 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 - Campo de cabecera: **RESPONSABLE DE SUBCONTRATACION:** (NO: "GESTOR DE OUTSOURCING", "Outsource Manager")
 - Referencia interna al tracker del juego: **Operacion de Recursos Second Life** (nombre propio del journal in-game)
 
+Campos de cabecera estándar en descripciones de misión (traducción fija):
+
+| Inglés | Español |
+|--------|---------|
+| `CONTRACT:` | `CONTRATO:` |
+| `CONTRACTOR AFFILIATION:` | `AFILIACION DEL CONTRATISTA:` |
+| `RISK ASSESSMENT:` | `EVALUACION DE RIESGOS:` |
+| `RUSH CONTRACT:` | `CONTRATO URGENTE:` |
+
 Oficiales de enlace que firman los mensajes:
 
 | Facción | Nombre | Cargo (es-ES) |
