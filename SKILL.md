@@ -34,57 +34,13 @@
     - `la Caterpillar ha demostrado` / `Introducida por primera vez` (no: "el Caterpillar ha demostrado" / "Introducido por primera vez")
   - **Sustantivos de tipo de nave** — usar siempre `nave` como genérico, nunca "barco", "buque" ni "embarcación":
     - `Esta nave de lujo` (no: "Este buque de lujo" / "Esta embarcación")
-  - **Listado de naves conocidas** — referencia rápida. Regla: todas femeninas, ninguna se traduce (`la X`, `de la X`, `una X`):
-    - 85X, 100i, 125a, 135c, 300i, 315p, 325a, 350r, 400i, 600i, 890 Jump
-    - A1 Spirit, A2 Hercules, Apollo, Ares Inferno, Ares Ion, Arrow
-    - Aurora CL, Aurora ES, Aurora LN, Aurora LX, Aurora MR
-    - Avenger Stalker, Avenger Titan, Avenger Warlock
-    - Ballista, Banu Defender, Banu Merchantman, Blade, Buccaneer
-    - C1 Spirit, C2 Hercules, Carrack, Caterpillar, Corsair
-    - Constellation Andromeda, Constellation Aquila, Constellation Phoenix, Constellation Taurus
-    - Cutlass Black, Cutlass Blue, Cutlass Red, Cutlass Steel
-    - Dragonfly, E1 Spirit, Eclipse, Endeavor
-    - F7 Hornet, F8 Lightning
-    - Freelancer, Freelancer DUR, Freelancer MAX, Freelancer MIS
-    - Genesis Starliner, Gladiator, Gladius, Glaive, Hammerhead, Hawk, Herald
-    - Hull A, Hull B, Hull C, Hull D, Hull E, Hurricane
-    - Idris, Javelin, Khartu-Al, Kraken, Liberator
-    - M2 Hercules, M50, Mantis, Mercury Star Runner, MOLE, MPUV Cargo, MPUV Personnel, Mule
-    - Mustang Alpha, Mustang Beta, Mustang Delta, Mustang Gamma, Mustang Omega
-    - Nautilus, Nomad, Nox, Odyssey, Orion
-    - P-52 Merlin, P-72 Archimedes, Perseus, Pioneer, Polaris, Prospector, Prowler
-    - RAID, RAFT, Reclaimer, Redeemer
-    - Reliant Kore, Reliant Mako, Reliant Sen, Reliant Tana, Retaliator
-    - Sabre, San'tok.yai, Scorpius, Scythe, SRV, Starfarer, Starfarer Gemini
-    - Talon, Talon Shrike, Terrapin
-    - Valkyrie, Vanguard Harbinger, Vanguard Hoplite, Vanguard Sentinel, Vanguard Warden
-    - Vulture, Vulcan, X1
+  - **Listado de naves conocidas** — todas femeninas, ninguna se traduce. Ver [Apéndice: Lista de naves](#apéndice-lista-de-naves) al final del documento.
 - **Combate**: espacial (dogfights, misiles, torpedos) y FPS en superficie. Mezcla PvP y PvE.
 - **Economía**: minería, transporte de mercancías, contratos mercenarios, recompensas.
 - **Personalización**: pinturas y diseños de naves, equipamiento y apariencia del personaje.
 - **Entornos**: planetas con clima dinámico, ciudades, outposts, estaciones mineras. Los viajes usan `quantum drive` y puntos de salto.
 
-**Tipos de texto que aparecen en el archivo `.ini`:**
-- Títulos y descripciones de misiones y contratos
-- Logs y datapads narrativos (lore)
-- Descripciones de naves, pinturas y equipamiento
-- UI de cockpit y HUD (muy compacta)
-- Diálogos de NPC y anuncios in-game
-- Perfiles de facciones y reputación
-
-### Formato del archivo
-
-Cada línea sigue el patrón:
-```
-CLAVE=valor en inglés
-```
-
-Tu salida debe mantener exactamente el mismo formato:
-```
-CLAVE=valor traducido al español
-```
-
----
+**Tipos de texto:** misiones/contratos, lore (logs, datapads), descripciones de naves y equipamiento, UI/HUD compacta, diálogos de NPC, perfiles de facciones.
 
 ### Reglas estrictas
 
@@ -373,6 +329,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Energizing (efecto comida) | Energizante                                                                                                                                                                                                                                          |
 | Hyper-Metabolic (efecto comida) | Hipermetabólico                                                                                                                                                                                                                                      |
 | None (efectos comida/bebida) | Ninguno                                                                                                                                                                                                                                              |
+
+
+#### Partes de nave e instalaciones
+
+| en-EN | es-ES |
+|-------|-------|
 | cockpit | Cabina                                                                                                                                                                                                                                               |
 | airlock | Esclusa                                                                                                                                                                                                                                              |
 | docking bay | Bahía de atraque                                                                                                                                                                                                                                     |
@@ -384,6 +346,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | messhall | Comedor                                                                                                                                                                                                                                              |
 | habitation | Habitación                                                                                                                                                                                                                                           |
 | escape pods | Cápsulas de escape                                                                                                                                                                                                                                   |
+
+
+#### Roles y tipos de nave
+
+| en-EN | es-ES |
+|-------|-------|
 | gunship | Cañonera (NO: "nave de guerra" — demasiado genérico). Concordancia femenina: "Cañonera pesada"                                                                                                                                                       |
 | heavy gunship | Cañonera pesada                                                                                                                                                                                                                                      |
 | carrier-based [tipo] | [tipo] de portanaves. Ej: "Carrier-Based Bomber" → "Bombardero de portanaves" (NO: "basado en portador")                                                                                                                                             |
@@ -393,6 +361,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Short Range Patrol | Patrulla de corto alcance (NO: añadir "Caza" si no está en el original)                                                                                                                                                                              |
 | UltraLight Ground | Terrestre ultraligero (Ground = terrestre, NO: "Suelo")                                                                                                                                                                                              |
 | Snub Fighter | Caza SNUB (mantener SNUB — término específico del juego)                                                                                                                                                                                             |
+
+
+#### Vocabulario coloquial, criminal y apodos
+
+| en-EN | es-ES |
+|-------|-------|
 | slippery (difícil de atrapar, evasivo) | escurridizo (NO: "resbaladizo" — eso es físico, como suelo mojado)                                                                                                                                                                                   |
 | slick (apodo/trato coloquial, como "buddy") | listillo (NO: "resbaladizo"). Ej: "Hey, slick." → "Oye, listillo."                                                                                                                                                                                   |
 | Slippery [Nombre] (apodo criminal) | [Nombre] el Escurridizo. Ej: "Slippery Mike" → "Mike el Escurridizo"                                                                                                                                                                                 |
@@ -414,6 +388,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | was heading to / was en route to | se dirigia a (NO: "estaba en ruta hacia" — calco de "en route")                                                                                                                                                                                      |
 | outlaw attack / outlaw activity | ataque de forajidos (NO: "fuera de la ley" — esa es una descripción legal, no un sustantivo)                                                                                                                                                         |
 | IAE (Intergalactic Aerospace Expo) | femenino — "la IAE", "durante la IAE", "de la IAE", "celebrar la IAE" (NO: "el IAE", "del IAE")                                                                                                                                                      |
+
+
+#### Combate espacial y órdenes militares
+
+| en-EN | es-ES |
+|-------|-------|
 | [vehicle/ship] down (en combate: destruido/derribado) | destruido/a o derribado/a según contexto (NO: "hacia abajo" — calco literal). Ej: "Scan ship down" → "Nave de escaneo destruida"; "Hostile down" → "Hostil abatido"; "Flagship's down" → "La nave insignia ha caido"                                 |
 | scan ship (nave dedicada al escaneo en misiones de flota) | nave de escaneo (NO: "escanear la nave" — eso es una acción, no un sustantivo)                                                                                                                                                                       |
 | on the run (huida táctica en combate) | en retirada / huyendo (NO: "en la carrera" — calco literal sin sentido)                                                                                                                                                                              |
@@ -457,6 +437,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | disrupt (sabotaje/acción encubierta contra infraestructura) | sabotear (NO: "perturbar" — suena abstracto; NO: "disrumpir" — anglicismo inválido). Ej: "disrupt their base of operations" → "sabotear su base de operaciones" |
 | wanted (título de misión o anuncio de trabajo: se busca a alguien para un encargo) | "Se busca [profesión/rol]" (NO: "[profesión] buscado/a" — suena a ficha policial, no a oferta de trabajo). Ej: "Private Investigator Wanted" → "Se busca investigador privado"; "Bounty Hunter Wanted" → "Se busca cazarrecompensas" |
 | accents (diseño/acabado de armadura, nave o vehículo) | detalles (NO: "acentos" — en español "acento" es lingüístico, no de diseño). Ej: "red accents" → "detalles rojos"; "gold accents" → "detalles dorados" |
+
+
+#### Misiones, objetivos y UI
+
+| en-EN | es-ES |
+|-------|-------|
 | search (contexto de investigación/inspección de lugar) | registrar / investigar / examinar (NO: "buscar" — "search" en investigación policial/espacial implica inspeccionar el lugar, no solo buscar algo). Ej: "Search the hub" → "Registra el hub"; "Search for clues" → "Investiga la zona" |
 | evidence (contexto policial/investigación) | pruebas / prueba encontrada (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "submit evidence" → "presentar pruebas"; "destroy evidence" → "destruir pruebas" |
 | Nombres propios de instalaciones/ubicaciones del juego (Covalex Shipping Hub, etc.) | Mantener en inglés — NO traducir nombres propios de instalaciones. Ej: "Go to Covalex Shipping Hub" → "Ve al Covalex Shipping Hub" (NO: "Centro de envio de Covalex") |
@@ -532,6 +518,12 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | [verbo en infinitivo] como objetivo de misión | convertir a imperativo informal. Ej: "Proteger al civil" → "Protege al civil"; "Localizar restos" → mantener infinitivo solo en _Short, imperativo en _Long |
 | pirate threat attacking X (amenaza pirata atacando) | los piratas que atacan X (NO: "la amenaza pirata atacando" — gerundio adjetival incorrecto en español; usar oración de relativo) |
 | uplink (en contexto de Comm Array/misiones) | conexion (NO: "enlace ascendente" — calco técnico que suena raro en español) |
+
+
+#### Minería, recursos y naves especializadas
+
+| en-EN | es-ES |
+|-------|-------|
 | undersuit (prenda interior del traje espacial) | mono (NO: "pijama espacial" — suena informal y confuso; NO: "traje interior" — demasiado genérico). Plural: monos. Ej: "Clothing & Undersuits" → "Ropa y monos" |
 | debris / wreckage (restos de nave destruida) | restos (NO: "escombros" — eso es rubble de edificios). "Debris field" → campo de restos. "Heavy Debris" (característica de carrera) → Gran Densidad de Restos |
 | Delivery Drop Off (marcador de misión) | Punto de entrega (NO: "Entrega de entrega" — duplicado sin sentido) |
@@ -585,6 +577,7 @@ Errores recurrentes detectados en el proyecto — no repetir:
 | `Orden de muerte:` | `Orden de Eliminación:` | "muerte" es demasiado crudo; el EN usa "assassination" |
 | `Estación Fragmentadora QV` | `QV Breaker Station` | `Breaker Station` es nombre propio, no se traduce |
 | `CONTRATOS Y DESPACHO` | `CONTRATOS Y OPERACIONES` | "Despacho" no es equivalente de "Dispatch" en contexto de operaciones |
+| `GREMIO DE CAZADORES DE RECOMPENSAS` | `BOUNTY HUNTERS GUILD` | Nombre propio de facción, nunca se traduce |
 | `Juvenil` (fauna) | `Joven` | "Juvenil" es registro médico/científico, no de juego |
 | `Autorizado por: ~mission(Contractor|Auth)` | _(eliminar)_ | Placeholder inventado, no existe en en-EN |
 | `YOUR GOODS IN GOOD HANDS` (Red Wind) | `Tu mercancía en buenas manos` | Slogan unificado del proyecto |
@@ -633,5 +626,33 @@ Errores recurrentes detectados en el proyecto — no repetir:
 | `operations deck` | `Cubierta de operaciones` |
 | `owner's room` | `Camarote del propietario` |
 
+---
 
-Devuelve únicamente las líneas traducidas en el mismo formato `CLAVE=traducción`, sin explicaciones adicionales salvo que encuentres ambigüedad que requiera comentario.
+## Apéndice: Lista de naves
+
+Todas las naves son **femeninas** y **no se traducen** (`la X`, `de la X`, `una X`).
+
+85X, 100i, 125a, 135c, 300i, 315p, 325a, 350r, 400i, 600i, 890 Jump,
+A1 Spirit, A2 Hercules, Apollo, Ares Inferno, Ares Ion, Arrow,
+Aurora CL, Aurora ES, Aurora LN, Aurora LX, Aurora MR,
+Avenger Stalker, Avenger Titan, Avenger Warlock,
+Ballista, Banu Defender, Banu Merchantman, Blade, Buccaneer,
+C1 Spirit, C2 Hercules, Carrack, Caterpillar, Corsair,
+Constellation Andromeda, Constellation Aquila, Constellation Phoenix, Constellation Taurus,
+Cutlass Black, Cutlass Blue, Cutlass Red, Cutlass Steel,
+Dragonfly, E1 Spirit, Eclipse, Endeavor,
+F7 Hornet, F8 Lightning,
+Freelancer, Freelancer DUR, Freelancer MAX, Freelancer MIS,
+Genesis Starliner, Gladiator, Gladius, Glaive, Hammerhead, Hawk, Herald,
+Hull A, Hull B, Hull C, Hull D, Hull E, Hurricane,
+Idris, Javelin, Khartu-Al, Kraken, Liberator,
+M2 Hercules, M50, Mantis, Mercury Star Runner, MOLE, MPUV Cargo, MPUV Personnel, Mule,
+Mustang Alpha, Mustang Beta, Mustang Delta, Mustang Gamma, Mustang Omega,
+Nautilus, Nomad, Nox, Odyssey, Orion,
+P-52 Merlin, P-72 Archimedes, Perseus, Pioneer, Polaris, Prospector, Prowler,
+RAID, RAFT, Reclaimer, Redeemer,
+Reliant Kore, Reliant Mako, Reliant Sen, Reliant Tana, Retaliator,
+Sabre, San'tok.yai, Scorpius, Scythe, SRV, Starfarer, Starfarer Gemini,
+Talon, Talon Shrike, Terrapin,
+Valkyrie, Vanguard Harbinger, Vanguard Hoplite, Vanguard Sentinel, Vanguard Warden,
+Vulture, Vulcan, X1
