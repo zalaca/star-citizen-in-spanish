@@ -1,13 +1,16 @@
-# Skill: Traducción en-EN → es-ES (Star Citizen)
+# SKILL: Traducción SC en-EN → es-ES
 
-## Descripción
-Prompt/plantilla para traducir entradas del archivo `locales/en-EN.ini` al `locales/es-ES.ini` manteniendo las convenciones del proyecto.
+## ⚠ REGLAS CRÍTICAS (leer siempre primero)
+
+- **Placeholders: NUNCA modificar** — `~mission(NombreVariable)`, `%ls`, `%d`, `%s`, `%S`, `%i`, `%Is` se copian exactamente como están, incluyendo mayúsculas. Nunca inventar placeholders que no existan en en-EN.
+- **`\n` son literales** — dos caracteres `\` + `n`, nunca un salto de línea real. Cada clave ocupa exactamente una línea.
+- **Orden de claves = en-EN.ini** — no reordenar, no agrupar, no alphabetizar.
+- **Tildes y ñ SÍ se usan** — `á, é, í, ó, ú, ñ` son correctas en todos los valores.
+- **Antes de traducir: leer la clave en en-EN.ini** — el contexto original es imprescindible.
+- **Español de España (castellano)** — nunca variantes latinoamericanas.
+- **Tutear al jugador** — tú, no usted.
 
 ---
-
-## Prompt de traducción
-
-Eres un traductor especializado en el videojuego **Star Citizen** (en-EN → es-ES). Tu tarea es traducir las siguientes entradas del archivo `.ini` al español de España (es-ES).
 
 ### Contexto del juego
 
@@ -31,7 +34,7 @@ Eres un traductor especializado en el videojuego **Star Citizen** (en-EN → es-
     - `la Caterpillar ha demostrado` / `Introducida por primera vez` (no: "el Caterpillar ha demostrado" / "Introducido por primera vez")
   - **Sustantivos de tipo de nave** — usar siempre `nave` como genérico, nunca "barco", "buque" ni "embarcación":
     - `Esta nave de lujo` (no: "Este buque de lujo" / "Esta embarcación")
-  - **Listado de naves conocidas** (todas femeninas — `la X`, `de la X`, `una X`):
+  - **Listado de naves conocidas** — referencia rápida. Regla: todas femeninas, ninguna se traduce (`la X`, `de la X`, `una X`):
     - 85X, 100i, 125a, 135c, 300i, 315p, 325a, 350r, 400i, 600i, 890 Jump
     - A1 Spirit, A2 Hercules, Apollo, Ares Inferno, Ares Ion, Arrow
     - Aurora CL, Aurora ES, Aurora LN, Aurora LX, Aurora MR
@@ -244,14 +247,12 @@ Para detectarlas:
 grep -P '=(?:El|el)$' es-ES.ini
 ```
 
-#### 5c. Sin tildes (pero con ñ)
-Las traducciones del fichero `es-ES.ini` **no usan tildes** pero **sí usan ñ**.
-- `a, e, i, o, u` en lugar de `á, é, í, ó, ú`
-- La `ñ` sí se escribe: `diseño`, `año`, `señal`, `compañia`, `tecnologia`
-- Correcto: `Atencion`, `esta`, `mision`, `seran`, `tecnologia`
-- Incorrecto: `Atención`, `está`, `misión`, `serán`, `tecnología`
+#### 5c. Tildes y ñ
+Las traducciones del fichero `es-ES.ini` **sí usan tildes** y **sí usan ñ**.
+- Correcto: `Atención`, `está`, `misión`, `serán`, `tecnología`, `diseño`, `año`, `señal`
+- El fichero usa codificación UTF-8 completa.
 
-Esto aplica a **todos los valores traducidos**. Los scripts de busqueda/reemplazo no deben usar tildes en los patrones para evitar problemas de codificacion.
+Nota: los scripts de búsqueda con regex pueden necesitar escapar caracteres especiales, pero los valores en el fichero sí llevan tildes.
 
 #### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
@@ -398,7 +399,6 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | taken care of yesterday / needed yesterday (urgencia extrema) | resuelto para ayer / para ayer (expresión hecha española). Ej: "Need this taken care of yesterday" → "Necesito que esto este resuelto para ayer"                                                                                                     |
 | wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido)                                                                                                                                                                                     |
 | I'll be damned (exclamación de sorpresa/asombro) | Segun contexto: "¡No me lo puedo creer!" (sorpresa positiva), "Anda." (sorpresa contenida), "¿Esto es lo que se siente?" (agonía). (NO: "sere condenado" / "voy a ser condenado" — calco literal sin sentido en español)                             |
-| cover (táctica: escudo/cobertura en combate) | cobertura (NO: "portada" — eso es cover de revista/libro)                                                                                                                                                                                            |
 | wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal)                                                                                                                                                                              |
 | quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés)                                                                                                                                                                                   |
 | power usage / power consumption | Consumo de energia (NO: "Uso de Energia" — calco de "usage")                                                                                                                                                                                         |
@@ -458,7 +458,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | wanted (título de misión o anuncio de trabajo: se busca a alguien para un encargo) | "Se busca [profesión/rol]" (NO: "[profesión] buscado/a" — suena a ficha policial, no a oferta de trabajo). Ej: "Private Investigator Wanted" → "Se busca investigador privado"; "Bounty Hunter Wanted" → "Se busca cazarrecompensas" |
 | accents (diseño/acabado de armadura, nave o vehículo) | detalles (NO: "acentos" — en español "acento" es lingüístico, no de diseño). Ej: "red accents" → "detalles rojos"; "gold accents" → "detalles dorados" |
 | search (contexto de investigación/inspección de lugar) | registrar / investigar / examinar (NO: "buscar" — "search" en investigación policial/espacial implica inspeccionar el lugar, no solo buscar algo). Ej: "Search the hub" → "Registra el hub"; "Search for clues" → "Investiga la zona" |
-| evidence (contexto policial/investigación) | pruebas / prueba encontrada (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "submit evidence" → "presentar pruebas" |
+| evidence (contexto policial/investigación) | pruebas / prueba encontrada (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "submit evidence" → "presentar pruebas"; "destroy evidence" → "destruir pruebas" |
 | Nombres propios de instalaciones/ubicaciones del juego (Covalex Shipping Hub, etc.) | Mantener en inglés — NO traducir nombres propios de instalaciones. Ej: "Go to Covalex Shipping Hub" → "Ve al Covalex Shipping Hub" (NO: "Centro de envio de Covalex") |
 | Imperativos en objetivos de misión (verbos de acción) | Usar formas naturales del español: registrar, investigar, examinar, localizar, entrar (NO: "Busque", "Ubique", "Ingrese" — suenan a calco formal del inglés) |
 | light workload / light load (carga de trabajo) | carga de trabajo baja (NO: "ligera" — en contexto de carga de trabajo se usa "baja/alta", no "ligera/pesada") |
@@ -475,7 +475,6 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Functional to a fault (excesivamente funcional, idiom) | Funcional hasta el extremo (NO: "Funcional a una falla" — calco literal sin sentido)                                                                                                                                                                 |
 | Concordancia de género con «nave» (femenino) | Todos los adjetivos y pronombres que acompañen a «nave» deben ir en femenino: "una nave bonita", "esta podria ser la nave que deseas", "pocas naves", "la adecuada", "esta nave es perfecta" (NO: "bonito", "este", "pocos", "el adecuado", "perfecto") |
 | cap ships | naves capitales (NO: "naves de tapa" — calco literal de "cap")                                                                                                                                                                                       |
-| gunship (nave de combate pesada) | cañonera (NO: "helicoptero de combate" — un helicoptero vuela en atmosfera, no en el espacio)                                                                                                                                                        |
 | a real rush (emoción, subidón) | un subidón de verdad (NO: "una verdadera prisa" — "prisa" = hurry, no rush/thrill)                                                                                                                                                                   |
 | ass whoopin / ass kicking (paliza, zurra) | una buena paliza / una tunda de verdad (NO: "grito de culo" — no tiene sentido en español)                                                                                                                                                           |
 | a big F you / middle finger (gesto de desprecio) | un corte de mangas (expresión española equivalente al "F you" anglosajón)                                                                                                                                                                            |
@@ -535,7 +534,6 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | uplink (en contexto de Comm Array/misiones) | conexion (NO: "enlace ascendente" — calco técnico que suena raro en español) |
 | undersuit (prenda interior del traje espacial) | mono (NO: "pijama espacial" — suena informal y confuso; NO: "traje interior" — demasiado genérico). Plural: monos. Ej: "Clothing & Undersuits" → "Ropa y monos" |
 | debris / wreckage (restos de nave destruida) | restos (NO: "escombros" — eso es rubble de edificios). "Debris field" → campo de restos. "Heavy Debris" (característica de carrera) → Gran Densidad de Restos |
-| evidence (contexto policial/investigación) | pruebas (NO: "evidencia" — en español "evidencia" es de uso científico; en investigación policial se dice "pruebas"). Ej: "Evidence found" → "Prueba encontrada"; "destroy evidence" → "destruir pruebas" |
 | Delivery Drop Off (marcador de misión) | Punto de entrega (NO: "Entrega de entrega" — duplicado sin sentido) |
 | Pick-up location / collection point (marcador de misión) | Punto de recogida (NO: "Sitio de recogida" — usar siempre "punto" para unificar con "Punto de entrega") |
 | recovery (sustantivo: acción de recuperar algo) | la recuperación — femenino (NO: "el recuperacion" — recuperación es femenino; ej: "la recuperacion segura", "la recuperacion del sitio") |
@@ -574,6 +572,23 @@ Oficiales de enlace que firman los mensajes:
 | Crusader Industries | Denver Samuels | Oficial de Enlace con Contratistas |
 
 **Nota:** "El" en los mensajes de ArcCorp es el apodo de **Ella Tieno** — NO es el artículo español. Mantener como "El" (sin tilde, es un nombre propio abreviado).
+---
+
+### Patrones problemáticos documentados
+
+Errores recurrentes detectados en el proyecto — no repetir:
+
+| Patrón incorrecto | Corrección | Motivo |
+|---|---|---|
+| `finalización exitosa del escenario` | `completar el escenario con éxito` | Calco literal de "successful completion" |
+| `Despacho, tenemos contacto` | `Central, tenemos un contacto` | `Dispatch` como vocativo de radio → `Central` |
+| `Orden de muerte:` | `Orden de Eliminación:` | "muerte" es demasiado crudo; el EN usa "assassination" |
+| `Estación Fragmentadora QV` | `QV Breaker Station` | `Breaker Station` es nombre propio, no se traduce |
+| `CONTRATOS Y DESPACHO` | `CONTRATOS Y OPERACIONES` | "Despacho" no es equivalente de "Dispatch" en contexto de operaciones |
+| `Juvenil` (fauna) | `Joven` | "Juvenil" es registro médico/científico, no de juego |
+| `Autorizado por: ~mission(Contractor|Auth)` | _(eliminar)_ | Placeholder inventado, no existe en en-EN |
+| `YOUR GOODS IN GOOD HANDS` (Red Wind) | `Tu mercancía en buenas manos` | Slogan unificado del proyecto |
+
 ---
 
 ### Ejemplos de referencia
@@ -618,15 +633,5 @@ Oficiales de enlace que firman los mensajes:
 | `operations deck` | `Cubierta de operaciones` |
 | `owner's room` | `Camarote del propietario` |
 
----
-
-### Entradas a traducir
-
-Pega aquí las líneas del `en-EN.ini` que quieres traducir:
-
-```
-CLAVE1=Texto en inglés
-CLAVE2=Otro texto en inglés
-```
 
 Devuelve únicamente las líneas traducidas en el mismo formato `CLAVE=traducción`, sin explicaciones adicionales salvo que encuentres ambigüedad que requiera comentario.
