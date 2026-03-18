@@ -224,6 +224,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
     - Identificaciones: `SAIC Dulli here` → `SAIC Dulli al habla` / `Special Agent Dulli with the CDF` → `Agente Especial Dulli del CDF`
     - Cierre de radio: `X out.` → `X fuera.` (NO: "Fuera X.") → `Dulli out.` → `Dulli fuera.` / `Ruto out.` → `Ruto fuera.`
     - La CDF como organización: siempre singular → `la CDF` (NO: "las FDC", "la FDC", "FCD")
+    - `Dispatch` (vocativo de radio, al llamar a central) → `Central` (NO: "Despacho", "Envio") → `Dispatch, we have a contact` → `Central, tenemos un contacto`
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
 
