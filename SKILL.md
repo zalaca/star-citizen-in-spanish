@@ -228,6 +228,8 @@ Al escribir traducciones con scripts Python, usar siempre `\\n` en los strings p
 
 **Verificación de integridad:** Tras escribir el fichero, comprueba que ninguna línea carece de `=` (salvo líneas vacías). Una línea sin `=` indica un salto de línea real que ha roto una clave.
 
+**Fidelidad estructural al en-EN:** No añadas `\n` adicionales respecto al original inglés por razones estéticas. La estructura de párrafos y saltos de línea del en-EN es la referencia. Añadir `\n` extra donde el inglés no los tiene es un error de traducción.
+
 #### 5e. El signo `=` dentro de los valores
 El signo `=` puede aparecer como parte del **contenido** de un valor, no solo como separador de clave. El separador es únicamente el **primer** `=` de la línea. Todo lo que va después forma parte del valor, incluidos otros `=`.
 
@@ -244,6 +246,10 @@ El orden de las claves en el archivo de salida debe ser **exactamente el mismo q
 Salvo que se indique explícitamente lo contrario, **traduce únicamente las claves que no existen todavía en el es-ES.ini**. No modifiques entradas ya traducidas. Si se te pasa el archivo completo en-EN, filtra primero las claves ausentes en es-ES y traduce solo esas.
 
 **Excepción — revisión explícita:** Si el usuario indica que una clave existente tiene una traducción incorrecta o incompleta (p. ej., estaba en inglés sin querer, o es un placeholder), corrígela aunque ya exista.
+
+**Bloques añadidos por el traductor:** No añadas secciones que no existen en el en-EN (p. ej., bloques `* RESUMEN *` con tipo/ubicación/peligro de misión). La única fuente autorizada de estructura es el en-EN.
+
+**Placeholder `[...]`:** Si una clave existente contiene `[...]` como contenido, no está completa — es un error de traducción pendiente, no contenido intencionado. Traducir íntegramente desde el en-EN.
 
 #### 8. Fichas técnicas de items (bloques de especificaciones)
 Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque de especificaciones al inicio con formato fijo. Traducir siempre con estos términos:
@@ -308,6 +314,8 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | OMPoint | PuntoOM                                                                                                                                                                                                                                              |
 | Tractor Station | Estación de tracción                                                                                                                                                                                                                                 |
 | Offline (UI) | Desconectado                                                                                                                                                                                                                                         |
+| online (texto descriptivo, no etiqueta UI) | en línea (NO: "online" — anglicismo en texto corrido)                                                                                                                                                                                                |
+| offline (texto descriptivo, no etiqueta UI) | sin conexión (NO: "offline" — anglicismo; distinto de la etiqueta UI "Desconectado")                                                                                                                                                                 |
 | Crafted (etiqueta) | FABRICADO                                                                                                                                                                                                                                            |
 | operating suite / operating room | quirófano                                                                                                                                                                                                                                            |
 | this is not a drill | esto no es un simulacro                                                                                                                                                                                                                              |
@@ -391,6 +399,10 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 
 
 #### Combate espacial y órdenes militares
+
+| en-EN | es-ES |
+|-------|-------|
+| Crash Close / Collision Imminent (alertas de proximidad de nave — claves `*_ProxAlert_*`) | Colisión [dirección] próxima (NO: dejar en inglés "Rear Crash Close", "Front Crash Close"). Direcciones: `Front` → `delantera`, `Rear` → `trasera`, `Port` → `a babor`, `Starboard` → `a estribor`, `Deck` → `inferior`, `Overhead` → `superior`. Ej: "Rear Crash Close" → "Colisión trasera próxima"; "Port Crash Close" → "Colisión a babor próxima" |
 
 | en-EN | es-ES |
 |-------|-------|
