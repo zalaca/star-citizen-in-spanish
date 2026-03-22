@@ -204,11 +204,11 @@ grep -P '=(?:El|el)$' es-ES.ini
 ```
 
 #### 5c. Tildes y ñ
-Las traducciones del fichero `es-ES.ini` **sí usan tildes** y **sí usan ñ**.
-- Correcto: `Atención`, `está`, `misión`, `serán`, `tecnología`, `diseño`, `año`, `señal`
-- El fichero usa codificación UTF-8 completa.
+**No añadir tildes ni acentos** en las traducciones nuevas. Escribir sin acentuación: `atencion`, `esta`, `mision`, `seran`, `tecnologia`, `diseno`, `ano`, `senal`.
 
-Nota: los scripts de búsqueda con regex pueden necesitar escapar caracteres especiales, pero los valores en el fichero sí llevan tildes.
+- El fichero usa codificación UTF-8, pero la convención del proyecto es no usar tildes.
+- Si una entrada existente ya tiene tildes, no quitarlas; pero al traducir contenido nuevo, no añadirlas.
+- No corregir tildes en revisiones masivas — solo errores sustanciales de traducción.
 
 #### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
