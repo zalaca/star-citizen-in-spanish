@@ -607,21 +607,70 @@ Empresa privada de seguridad y defensa con sede en el sistema Nyx. Contrata pilo
 
 ---
 
+### Misiones de personas desaparecidas (`searchbody_*`, `MissingPersons_*`)
+
+Misiones en las que el contratista investiga restos de naves para localizar o confirmar el estado de una persona desaparecida. Tono: discreto, empático, formal escrito.
+
+**Terminología fija:**
+
+| Inglés | Español |
+|--------|---------|
+| `missing person` | `persona desaparecida` (NO: "cliente desaparecido") |
+| `wreck site` / `derelict site` | `sitio del accidente` / `lugar del naufragio` |
+| `the wreckage` / `the derelict` | `los restos` |
+| `the ship's remains` | `los restos de la ~mission(Ship)` |
+| `Confirm Status` | `Confirmar el estado` |
+| `Investigation Point` | `Punto de Investigacion` |
+| `closure` | `consuelo` / `paz` (NO: "cierre" — suena técnico) |
+| `foul play` | `juego sucio` |
+| `conduct an onsite search` | `realizar una busqueda en el sitio` |
+| `ascertain` | `determinar` |
+| `perish` | `fallecer` / `morir` (NO: "perecer" — registro demasiado literario) |
+
+**Patrones de objetivos de tripulación (`MissingPersons_Crew_*`):**
+- Usar siempre **"Localizar X"** como verbo inicial (NO: "X de localización", "Encontrar X")
+- `Locate Co-pilot` → `Localizar copiloto`
+- `Locate Scan Tech` → `Localizar tecnologia de escaneo`
+
+**Frases de aviso/peligro (`searchbody_danger_*`):**
+- Siempre tuteo: "te recordaramos", "ten cuidado"
+- `take your time` → `actuar con calma` (NO: "tomarte tu tiempo")
+- `don't get sloppy` → `no seas descuidado`
+
+**Frases de urgencia (`searchbody_timed_*`):**
+- `close this matter` → `cerrar este asunto`
+- `expedite matters` → `acelerar el proceso`
+- `ASAP` → `lo antes posible`
+
+**Al final de `searchbody_desc_0001`:** incluir siempre la frase de cierre: `Tu ayuda en este asunto es muy apreciada.`
+
+---
+
 ### Patrones problemáticos documentados
 
 Errores recurrentes detectados en el proyecto — no repetir:
 
 | Patrón incorrecto | Corrección | Motivo |
 |---|---|---|
-| `finalización exitosa del escenario` | `completar el escenario con éxito` | Calco literal de "successful completion" |
+| `finalización exitosa del escenario` | `completar el escenario con exito` | Calco literal de "successful completion" |
 | `Despacho, tenemos contacto` | `Central, tenemos un contacto` | `Dispatch` como vocativo de radio → `Central` |
-| `Orden de muerte:` | `Orden de Eliminación:` | "muerte" es demasiado crudo; el EN usa "assassination" |
-| `Estación Fragmentadora QV` | `QV Breaker Station` | `Breaker Station` es nombre propio, no se traduce |
+| `Orden de muerte:` | `Orden de Eliminacion:` | "muerte" es demasiado crudo; el EN usa "assassination" |
+| `Estacion Fragmentadora QV` | `QV Breaker Station` | `Breaker Station` es nombre propio, no se traduce |
+| `Breaker Station QV` / `Breaker Stations de QV` / `Estaciones Breaker` | `QV Breaker Station` / `QV Breaker Stations` | El orden correcto es siempre QV primero |
+| `los Salamandras de Garra` | `los Claw Salamanders` | Nombre propio de banda criminal, no se traduce |
+| `Presa Confirmada` | `Recompensa Verificada` | "presa" = prey, no bounty |
+| `oportuno fin` | `fin prematuro` | "untimely" = prematuro/inoportuno, nunca "oportuno" |
 | `CONTRATOS Y DESPACHO` | `CONTRATOS Y OPERACIONES` | "Despacho" no es equivalente de "Dispatch" en contexto de operaciones |
-| `GREMIO DE CAZADORES DE RECOMPENSAS` | `BOUNTY HUNTERS GUILD` | Nombre propio de facción, nunca se traduce |
-| `Juvenil` (fauna) | `Joven` | "Juvenil" es registro médico/científico, no de juego |
+| `GREMIO DE CAZADORES DE RECOMPENSAS` | `BOUNTY HUNTERS GUILD` | Nombre propio de faccion, nunca se traduce |
+| `Juvenil` (fauna) | `Joven` | "Juvenil" es registro medico/cientifico, no de juego |
 | `Autorizado por: ~mission(Contractor|Auth)` | _(eliminar)_ | Placeholder inventado, no existe en en-EN |
-| `YOUR GOODS IN GOOD HANDS` (Red Wind) | `Tu mercancía en buenas manos` | Slogan unificado del proyecto |
+| `YOUR GOODS IN GOOD HANDS` (Red Wind) | `Tu mercancia en buenas manos` | Slogan unificado del proyecto |
+| `hemos explorado [naves/zona]` | `hemos avistado` | "scout" = avistar/reconocer, no explorar |
+| `para manejar [tarea]` | `para encargarse de [tarea]` | Calco de "to handle" — "manejar" suena a objeto fisico |
+| `llevara algunos pasos` | `no sera sencillo` / `requerira varios intentos` | Calco de "take some steps" |
+| `te llevara algunos pasos ponerla operativa` | `no sera sencillo ponerla operativa` | Calco de "it'll take some steps to get it operational" |
+| `ten cuidado porque ya que` | `ten en cuenta que` | Conectores redundantes, usar uno solo |
+| `Leyes de la Autoridad Xenotrade` | `Actas de la Autoridad de Xenocomercio` | Forma unificada en BHG_Certification_Criminal_Desc |
 
 ---
 
