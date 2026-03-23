@@ -578,6 +578,35 @@ Oficiales de enlace que firman los mensajes:
 **Nota:** "El" en los mensajes de ArcCorp es el apodo de **Ella Tieno** — NO es el artículo español. Mantener como "El" (sin tilde, es un nombre propio abreviado).
 ---
 
+### InterSec Defense Solutions
+
+Empresa privada de seguridad y defensa con sede en el sistema Nyx. Contrata pilotos independientes para misiones de combate contra forajidos y Vanduul.
+
+- **Nombre oficial:** `InterSec Defense Solutions` — nunca traducir (NO: "Soluciones de Defensa InterSec")
+- **Firmante:** Deacon Tobin, `Gerente de Operaciones` (NO: "Gestor de Operaciones")
+- **Tono:** formal/corporativo-militar, tercera persona en el cuerpo, tuteo al contratista
+- **Prefijos de cabecera fijos:**
+
+| Inglés | Español |
+|--------|---------|
+| `MISSION SPECS` | `ESPECIFICACIONES DE LA MISION` |
+| `Area of Operation:` | `Area de Operaciones:` |
+| `Hostile Forces:` | `Fuerzas Hostiles:` |
+| `Equipment Specs:` | `Especificaciones del Equipo:` |
+| `Briefing:` | `Informe:` |
+| `Capital Ship` | `Nave Capital` |
+| `Heavy Gun-Ship` | `Nave de Artilleria Pesada` |
+| `Combat-rated Ship(s)` | `Nave(s) con capacidad de combate` |
+
+- **Pie de mensaje fijo:** `Esta comunicacion consiste en informacion confidencial destinada unicamente al destinatario. Por favor, ignorala si la recibes por error y notifica al remitente. Todas las operaciones se realizan bajo el riesgo personal del contratista y deben cumplir con la ley de la UEE y del sistema donde sea aplicable.`
+- **Pie alternativo (oferta no vinculante):** `Esta comunicacion consiste en una oferta no vinculante que, una vez aceptada, puede ser terminada inmediatamente por cualquiera de las partes sin previo aviso. Todas las operaciones se realizan bajo el riesgo personal del contratista y deben cumplir con la ley del sistema donde sea aplicable.`
+- **"engage with hostiles"** → `enfrentate a los hostiles` (NO: "involucrate con los hostiles")
+- **"strong group of ships"** → `una flota potente` (NO: "un grupo fuerte de naves")
+- **"highly skilled"** → `muy cualificado` (NO: "altamente cualificado")
+- **"It is critical that"** → `Es fundamental que` (NO: "Es critico que")
+
+---
+
 ### Patrones problemáticos documentados
 
 Errores recurrentes detectados en el proyecto — no repetir:
