@@ -35,6 +35,19 @@
   - **Sustantivos de tipo de nave** — usar siempre `nave` como genérico, nunca "barco", "buque" ni "embarcación":
     - `Esta nave de lujo` (no: "Este buque de lujo" / "Esta embarcación")
   - **Listado de naves conocidas** — todas femeninas, ninguna se traduce. Ver [Apéndice: Lista de naves](#apéndice-lista-de-naves) al final del documento.
+- **Género de otras entidades** — referencia rápida para concordancia:
+
+  | Sustantivo | Género | Ejemplos |
+  |-----------|--------|---------|
+  | estación / instalación | Femenino | la estación Kareah, la instalación minera |
+  | outpost / puesto avanzado | Masculino | el outpost de Shubin, un puesto avanzado |
+  | planeta | Masculino | el planeta ArcCorp, Hurston es hostil |
+  | sistema (estelar) | Masculino | el sistema Stanton, el sistema Pyro |
+  | punto de salto | Masculino | el punto de salto a Pyro |
+  | flota | Femenino | la flota enemiga, una flota potente |
+  | escuadrón / escuadrilla | Masculino / Femenino | el escuadrón de ataque, la escuadrilla de caza |
+  | cinturón (asteroidal) | Masculino | el cinturón Keeger, un cinturón de asteroides |
+
 - **Combate**: espacial (dogfights, misiles, torpedos) y FPS en superficie. Mezcla PvP y PvE.
 - **Economía**: minería, transporte de mercancías, contratos mercenarios, recompensas.
 - **Personalización**: pinturas y diseños de naves, equipamiento y apariencia del personaje.
@@ -88,6 +101,8 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Civilian Defense Force` / `CDF` (NO: "Fuerza de Defensa Civil", "FDC", "FCD"). Siempre `la CDF` en singular — nunca "las FDC" ni "las FCD"
   - `Breaker Station` (NO: Estación Rompedora)
   - `X Gateway` (estaciones de punto de salto: `Pyro Gateway`, `Terra Gateway`, `Nyx Gateway`, etc.) — mantener siempre en inglés como nombre propio (NO: "Puerta de enlace de X", "Estacion P.S X")
+  - `People's Service Station X` (estaciones sociales de Nyx: Alpha, Delta, Theta, Lambda, Omicron) — mantener siempre el nombre completo en inglés; solo traducir la parte contextual de ubicación (ej: "People's Service Station Alpha en el cinturón Keeger") (NO: "Estacion de Servicio Popular Alfa")
+  - `Starmap` (mapa de navegación del juego) — mantener siempre en inglés (NO: "mapa estelar", "mapa Starmap")
 - Términos de juego sin traducción establecida: `Ammo` (cuando aparece suelto como etiqueta), `Gym` (en `Vehicle_room_gym`)
 - Tags de estado entre corchetes: `[FABRICADO]` sí se traduce; `[P]` se mantiene como prefijo decorativo
 
@@ -147,6 +162,16 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `overwhelmed` (persona agobiada, contexto personal) → `agobiado` (no: "abrumado")
   - `overwhelmed` (en combate, superado por el enemigo) → `superado` / `desbordado` (no: "abrumado")
   - `overwhelming` (adjetivo de intensidad militar: probabilidades, fuerza, evidencia) → `aplastante` / `arrollador` (no: "abrumador" — aceptable pero menos natural en España)
+  - `as well as` → `además de` / `y` (NO: "así como" cuando es mera adición, no comparación)
+  - `in addition to` → `además de` (NO: "en adición a" — anglicismo)
+  - `at your earliest convenience` → `cuando puedas` / `a la mayor brevedad` (NO: calco literal "a tu conveniencia más temprana")
+  - `you are required to` → `debes` / `tienes que` (NO: "se te requiere que" — impersonal forzado)
+  - `worth it / worth the risk` → `merece la pena` / `vale la pena` (NO: "vale eso" / "vale el riesgo" — calco de "it's worth it")
+  - `on a regular basis` → `habitualmente` / `con regularidad` (NO: "en una base regular" — calco directo)
+  - `going forward / moving forward` → `a partir de ahora` / `en adelante` (NO: "yendo hacia adelante" — calco)
+  - `there is no doubt` → `sin duda` / `no hay duda de que` (NO: "no hay ninguna duda que" — falta "de")
+  - `due to the fact that` → `debido a que` / `porque` / `ya que` (NO: "debido al hecho de que" — calco verboso)
+  - `in the event that` → `si` / `en caso de que` (NO: "en el evento de que" — calco directo)
 - **Lenguaje corporativo/idiomático**: traducir el sentido real, no la literalidad. En textos de facciones/empresas, expresiones como "extracting value" o "building its name" tienen equivalentes más naturales en español
   - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
   - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
@@ -186,6 +211,18 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
     - `Dispatch` (vocativo de radio, al llamar a central) → `Central` (NO: "Despacho", "Envio") → `Dispatch, we have a contact` → `Central, tenemos un contacto`
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
+  - **NPCs corporativos (ArcCorp, Hurston Dynamics, microTech)**: tono formal y corporativo. Lenguaje de marketing pulido, con frases largas y vocabulario de empresa. Evasivos cuando conviene.
+    - `Your productivity is our priority.` → `Tu productividad es nuestra prioridad.`
+    - `Our records indicate no current openings...` → `Nuestros registros no muestran vacantes disponibles actualmente...`
+  - **NPCs piratas/criminales genéricos**: tono agresivo, directo, amenazante. Pocas palabras, mucha presión. Pueden ser bruscos y maleducados.
+    - `You picked the wrong ship to mess with.` → `Elegiste la nave equivocada para meterte con ella.`
+    - `Hand it over. Now.` → `Suéltalo. Ahora.`
+  - **NPCs mercaderes/comerciantes**: tono pragmático y amistoso interesado. Directos y cordiales. Orientados al trato, a cerrar la venta o a conseguir el encargo.
+    - `Best prices in the system, guaranteed.` → `Los mejores precios del sistema, garantizado.`
+    - `I've got exactly what you're looking for.` → `Tengo justo lo que buscas.`
+  - **NPCs cazarrecompensas**: tono profesional y frío. Hablan de misiones como transacciones sin emoción. Registro semi-militar, tecnicismos de caza.
+    - `Target acquired. Preparing for extraction.` → `Objetivo localizado. Preparando extracción.`
+    - `Contract fulfilled.` → `Contrato cumplido.`
 
 #### 5. Capitalización de claves
 La capitalización de las claves en es-ES.ini debe seguir **exactamente** la del en-EN.ini. Este es el fichero de referencia. No inventar ni modificar la capitalización de ninguna clave.
@@ -356,6 +393,27 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | escape pods | Cápsulas de escape                                                                                                                                                                                                                                   |
 
 
+#### Sistemas y componentes de nave
+
+| en-EN | es-ES |
+|-------|-------|
+| power plant | planta de energía |
+| cooler | sistema de refrigeración |
+| shield generator | generador de escudo |
+| weapon hardpoint / weapon mount | punto de anclaje de arma |
+| landing gear | tren de aterrizaje |
+| thruster | propulsor |
+| main thruster | propulsor principal |
+| maneuvering thruster | propulsor de maniobra |
+| fuel intake | toma de combustible |
+| fuel tank | depósito de combustible |
+| gimbal | gimbal (mantener en inglés — término técnico del juego) |
+| fixed mount | montura fija |
+| scanning array | sistema de escaneo |
+| gravity generator | generador de gravedad |
+| repair bay | bahía de reparación |
+
+
 #### Roles y tipos de nave
 
 | en-EN | es-ES |
@@ -369,6 +427,23 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | Short Range Patrol | Patrulla de corto alcance (NO: añadir "Caza" si no está en el original)                                                                                                                                                                              |
 | UltraLight Ground | Terrestre ultraligero (Ground = terrestre, NO: "Suelo")                                                                                                                                                                                              |
 | Snub Fighter | Caza SNUB (mantener SNUB — término específico del juego)                                                                                                                                                                                             |
+
+
+#### Navegación y ubicaciones
+
+| en-EN | es-ES |
+|-------|-------|
+| bearing / heading | rumbo / dirección |
+| vector | vector (mantener en inglés en UI técnica) |
+| sector | sector |
+| jump point to X | punto de salto a X |
+| route | ruta |
+| waypoint | punto de ruta / waypoint (en UI técnica) |
+| coordinates | coordenadas |
+| distance / range | distancia / alcance |
+| in orbit around X | en órbita alrededor de X (NO: "orbitando X" en texto formal) |
+| on [location] (ubicación, claves `mission_location_*`) | en [ubicación] — usar siempre "en", no "al". Ej: "Last Ditch on Monox" → "Last Ditch en Monox" |
+| [nombre], [Sistema] (formato de ubicación) | [nombre], Sistema [nombre] — Ej: "Keene, Killian System" → "Keene, Sistema Killian" |
 
 
 #### Vocabulario coloquial, criminal y apodos
@@ -607,6 +682,42 @@ Empresa privada de seguridad y defensa con sede en el sistema Nyx. Contrata pilo
 
 ---
 
+### Patrones de lenguaje por tipo de misión
+
+#### Escolta y protección
+- Objetivo: **"Protege a [objetivo]"** / **"Escolta a [objetivo]"** (NO: "Defender a", "Guardar a")
+- Ataque al objetivo: `VIP under attack` → `¡El VIP está siendo atacado!`
+- Éxito: `VIP extracted safely` → `VIP evacuado con éxito`
+- Fallo: `VIP lost` → `VIP perdido` / `Misión fallida: VIP eliminado`
+
+#### Entrega y transporte
+- Recogida: **"Recoge [paquete]"** en [origen]
+- Entrega: **"Entrega [paquete]"** en [destino]
+- Marcadores: `Pick-up location` → `Punto de recogida`; `Delivery Drop Off` → `Punto de entrega`
+- Urgencia: `time-sensitive delivery` → `entrega urgente` (NO: "entrega sensible al tiempo" — calco)
+- Pérdida: `Package lost` → `Paquete perdido`
+
+#### Investigación y reconocimiento
+- Inspección: **"Registra [zona]"** / **"Investiga [ubicación]"** (NO: "Busca en" para inspecciones)
+- Escaneo: `Scan [objetivo]` → `Escanea [objetivo]`
+- Hallazgo: `Evidence found` → `Prueba encontrada`
+- Datos: `Retrieve data` → `Recupera los datos` / `Obtén los datos`
+
+#### Combate y eliminación
+- Objetivo: **"Elimina [objetivo]"** / **"Neutraliza [amenaza]"** — reservar "destruye" para objetos inanimados (naves, instalaciones), no personas
+- Confirmación: `Hostile eliminated` → `Hostil eliminado`
+- Oleada: `Wave X of Y` → `Oleada X de Y`
+- Limpieza de zona: `Clear the area` → `Despeja la zona`
+
+#### Sabotaje e infiltración
+- Verbos: **"Sabotea [objetivo]"** / **"Hackea [terminal]"** / **"Desactiva [sistema]"**
+- `Disable uplink` → `Desactiva la conexión`
+- `Plant device` → `Coloca el dispositivo`
+- `Avoid detection` → `Evita ser detectado`
+- `Remain undetected` → `Permanece sin ser detectado`
+
+---
+
 ### Misiones de personas desaparecidas (`searchbody_*`, `MissingPersons_*`)
 
 Misiones en las que el contratista investiga restos de naves para localizar o confirmar el estado de una persona desaparecida. Tono: discreto, empático, formal escrito.
@@ -671,6 +782,56 @@ Errores recurrentes detectados en el proyecto — no repetir:
 | `te llevara algunos pasos ponerla operativa` | `no sera sencillo ponerla operativa` | Calco de "it'll take some steps to get it operational" |
 | `ten cuidado porque ya que` | `ten en cuenta que` | Conectores redundantes, usar uno solo |
 | `Leyes de la Autoridad Xenotrade` | `Actas de la Autoridad de Xenocomercio` | Forma unificada en BHG_Certification_Criminal_Desc |
+
+---
+
+### Mensajes de estado de UI
+
+Patrones para etiquetas de estado en HUD, esclusas, sistemas y terminales:
+
+| en-EN | es-ES | Notas |
+|-------|-------|-------|
+| `PRESSURIZED` | `PRESURIZADO` | Participio, mayúsculas si el original lo está |
+| `DEPRESSURIZED` | `DESPRESURIZADO` | |
+| `CYCLING COMPLETE` | `CICLADO COMPLETADO` | |
+| `CYCLE AIRLOCK` | `CICLAR ESCLUSA` | Infinitivo en órdenes de UI |
+| `CLOSE` (esclusa) | `CERRADO` | |
+| `OPEN` (esclusa) | `ABIERTO` | |
+| `OFFLINE` | `DESCONECTADO` | Etiqueta UI (distinto de texto corrido) |
+| `ONLINE` | `CONECTADO` | Etiqueta UI |
+| `POWER FAILURE` | `FALLO DE ENERGÍA` | |
+| `SYSTEM FAILURE` | `FALLO DE SISTEMA` | |
+| `SHIELDS DOWN` | `SIN ESCUDO` | |
+| `FUEL LOW` | `COMBUSTIBLE BAJO` | |
+| `LOCKED` | `BLOQUEADO` | |
+| `ARMED` | `ARMADO` | |
+| `STANDBY` | `EN ESPERA` | |
+| `ACTIVE` | `ACTIVO` | |
+| `INACTIVE` | `INACTIVO` | |
+
+**Regla general:** En etiquetas de estado, usar **participio** para estados pasivos (`PRESURIZADO`, `BLOQUEADO`) e **infinitivo** para acciones (`CICLAR`, `ABRIR`). Mayúsculas si el original las usa.
+
+---
+
+### Expresiones temporales
+
+Patrones para traducir tiempo y duración de forma natural:
+
+| en-EN | es-ES | Notas |
+|-------|-------|-------|
+| `X days ago` | `hace X días` | NO: "X días atrás" — calco del inglés |
+| `for X days` | `durante X días` | Duración |
+| `while / whilst` | `mientras` | Simultaneidad |
+| `during` | `durante` | Duración con sustantivo |
+| `as of now` | `a partir de ahora` / `desde ahora` | NO: "a partir de ahora mismo" — redundante |
+| `from now on` | `a partir de ahora` / `en adelante` | |
+| `until further notice` | `hasta nuevo aviso` | NO: "hasta notificación adicional" — calco |
+| `at all times` | `en todo momento` | NO: "en todos los tiempos" — calco |
+| `by the time you read this` | `cuando leas esto` | NO: "para cuando leas esto" — calco |
+| `sooner or later` | `tarde o temprano` | NO: "antes o después" — calco |
+| `in no time` | `en un momento` / `enseguida` | NO: "en ningún momento" — falso amigo |
+| `once` (una vez que) | `una vez que` / `cuando` | NO: "una vez" sin nexo subordinante |
+| `ever since` | `desde entonces` / `desde que` | NO: "nunca desde" — calco |
 
 ---
 
