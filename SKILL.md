@@ -241,11 +241,10 @@ grep -P '=(?:El|el)$' es-ES.ini
 ```
 
 #### 5c. Tildes y ñ
-**No añadir tildes ni acentos** en las traducciones nuevas. Escribir sin acentuación: `atencion`, `esta`, `mision`, `seran`, `tecnologia`, `diseno`, `ano`, `senal`.
+**En traducciones nuevas, usar tildes y ñ con normalidad** — `á, é, í, ó, ú, ñ` son correctas y deben incluirse donde corresponda gramaticalmente.
 
-- El fichero usa codificación UTF-8, pero la convención del proyecto es no usar tildes.
-- Si una entrada existente ya tiene tildes, no quitarlas; pero al traducir contenido nuevo, no añadirlas.
-- No corregir tildes en revisiones masivas — solo errores sustanciales de traducción.
+- No modificar claves existentes solo para añadir o corregir tildes — solo corregir errores sustanciales de traducción.
+- En revisiones masivas, no tocar acentuación de entradas ya existentes.
 
 #### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
