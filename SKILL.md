@@ -552,6 +552,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | a big F you / middle finger (gesto de desprecio) | un corte de mangas (expresión española equivalente al "F you" anglosajón)                                                                                                                                                                            |
 | sit back, take in the space and let your ship call to you | tomarselo con calma, sentir el espacio y esperar a que una nave te hable (NO: "absorber el ambiente y dejar que la nave te llame" — forzado) |
 | I'll leave you to it (despedida informal) | Te dejo tranquilo (NO: "Te dejo con eso" — calco de "leave you to it") |
+| Take care. (despedida informal) | Cuidate. (NO: "Cuida." — incompleto; en español la forma natural es el reflexivo "cuídate") |
 | Too much too soon (demasiado rápido, coloquial) | Demasiado, demasiado pronto (NO: "Ok seguro Demasiado..." — falta puntuacion; usar "Vale" no "Ok") |
 | Got it. (entendido, coloquial) | Entendido. (NO: "Lo tengo" — calco literal) |
 | just slip past (colarse/pasar de lado) | pasar un momento / pasar por tu lado (NO: "pasar simplemente"; NO: "deslizarte por ti" — error de reflexividad) |
