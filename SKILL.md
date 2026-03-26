@@ -595,6 +595,13 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | quitter (cobarde que abandona, rajado) | rajado (NO: "dejar de fumar" — "quit" aquí no es dejar el tabaco sino rajarse/abandonar; "quitter" = persona que no aguanta) |
 | Missile away (misil lanzado, comunicación táctica) | ¡Misil lanzado! (NO: "Misiles lejos" — plural incorrecto + calco de "away"; en contexto táctico = confirmación de lanzamiento) |
 | That's a friendly / friendly fire (aliado, unidad propia) | ¡Es de los nuestros! (NO: "es un amistoso" — calco de "friendly"; en español militar "de los nuestros" = unidad aliada) |
+| I'm a friendly / Friendly, friendly! (diálogo de fuego amigo) | ¡Soy un amigo! / ¡Amigo, amigo! (NO: "Soy amigable", "Soy amistoso", "Amable, amable" — "friendly" en contexto táctico = aliado, no personalidad simpática) |
+| my bad (disculpa coloquial por error propio) | ha sido culpa mía / me he equivocado (NO: "mi malo" — latinamericanismo; en castellano no existe esa construcción) |
+| Watch it! (advertencia/protesta por golpe o peligro) | ¡Cuidado! / ¡Ojo! (NO: "¡Míralo!" — calco literal de "watch it"; la expresión española equivalente es de alerta, no de mirar algo) |
+| Hold your fire! (orden táctica de no disparar) | ¡Alto el fuego! (NO: "¡Espera el fuego!" — calco literal; "alto el fuego" es la expresión militar estándar en español) |
+| The authorities are going to hear about this (amenaza de denuncia) | Las autoridades se van a enterar de esto (NO: "van a escuchar de esto" — calco de "hear about"; en español "enterarse de algo" = to hear about something) |
+| Shot got away from me (tiro que se fue sin querer) | Se me fue el tiro (NO: "El tiro se escapó de mí" — calco literal; "irse el tiro" es la expresión natural en español) |
+| Hey + insulto (interpelación enfadada) | ¡Oye, [insulto]! (NO: "Hola, [insulto]" — "Hey" como exclamación de enfado = "¡Oye!" / "¡Eh!", nunca saludo) |
 | hack down CrimeStat / clear CrimeStat (reducir/borrar el registro criminal hackeando una terminal) | borrar su CrimeStat (NO: "hackee su CrimeStat" — "hackear" es el acto, pero la acción concreta es borrar/reducir el registro; más claro y natural) |
 | opportunity (en títulos de contrato/misión) | oportunidad (NO cambiar a "puesto" — respetar siempre el término original si el en-EN dice "opportunity") |
 | nombres de lugares como destino de acción (protect X, defend X) | sin preposición "a" antes del lugar — los topónimos no llevan "a personal". Ej: "protect Kareah" → "proteger Kareah" (NO: "proteger a Kareah" — la "a personal" es para personas, no lugares) |
