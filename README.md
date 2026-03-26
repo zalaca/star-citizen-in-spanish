@@ -6,6 +6,14 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 ## Instalación
 
+### Tutorial en vídeo
+
+Si prefieres seguir una guía visual, aquí tienes un tutorial de instalación paso a paso:
+
+[![Tutorial de instalación en YouTube](https://img.youtube.com/vi/EX0GIHF1M6U/0.jpg)](https://youtu.be/EX0GIHF1M6U?si=gU0ifCQ9Qxf7nNJD)
+
+---
+
 ### Descarga
 
 1. Descarga el ZIP desde el último release:
