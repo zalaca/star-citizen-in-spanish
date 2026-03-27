@@ -620,6 +620,7 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | en-EN | es-ES |
 |-------|-------|
 | undersuit (prenda interior del traje espacial) | mono (NO: "pijama espacial" — suena informal y confuso; NO: "traje interior" — demasiado genérico). Plural: monos. Ej: "Clothing & Undersuits" → "Ropa y monos" |
+| legs (pieza de armadura para las piernas, claves `*_legs_*`) | piernas (NO: "pantalones" — pantalones es ropa civil, las piezas de armadura son piernas). Ej: "Carrion Legs" → "Piernas Carrion". Los keys `*_pants_*` sí se traducen como "pantalones" porque son ropa. |
 | debris / wreckage (restos de nave destruida) | restos (NO: "escombros" — eso es rubble de edificios). "Debris field" → campo de restos. "Heavy Debris" (característica de carrera) → Gran Densidad de Restos |
 | Delivery Drop Off (marcador de misión) | Punto de entrega (NO: "Entrega de entrega" — duplicado sin sentido) |
 | Pick-up location / collection point (marcador de misión) | Punto de recogida (NO: "Sitio de recogida" — usar siempre "punto" para unificar con "Punto de entrega") |
