@@ -73,6 +73,8 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 - Compatible con la versión **LIVE** de Star Citizen.
 - La traducción es un trabajo en progreso — se actualiza regularmente.
 - Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares).
+- Los contratos que ofrecen blueprints como recompensa lo indican en el título y muestran al final de la descripción la lista de **Posibles Blueprints**.
+- Los componentes incluyen su tipo, tamaño y grado (ej: `Mil/2/C`) para facilitar la identificación en el juego.
 
 ---
 
