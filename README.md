@@ -2,6 +2,8 @@
 
 Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.7.0**.
 
+Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares). Los contratos que ofrecen blueprints como recompensa lo indican en el título y muestran al final de la descripción la lista de **Posibles Blueprints**. Los componentes incluyen su tipo, tamaño y grado (ej: `Mil/2/C`) para facilitar la identificación en el juego. La información de blueprints y clasificación de componentes se ha obtenido de la traducción inglesa del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
+
 ---
 
 ## Instalación
@@ -72,10 +74,6 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 
 - Compatible con la versión **LIVE** de Star Citizen.
 - La traducción es un trabajo en progreso — se actualiza regularmente.
-- Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares).
-- Los contratos que ofrecen blueprints como recompensa lo indican en el título y muestran al final de la descripción la lista de **Posibles Blueprints**.
-- Los componentes incluyen su tipo, tamaño y grado (ej: `Mil/2/C`) para facilitar la identificación en el juego.
-- La información de blueprints y clasificación de componentes se ha obtenido de la traducción inglesa del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
 
 ---
 
