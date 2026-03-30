@@ -260,6 +260,8 @@ alguna_clave=Primera parte del texto\n\nsegunda parte
 ```
 Al escribir traducciones con scripts Python, usar siempre `\\n` en los strings para evitar que Python interprete `\n` como salto de línea real. Verificar siempre que la entrada siguiente en el fichero sea otra clave válida (`KEY=`).
 
+**Strings multilínea en Python:** Si construyes el valor de una clave como un string Python con saltos de línea reales (con triples comillas `\"\"\"...\"\"\"`  o concatenaciones con `\n`), el resultado escrito en el fichero tendrá newlines reales y romperá el parser. Usar siempre strings raw con `r'...'` y `\\n` explícitos, o bien construir el valor como una sola cadena y hacer `.replace('\n', '\\n')` antes de escribirlo. Tras cualquier escritura masiva, verificar con `grep` que no existen líneas sin `=`:
+
 **Regla crítica al generar el fichero:** Nunca escribas el valor de una clave en múltiples líneas reales aunque el texto sea largo. Todo el contenido de una clave, incluyendo párrafos, debe ir en una sola línea con `\n` literales. Si usas un script o herramienta para escribir las traducciones, asegúrate de que el resultado final sea siempre `CLAVE=todo el texto en una sola línea\n`.
 
 **Verificación de integridad:** Tras escribir el fichero, comprueba que ninguna línea carece de `=` (salvo líneas vacías). Una línea sin `=` indica un salto de línea real que ha roto una clave.
