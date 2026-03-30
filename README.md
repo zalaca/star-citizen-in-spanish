@@ -75,6 +75,7 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 - Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares).
 - Los contratos que ofrecen blueprints como recompensa lo indican en el título y muestran al final de la descripción la lista de **Posibles Blueprints**.
 - Los componentes incluyen su tipo, tamaño y grado (ej: `Mil/2/C`) para facilitar la identificación en el juego.
+- La información de blueprints y clasificación de componentes se ha obtenido de la traducción inglesa del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
 
 ---
 
