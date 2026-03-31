@@ -209,6 +209,22 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
     - Cierre de radio: `X out.` → `X fuera.` (NO: "Fuera X.") → `Dulli out.` → `Dulli fuera.` / `Ruto out.` → `Ruto fuera.`
     - La CDF como organización: siempre singular → `la CDF` (NO: "las FDC", "la FDC", "FCD")
     - `Dispatch` (vocativo de radio, al llamar a central) → `Central` (NO: "Despacho", "Envio") → `Dispatch, we have a contact` → `Central, tenemos un contacto`
+- **NPCs criminales específicos — perfiles de voz:**
+  - **Ruto** (`PU_RUTO_*`, `mg_ruto_*`): fixer criminal con cara holográfica de celebridad. Tono frío y calculador, coloquial pero profesional. Primera persona siempre. Mucho slang criminal (ver tabla de slang). Broker de Nine Tails en Grim HEX.
+    - `It's Ruto. We need to talk.` → `Aquí Ruto. Necesitamos hablar.`
+    - `Clock's ticking on that job.` → `El reloj corre en ese trabajo.`
+    - `Need someone to boost the stuff.` → `Solo necesito a alguien para ejecutarlo.`
+  - **Eddie Parr** (`PU_PARR_*`): bartender e informante en Wally's (MicroTech). Tono muy coloquial, mucho slang callejero, lenguaje de barrio. Usa "jam", "tight", "score", "lit", etc. Ver tabla de slang.
+    - `This is my jam.` → `Esto es lo mío.`
+    - `¡Score!` → `¡Premio!`
+    - `You're lit.` → `Estás hasta arriba.`
+  - **Shaw** (`PU_SHAW_*`): contrabandista en Hurston. Tono ansioso y nervioso pero directo. Simpatizante de los trabajadores, mueve suministros de contrabando. Frases cortas, urgente, preocupada.
+    - `Watch yourself.` → `Cuídate.`
+    - `Got a shipment I need brought in. Keep a low profile.` → `Tengo un envío que necesito que me traigas. Mantén un perfil bajo.`
+  - **Battaglia (Recco)** (`PU_BATTAGLIA_*`): broker de minería, pragmático y profesional. Tono calmado, honesto, directo. Habla como un empresario independiente de zona minera.
+    - `Fly safe.` → `Vuela con cuidado.`
+    - `Keep your wits, you hear?` → `Mantén los ojos abiertos, ¿entiendes?`
+
 - **Descripciones de ediciones de cosméticos**: `The X edition features/was styled...` → `La edición X presenta/fue diseñada...`
   - `The Samaritan edition was styled for first responders to be highly visible.` → `La edición Samaritan fue diseñada para que los primeros en responder sean muy visibles.`
   - **NPCs corporativos (ArcCorp, Hurston Dynamics, microTech)**: tono formal y corporativo. Lenguaje de marketing pulido, con frases largas y vocabulario de empresa. Evasivos cuando conviene.
@@ -245,6 +261,7 @@ grep -P '=(?:El|el)$' es-ES.ini
 
 - No modificar claves existentes solo para añadir o corregir tildes — solo corregir errores sustanciales de traducción.
 - En revisiones masivas, no tocar acentuación de entradas ya existentes.
+- **Al hacer una corrección sustancial en una clave existente** (tuteo, calco, significado, puntuación rota…), cambiar únicamente lo imprescindible para esa corrección — no añadir tildes de paso a otras palabras de la misma línea que no las tenían.
 
 #### 5d. Saltos de línea en valores
 El formato `.ini` usa `\n` como **secuencia de escape literal** (dos caracteres: barra invertida + n), no como salto de línea real. Cada entrada ocupa **exactamente una línea** en el fichero.
@@ -446,6 +463,38 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | on [location] (ubicación, claves `mission_location_*`) | en [ubicación] — usar siempre "en", no "al". Ej: "Last Ditch on Monox" → "Last Ditch en Monox" |
 | [nombre], [Sistema] (formato de ubicación) | [nombre], Sistema [nombre] — Ej: "Keene, Killian System" → "Keene, Sistema Killian" |
 
+
+#### Slang criminal de NPCs de misión (Ruto, Parr, etc.)
+
+Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, nunca la literalidad.
+
+| en-EN | es-ES | Notas |
+|-------|-------|-------|
+| `hitter` (operador de alto nivel) | `operador` (NO: "bateador" — calco de béisbol sin sentido en español) | |
+| `my jam` / `that's my jam` (lo que me gusta/domino) | `lo mío` (NO: "mi mermelada") | "This is my jam" → "Esto es lo mío" |
+| `tight` (genial, en forma, bien) | `brutal` / `en forma` (segun contexto) | "You're looking tight" → "Estás en forma" |
+| `flush` (bien de dinero/trabajo, abundante) | `bien de trabajos` / `bien provisto` (NO: "al ras") | "Been flush recently" → "Ha habido trabajo de sobra" |
+| `score` (premio, botín, golpe exitoso) | `premio` / `golpe` (NO: "puntaje") | "¡Score!" → "¡Premio!" |
+| `swing by` (pasarse por un sitio) | `pásate por` (NO: "Swing por" — calco literal) | "Swing by Grim HEX" → "Pásate por Grim HEX" |
+| `hit me up` (contáctame) | `contáctame` (NO: "golpéame") | |
+| `call it a night` (dejarlo por hoy) | `dejarlo por hoy` / `dar la noche por terminada` | |
+| `high and dry` (en apuros, colgado) | `en apuros` / `colgado` (NO: "altos y secos") | |
+| `end of my rope` (al límite de mi paciencia) | `al límite` / `sin aguante` (NO: "al final de mi cuerda") | |
+| `signing off` (despedida en comms) | `cerrando comunicacion` / `me despido` (NO: dejar sin traducir "signing off") | |
+| `those are the breaks` (así son las cosas, qué le vas a hacer) | `así son las cosas` (NO: "esos son los descansos") | |
+| `no sweat` (sin problema, no hay de qué) | `sin problema` (NO: "sin sudor") | |
+| `lit` (drogado, colocado) | `hasta arriba` (NO: "iluminado") | "You're lit" → "Estás hasta arriba" |
+| `wading deep` (metido a fondo en algo) | `metido a fondo` (NO: "vadeando profundo") | |
+| `crashing [sb's] good time` (aguar la fiesta a alguien) | `aguando la fiesta a [alguien]` (NO: "estrellando el buen tiempo de") | |
+| `hitters` (consumidores de droga, en argot) | `consumidores` / `usuarios` (NO: "bateadores") | Contexto: clientela de drogas |
+| `mark` (objetivo señalado para eliminar) | `objetivo` (NO: "marca") | "Got a mark that needs popping" → "Tengo un objetivo que hay que liquidar" |
+| `popping` (matar en argot criminal) | `liquidar` (NO: "perforar") | |
+| `haul` (botín, robo, lo que se lleva) | `golpe` / `robo` / `botín` (NO: "recorrido") | "A decent haul" → "Un golpe bastante decente" |
+| `boost [sth]` (robar, ejecutar un robo) | `ejecutar [el robo]` / `llevárselo` (NO: "impulsar las cosas") | |
+| `relieve [sth] of [cargo]` (aligerar una nave de su carga robándola) | `aligerar [nave] de [contenido]` (NO: "liberar") | Concordar en femenino con "nave" |
+| `bear with me` (sígueme, ten paciencia conmigo) | `sígueme en esto` (NO: "Ten paciencia conmigo en este") | |
+| `Easy.` (calmar tensión tras un roce) | `Con calma.` (NO: "Fácil." / "Easy." sin traducir) | PhysicalBump |
+| `Watch yourself.` (despedida de cuidado) | `Cuídate.` (NO: "Mírate.") | Farewell informal |
 
 #### Vocabulario coloquial, criminal y apodos
 
