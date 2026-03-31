@@ -495,6 +495,8 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | `bear with me` (sígueme, ten paciencia conmigo) | `sígueme en esto` (NO: "Ten paciencia conmigo en este") | |
 | `Easy.` (calmar tensión tras un roce) | `Con calma.` (NO: "Fácil." / "Easy." sin traducir) | PhysicalBump |
 | `Watch yourself.` (despedida de cuidado) | `Cuídate.` (NO: "Mírate.") | Farewell informal |
+| `take care of this` (encárgate de esto, resuélvelo) | `encárgate de esto` (NO: "cuida esto" — "cuidar" implica proteger, no resolver) | "Take care of this quick, okay?" → "Encárgate de esto rapido, ¿vale?" |
+| `you better come at [sb] with your A-game` (más te vale ir con todo) | `más te vale ir con todo` (NO: "acércate con tu mejor juego" — calco de béisbol) | "You better come at them with your A-game" → "Mas te vale ir con todo" |
 
 #### Vocabulario coloquial, criminal y apodos
 
