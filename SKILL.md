@@ -157,6 +157,13 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `say well done` → `felicitar` (no: "decir bien hecho") — ej: `wanted to say well done` → `quería felicitarte`
   - `first things first` → `antes lo prioritario` / `primero lo esencial` (no: "lo primero es lo primero")
   - `see you on the other side` → `nos vemos al otro lado`
+  - `nice one` (exclamación de aprobación en combate/acción) → `¡Buena!` (NO: "Bonita" — calco literal de "nice")
+  - `we're clear` (zona libre de amenazas, contexto militar/aviación) → `Zona despejada.` (NO: "Estamos libres" — calco)
+  - `stay sharp` → `estate alerta` (NO: infinitivo "estar atento" — [I])
+  - `ease up` (reducir intensidad) → `afloja` (NO: infinitivo "suavizar" — [I])
+  - `blow by blow` (descripción detallada en deportes o combate) → `golpe a golpe` (NO: "paso a paso" — calco de "step by step", significado diferente)
+  - `point to us` / `point to them` (marcador deportivo) → `punto para nosotros` / `punto para ellos` (NO: "señalar a nosotros" — calco literal)
+  - `falling in on your position` (unirse a formación militar) → `Incorporándome a tu posición.` (NO: "Caer en tu posición" — calco literal)
   - `swarmed` en contexto militar → `rodeados` (no: "enjambrados")
   - `overwhelmed` (servicios/instalaciones saturados) → `desbordado/desbordadas` (no: "abrumado" — suena latinoamericano). Ej: "medical facilities overwhelmed" → "instalaciones médicas desbordadas"
   - `overwhelmed` (persona agobiada, contexto personal) → `agobiado` (no: "abrumado")
