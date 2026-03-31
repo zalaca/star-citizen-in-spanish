@@ -497,6 +497,9 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | `Watch yourself.` (despedida de cuidado) | `Cuídate.` (NO: "Mírate.") | Farewell informal |
 | `take care of this` (encárgate de esto, resuélvelo) | `encárgate de esto` (NO: "cuida esto" — "cuidar" implica proteger, no resolver) | "Take care of this quick, okay?" → "Encárgate de esto rapido, ¿vale?" |
 | `you better come at [sb] with your A-game` (más te vale ir con todo) | `más te vale ir con todo` (NO: "acércate con tu mejor juego" — calco de béisbol) | "You better come at them with your A-game" → "Mas te vale ir con todo" |
+| `sort out [sth]` (gestionar, encargarse de, mover) | `mover` / `encargarse de` / `gestionar` según contexto (NO: "clasificar") | "Help me sort out a batch" → "Ayudarme a mover un lote" |
+| `mug` (argot: tipo, fulano, persona) | `tipo` / `fulano` (NO: "taza" — falso amigo literal) | "I've got another mug ready" → "Tengo a otro tipo listo" |
+| `snag [sth]` (pillar, conseguir, hacerse con) | `pillar` / `conseguir` (NO: "engancharte" — confunde con hook/addict) | "Could you snag [item]?" → "¿Podrias pillarme [item]?" |
 
 #### Vocabulario coloquial, criminal y apodos
 
