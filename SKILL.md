@@ -159,12 +159,17 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `see you on the other side` → `nos vemos al otro lado`
   - `nice one` (exclamación de aprobación en combate/acción) → `¡Buena!` (NO: "Bonita" — calco literal de "nice")
   - `we're clear` (zona libre de amenazas, contexto militar/aviación) → `Zona despejada.` (NO: "Estamos libres" — calco)
-  - `stay sharp` → `estate alerta` (NO: infinitivo "estar atento" — [I])
+  - `stay sharp` / `look sharp` → `estate alerta` (NO: infinitivo "estar atento" — [I]; NO: "mirada aguda" — calco literal)
   - `ease up` (reducir intensidad) → `afloja` (NO: infinitivo "suavizar" — [I])
   - `blow by blow` (descripción detallada en deportes o combate) → `golpe a golpe` (NO: "paso a paso" — calco de "step by step", significado diferente)
   - `point to us` / `point to them` (marcador deportivo) → `punto para nosotros` / `punto para ellos` (NO: "señalar a nosotros" — calco literal)
   - `falling in on your position` (unirse a formación militar) → `Incorporándome a tu posición.` (NO: "Caer en tu posición" — calco literal)
   - `swarmed` en contexto militar → `rodeados` (no: "enjambrados")
+  - `ghost` / `ghosted` (verbo de combate: matar/destruir) → `eliminar`, `liquidar`, `matar`, `destruir` según contexto (NO: "fantasma" — error de traducción literal del sustantivo)
+    - `Ghost 'em!` → `¡Elimínalos!`
+    - `Who ghosted this bastard?` → `¿Quién ha matado a este bastardo?`
+    - `just got ghosted` (nave) → `acaban de destruirla` / (persona) → `acaban de matarlo`
+  - `bogey` / `bogie` (aviación: contacto hostil no identificado) → mantener como `bogey` (NO: "fantasma")
   - `overwhelmed` (servicios/instalaciones saturados) → `desbordado/desbordadas` (no: "abrumado" — suena latinoamericano). Ej: "medical facilities overwhelmed" → "instalaciones médicas desbordadas"
   - `overwhelmed` (persona agobiada, contexto personal) → `agobiado` (no: "abrumado")
   - `overwhelmed` (en combate, superado por el enemigo) → `superado` / `desbordado` (no: "abrumado")
