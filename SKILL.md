@@ -103,6 +103,7 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `X Gateway` (estaciones de punto de salto: `Pyro Gateway`, `Terra Gateway`, `Nyx Gateway`, etc.) — mantener siempre en inglés como nombre propio (NO: "Puerta de enlace de X", "Estacion P.S X")
   - `People's Service Station X` (estaciones sociales de Nyx: Alpha, Delta, Theta, Lambda, Omicron) — mantener siempre el nombre completo en inglés; solo traducir la parte contextual de ubicación (ej: "People's Service Station Alpha en el cinturón Keeger") (NO: "Estacion de Servicio Popular Alfa")
   - `Starmap` (mapa de navegación del juego) — mantener siempre en inglés (NO: "mapa estelar", "mapa Starmap")
+- Items y documentación del juego: `Blueprint`, `Blueprints` — mantener en inglés (NO: "Plano/s")
 - Términos de juego sin traducción establecida: `Ammo` (cuando aparece suelto como etiqueta), `Gym` (en `Vehicle_room_gym`)
 - Tags de estado entre corchetes: `[FABRICADO]` sí se traduce; `[P]` se mantiene como prefijo decorativo
 
@@ -699,6 +700,13 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | mining ship / nave minera | nave minera — femenino (NO: "nave minero" — concordar con el género de "nave"). Ej: "cualquier nave minera compatible" |
 | Krypton (commodity, gas noble) | Krypton — mantener en inglés. Es el nombre del gas en el universo de SC (NO: "Criptón") |
 | Fair Chance Act (ley de la UEE) | Ley de Oportunidades Justas (NO: "Ley de Oportunidad Justa", NO: "Fair Chance Act" sin traducir) |
+| Blueprint / Blueprints (esquemas de fabricación) | Blueprint / Blueprints — mantener en inglés (NO: "Plano/s"). Ej: "Possible Blueprints" → "Posibles Blueprints" |
+| Dispatcher (título de cargo NPC) | Coordinador / Coordinadora (NO: "Despachador/a"). Ej: "Lead Dispatcher" → "Coordinadora principal" |
+| _raw (sufijo de commodity mineral en bruto) | (Bruto) — ej: `Copper Raw` → `Cobre (Bruto)`; `Gold Raw` → `Oro (Bruto)` (NO: "(Crudo)", "(En Bruto)", "(Mineral Bruto)") |
+| Nombres de minerales ficticios de SC (Taranite, Bexalite, Laranite, Hephaestanite, Borase, Agricium, Stileron, Saldynium, Jaclium, Lindinium, Dolivine, Feynite, Aphorite, Hadanite, Janalite, Quantanium, Riccite) | Mantener en inglés — NO traducir. Son nombres propios del universo SC sin equivalente real. Ej: `Taranita` → `Taranite`; `Bexalita` → `Bexalite` |
+| Nombres de minerales reales (Copper, Gold, Iron, Titanium, Silicon, Tungsten, Aluminium, Beryl, Diamond, Quartz, Thorium, Uranium, Lithium, Hydrogen, etc.) | Traducir al español: Cobre, Oro, Hierro, Titanio, Silicio, Wolframio, Aluminio, Berilo, Diamante, Cuarzo, Torio, Uranio, Litio, Hidrógeno. Verificar que el mineral existe en la tabla periódica antes de traducir. |
+| Corundum | Corundum — mantener en inglés (NO: "Corindón") |
+| amortiguador (componente físico de armadura, shock-absorbing) | amortiguador — correcto para componentes físicos de absorción de impacto en armaduras. NO confundir con quantum dampener (→ inhibidor) |
 
 ---
 
