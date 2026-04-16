@@ -632,6 +632,11 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | check out the simcab (probar la cabina de simulador) | probar la cabina de simulador (NO: "consultar la cabina" — "consultar" implica buscar información, no experimentar algo) |
 | Concordancia de demostrativos con «nave» | Usar "esta/estas/una/algunas" (NO: "este/estos/uno/algunos" — la nave es femenino aunque el nombre propio parezca masculino: "esta Avenger", "una de estas", "esta es la nave") |
 | Concordancia de cuantificadores con «naves» (plural) | "cuantas naves", "todas las naves", "otras naves" (NO: "cuantos naves", "todos los naves", "demas naves") |
+| `Have a good one.` (despedida coloquial) | `Que te vaya bien.` (NO: "Tener una buena." — infinitivo sin sujeto, incorrecto en español) |
+| `Should be all set.` (despedida / confirmación) | `Todo listo.` (NO: "Debe estar todo listo." — "debe" añade incertidumbre que no existe en el original) |
+| `You need help with something?` (oferta de ayuda, NPC) | `¿Necesitas ayuda con algo?` (NO: "¿Necesito ayuda con algo?" — error de persona: "necesito" = yo, "necesitas" = tú) |
+| `Pay attention.` (imperativo, NPC al chocarse) | `Presta atencion.` (NO: "Prestar atencion." — infinitivo en lugar de imperativo) |
+| `The vehicle terminal is right that way. You're welcome to use it.` | `La terminal de Vehiculos esta justo por alli. Puedes usarla.` (NO: "es correcta de esa manera" — calco que no tiene sentido en español) |
 | Nombres de naves no se traducen aunque tengan equivalente en español | Mantener en inglés: Avenger (NO: "Vengador/Vengadores"), Mercury (NO: "Mercurio"), Retaliator (NO: "represalia"), Vulcan (NO: "Vulcano") — son nombres propios de naves, no descripciones |
 | Orden del nombre de nave: fabricante + nombre | Aegis Vulcan (NO: "Vulcano de Aegis" — el orden en español sigue el original inglés sin preposición) |
 | sleep on something (idiom: subestimar, pasar por alto) | pasar por alto / subestimar (NO: "dormir en" — calco literal sin sentido; "sleep on X" = no darle el mérito que merece) |
