@@ -592,6 +592,18 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | disrupt (sabotaje/acción encubierta contra infraestructura) | sabotear (NO: "perturbar" — suena abstracto; NO: "disrumpir" — anglicismo inválido). Ej: "disrupt their base of operations" → "sabotear su base de operaciones" |
 | wanted (título de misión o anuncio de trabajo: se busca a alguien para un encargo) | "Se busca [profesión/rol]" (NO: "[profesión] buscado/a" — suena a ficha policial, no a oferta de trabajo). Ej: "Private Investigator Wanted" → "Se busca investigador privado"; "Bounty Hunter Wanted" → "Se busca cazarrecompensas" |
 | accents (diseño/acabado de armadura, nave o vehículo) | detalles (NO: "acentos" — en español "acento" es lingüístico, no de diseño). Ej: "red accents" → "detalles rojos"; "gold accents" → "detalles dorados" |
+| rolling (maniobra de vuelo) | alabeo (término aeronáutico; NO: "laminacion" — eso es industria de metales) |
+| strafing (movimiento lateral con propulsores de maniobra) | desplazamiento lateral (NO: "ametrallamiento" — eso es disparar con ametralladora) |
+| draw / DRAW (resultado de partida: empate) | EMPATE (NO: "DIBUJAR" — calco literal de "draw") |
+| kick player (botón de expulsión en lobby) | EXPULSAR JUGADOR (NO: "JUGADOR DE PATADA" — calco literal) |
+| player handle (identificador de usuario en lobby) | Identificador de jugador (NO: "Mango de jugador" — "mango" es fruta o asa, no nombre de usuario) |
+| friendly fire (UI de Arena Commander) | FUEGO AMIGO (NO: "FUEGO AMISTOSO" — el término militar estándar en español es "fuego amigo") |
+| SPECTRUM (nombre propio del sistema de matchmaking de AC) | SPECTRUM — NO traducir (NO: "ESPECTRO"). En títulos de pantalla: "PARTIDA SPECTRUM", "SPECTRUM / PARTIDA PUBLICA" |
+| Public Match / Private Match (UI de Arena Commander) | PARTIDA PUBLICA / PARTIDA PRIVADA (femenino — "partida" es femenino; NO: "PARTIDO PUBLICO" / "PARTIDO PRIVADO") |
+| [X] Kill (puntuación de Arena Commander: Ace Kill, Revenge Kill, Martyr Kill, Nemesis Kill) | Baja de [X] — Ej: "Ace Kill" → "Baja de As"; "Revenge Kill" → "Baja de Venganza"; "Martyr Kill" → "Baja de Martir"; "Nemesis Kill" → "Baja de Nemesis" (NO: "X matar" — calco literal) |
+| Respawns Replenished (UI de AC, contador de reapariciones) | REAPARICIONES REABASTECIDAS (NO: "RESPONSABILIDADES REEMPLAZADAS" — error de traducción; "respawn" = reaparición) |
+| Apodos/callsigns de NPCs (PirateCaptain, etc.) | Mantener en inglés como nombres propios: Singer, Ringo, Fluster, Boom Boom, Headcase (NO traducir: "Cantante", "Ponerse nervioso", "auge auge") |
+| Restricted Area [Left/Right/Above/Below/Ahead/Behind] | area restringida a la izquierda / a la derecha / arriba / abajo / mas adelante / detras (NO: "restante" por "left" — "left" aquí es dirección, no "restante") |
 
 
 #### Misiones, objetivos y UI
