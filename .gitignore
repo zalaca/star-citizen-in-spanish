@@ -1,3 +1,5 @@
 .idea/
 testing/
 memory/
+.DS_Store
+**/.DS_Store
