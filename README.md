@@ -1,6 +1,6 @@
 # Star Citizen en Español
 
-Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.7.1**.
+Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.7.2**.
 
 Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares).
 
