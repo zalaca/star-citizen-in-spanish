@@ -439,7 +439,9 @@ El archivo debe terminar con una **nueva línea al final** (no terminar la últi
 | fuel intake | toma de combustible |
 | fuel tank | depósito de combustible |
 | gimbal | gimbal (mantener en inglés — término técnico del juego) |
+| flight blade | Blade de Vuelo (NO: "Cuchilla de Vuelo" — "blade" es nombre propio del componente) |
 | fixed mount | montura fija |
+| nombres de modelo de componente (quantum drives, jump drives, coolers, etc.) | mantener en inglés — son nombres de producto propios. Ej: "Explorer", "Exodus", "Odyssey", "IcePlunge". NO traducir aunque parezcan palabras comunes (NO: "Explorador", "Exodo") |
 | scanning array | sistema de escaneo |
 | gravity generator | generador de gravedad |
 | repair bay | bahía de reparación |
@@ -531,6 +533,7 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay")                                                                                                                                                                                                     |
 | no longer in active operation | ya no esta operativa (NO: "ya no esta en operacion activa" — calco)                                                                                                                                                                                  |
 | Livery / livery (pintura de nave, clave con "Paint" o "Luminalia") | Pintura (NO: "Diseño" ni "decoracion" — ambos son incorrectos). Ej: "100 Series Frostbite Camo Livery" → "Pintura serie 100 Frostbite Camo"                                                                                                          |
+| claves `item_Name*_Paint_*` (pinturas de nave) | formato: `Pintura [NaveEN] [NombrePinturaEN sin "Livery"]`. El nombre de la pintura es un nombre de producto y se mantiene en inglés. NO traducirlo. NO usar "Librea". Ej: `item_NameAsgard_Paint_Black_Grey_Red_Pirate_Skull` → `Pintura Asgard Skullcrusher` |
 | Focal: (campo en descripciones de vehiculos, ej: "Fabricante: ...\nFocal: Caza Medio") | Enfoque: (NO: "Focal:" — calco del inglés "Focus")                                                                                                                                                                                                   |
 | Gauntlet (serie de combate) | Guantelete. Ej: "Combat Gauntlet" → "Guantelete de Combate" — SALVO que el proyecto lo tenga establecido como "Desafio", en cuyo caso mantener                                                                                                       |
 | Naval (adjetivo militar) | Naval (NO: "de la Armada" — más largo e incorrecto). Ej: "Naval Patrol Training" → "Entrenamiento de Patrulla Naval"                                                                                                                                 |
