@@ -105,6 +105,10 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `Starmap` (mapa de navegación del juego) — mantener siempre en inglés (NO: "mapa estelar", "mapa Starmap")
 - Items y documentación del juego: `Blueprint`, `Blueprints` — mantener en inglés (NO: "Plano/s")
 - Términos de juego sin traducción establecida: `Ammo` (cuando aparece suelto como etiqueta), `Gym` (en `Vehicle_room_gym`)
+- Componentes de nave y opciones gráficas: `Multi-tool` (NO: "Multiherramienta", "Herramienta múltiple"), `Film Grain` (NO: "Grano de la película"), `Cooler` (NO: "Refrigerador")
+- Objetos del juego con nombre propio: `Datapad` (NO: "panel de datos")
+- Nombres de archivos del minijuego de hacking: `DECRYPT.bat`, `WRAP.bat`, `SWAP.bat`, `PING.bat`, `DDoS.bat` → mantener siempre en inglés, nunca traducir el nombre del comando
+- Nombres de lugares dentro de nombres de objetos: si un objeto se llama `Crypt Keycard`, `Last Resort Keycard`, `Wasteland Keycard`, el nombre del lugar se mantiene en inglés → `Tarjeta Clave Crypt`, `Tarjeta Clave Last Resort`, `Tarjeta Clave Wasteland`
 - Tags de estado entre corchetes: `[FABRICADO]` sí se traduce; `[P]` se mantiene como prefijo decorativo
 
 #### 3. Convenciones de traducción
@@ -185,6 +189,10 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `there is no doubt` → `sin duda` / `no hay duda de que` (NO: "no hay ninguna duda que" — falta "de")
   - `due to the fact that` → `debido a que` / `porque` / `ya que` (NO: "debido al hecho de que" — calco verboso)
   - `in the event that` → `si` / `en caso de que` (NO: "en el evento de que" — calco directo)
+  - `ordnance` (armamento militar: misiles, bombas, explosivos) → "explosivos" / "armamento" (NO: "ordenanza" — error grave; "ordenanza" = decreto o asistente militar, NO tiene relación con armamento)
+  - `gig` (trabajo informal, encargo puntual) → "trabajo" / "encargo" (NO: "concierto" — error de traducción literal)
+  - `muscle memory` → "se vuelve automático" (NO: "automatismo" — demasiado técnico y forzado)
+  - `Scram to the AO` (orden militar: moverse rápido al área de operaciones) → "Dirígete a la ZO" (NO: "Despégate hacia la ZO" — "despegarse" no es un verbo de desplazamiento natural en español)
 - **Lenguaje corporativo/idiomático**: traducir el sentido real, no la literalidad. En textos de facciones/empresas, expresiones como "extracting value" o "building its name" tienen equivalentes más naturales en español
   - `built its name as an industry leader in extracting value` → `se ha consolidado como líder de la industria en la extracción de recursos` (no: "ha construido su nombre... en la extracción de valor")
   - `reshape the empire` → `dar forma al imperio` (no: "remodelar el imperio")
