@@ -15,11 +15,11 @@ Además de la traducción base, se incorporan mejoras tomadas del proyecto [Star
     - `[BP]*` indica que el texto es compartido entre varios contratos y solo uno otorga el blueprint específico, que se indica en la descripción
 - Prefijo de aviso para sustancias ilegales [!]
 - Tipo, tamaño y grado del componente prefijados al nombre (ej: `Mil/2/C`)
-- *Hephaestanite (Raw)* abreviado a *Heph (Raw)*
+- *Hephaestanite (Bruto)* abreviado a *Heph (Bruto)*
 - Títulos de contratos de transporte mejorados, con *Direct* subrayado
 - Entrada del diario de la guía de minería reformateada agrupando los minerales por rareza
 - Prefijo de tipo para misiles (sugerencia de WhisperDark en Discord)
-    - Ej: *Dominator II Missile* → *[EM] Dominator II Missile*
+    - Ej: *Misil Dominator II* → *[EM] Misil Dominator II*
 
 ---
 
