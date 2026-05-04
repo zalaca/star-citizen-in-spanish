@@ -18,7 +18,6 @@ Además de la traducción base, se incorporan mejoras tomadas del proyecto [Star
 - *Hephaestanite (Raw)* abreviado a *Heph (Raw)*
 - Títulos de contratos de transporte mejorados, con *Direct* subrayado
 - Entrada del diario de la guía de minería reformateada agrupando los minerales por rareza
-    - nb. La precisión del contenido original de esa entrada no está verificada
 - Prefijo de tipo para misiles (sugerencia de WhisperDark en Discord)
     - Ej: *Dominator II Missile* → *[EM] Dominator II Missile*
 
