@@ -4,7 +4,23 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 Algunos términos propios del universo se mantienen en inglés de forma intencionada (nombres de naves, facciones, lugares).
 
-Los contratos que ofrecen blueprints como recompensa lo indican en el título y muestran al final de la descripción la lista de **Posibles Blueprints**. Los componentes incluyen su tipo, tamaño y grado (ej: `Mil/2/C`) para facilitar la identificación en el juego. Esta información se ha obtenido de la traducción inglesa del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
+---
+
+## Extras incluidos
+
+Además de la traducción base, se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings):
+
+- Los contratos que ofrecen blueprints muestran al final de la descripción la lista de **posibles blueprints**
+- Los contratos con blueprints incluyen `[BP]` en el título
+    - `[BP]*` indica que el texto es compartido entre varios contratos y solo uno otorga el blueprint específico, que se indica en la descripción
+- Prefijo de aviso para sustancias ilegales [!]
+- Tipo, tamaño y grado del componente prefijados al nombre (ej: `Mil/2/C`)
+- *Hephaestanite (Raw)* abreviado a *Heph (Raw)*
+- Títulos de contratos de transporte mejorados, con *Direct* subrayado
+- Entrada del diario de la guía de minería reformateada agrupando los minerales por rareza
+    - nb. La precisión del contenido original de esa entrada no está verificada
+- Prefijo de tipo para misiles (sugerencia de WhisperDark en Discord)
+    - Ej: *Dominator II Missile* → *[EM] Dominator II Missile*
 
 ---
 
