@@ -992,6 +992,62 @@ Patrones para traducir tiempo y duración de forma natural:
 
 ---
 
+### kraken2.ini — Convenciones de referencia
+
+`kraken2.ini` es un fichero de referencia mejorado (~88.600 líneas) que contiene nombres de componentes, misiles y textos de misión con formato curado. Se usa como fuente de verdad para los patrones que siguen.
+
+#### Nombres de componentes (prefijo de categoría)
+
+Formato: `[Categoria]/[Tamaño]/[Grado] Nombre`
+
+| Prefijo | Significado |
+|---------|-------------|
+| `Civ` | Civil |
+| `Mil` | Militar |
+| `Ind` | Industrial |
+| `Cmp` | Competición |
+| `Sth` | Stealth |
+
+- **Tamaño**: número 0–8 (tamaño in-game del ítem)
+- **Grado**: letra A–D o C/B/A/S según el componente — ej: `Civ/2/A Nombre`, `Mil/3/C Nombre`
+- El nombre del componente se mantiene en inglés tal como aparece en kraken2
+- Claves afectadas: `item_NameCOOL_*`, `item_NameLIFE_*`, `item_NamePOWR_*`, `item_NameQDRV_*`, `item_NameSHLD_*`, `item_Name_COMP_*`, `item_Name_COOL_*`, `item_Name_POWR_*`, `item_Name_QDRV_*`, `item_Name_RADR_*`, `item_Name_SHLD_*`
+
+#### Nombres de misiles y torpedos (`item_NameMISL_*`, `item_NameGMISL_*`)
+
+Formato español: `[TAG] Tipo NombreProducto Tamaño`
+
+| Tag | Tipo de guía |
+|-----|-------------|
+| `[CS]` | Sección transversal |
+| `[EM]` | Electromagnético |
+| `[IR]` | Infrarrojo |
+
+- `Missile` → **Misil** — va ANTES del nombre: `[CS] Misil Spark I-G` (NO: `[CS] Spark I-G Misil`)
+- `Torpedo` → **Torpedo** — mismo orden: `[IR] Torpedo Calamity XII`
+- El tipo en español va siempre ANTES del nombre del producto
+
+#### Secciones de Blueprints en misiones de minería
+
+Algunas descripciones de misión terminan con una sección de posibles recompensas blueprint:
+
+```
+\n\n<EM4>Posibles Blueprints</EM4>
+lista de items...
+```
+
+Traducciones fijas dentro de la sección BP:
+- `Potential Blueprints` → `Posibles Blueprints`
+- `[Regional Variants] example locations: X` → `[Variantes Regionales] ubicaciones ejemplo: X` (dentro de `<EM4>…</EM4>`)
+
+Añadir siempre la sección BP al final de la traducción española si kraken2 la incluye. Los títulos de misiones BP llevan el tag `<EM4>[BP]</EM4>` o `<EM4>[BP]*</EM4>` al inicio.
+
+#### Commodities ilegales
+
+Los ítems ilegales llevan el prefijo `<EM3>[!]</EM3>` en su nombre de commodity. Mantener siempre este prefijo en la traducción.
+
+---
+
 ## Apéndice: Lista de naves
 
 Todas las naves son **femeninas** y **no se traducen** (`la X`, `de la X`, `una X`).
