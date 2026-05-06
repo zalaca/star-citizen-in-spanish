@@ -352,6 +352,48 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 | `Light Armor` | `Armadura ligera` |
 | `Heavy Armor` | `Armadura pesada` |
 
+#### 8b. Nomenclatura de items (nombres de claves item_Name*)
+
+**Tipo de arma va siempre delante del nombre:**
+- Correcto: `Pistola Coda`, `Rifle Gallant`, `Escopeta Devastator`, `Cañon Singe`, `Misil Dominator`
+- Incorrecto: `Coda Pistola`, `Singe Cañon`
+
+**Piezas de armadura:**
+| en-EN | es-ES |
+|-------|-------|
+| `Arms` | `Brazos` |
+| `Core` / `Body` | `Torso` |
+| `Legs` | `Piernas` |
+| `Helmet` | `Casco` |
+| `Backpack` | `Mochila` |
+| `Undersuit` | `Traje interior` |
+
+**Sufijos de tipo de item (en paréntesis):**
+| en-EN | es-ES |
+|-------|-------|
+| `(Shield)` | `(Escudo)` |
+| `(Cooler)` | `(Enfriador)` |
+| `(Power Plant)` | `(Planta de Energía)` |
+| `(Quantum Drive)` | `(Quantum Drive)` — no traducir |
+| `(Radar)` | `(Radar)` |
+| `(Missile)` | `(Misil)` |
+| `(Torpedo)` | `(Torpedo)` |
+
+**Términos que NO se traducen en nombres de items:**
+- `(Modified)` — nunca `(Modificado)`
+- `(Woodland)` — nunca `(Boscoso)` ni `(Forestal)`
+- `Tractor Beam` — nunca `Rayo Tractor`
+- `SMG` — nunca `Subfusil`
+- `LMG` — nunca `Ametralladora ligera`
+- `Quantum Drive` — nunca `Motor Cuántico`
+- `Starmap` — nunca `Mapa Estelar`
+
+**Trajes (suits):**
+- `Flight Suit` → `Traje de vuelo`
+- `[Nombre] Exploration Suit` → `Traje [Nombre] Exploration` (no traducir "Exploration")
+
+**Secciones BP:** los nombres de items en listas `\n- Item` deben coincidir exactamente con los `item_Name*` correspondientes.
+
 #### 9. Fin de archivo
 El archivo debe terminar con una **nueva línea al final** (no terminar la última línea sin `\n`).
 
