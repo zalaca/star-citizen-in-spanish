@@ -12,6 +12,51 @@
 
 ---
 
+## ✅ Verificación rápida — antes de entregar
+
+- [ ] Placeholders sin modificar: `~mission(*)`, `%ls`, `%d`, `%s`, `%S`, `%i`, `%Is`
+- [ ] Género femenino en referencias a naves: `la nave`, `esta nave`, `derribada`...
+- [ ] Tipo de arma delante del nombre: `Pistola X`, `Cañon X`, `Rifle X` (nunca al final)
+- [ ] Términos invariables respetados — ver tabla abajo
+- [ ] Sin calcos estructurales evidentes — ver sección 4
+- [ ] `\n` son literales — cada clave ocupa una sola línea real en el fichero
+- [ ] Orden de claves = en-EN.ini, sin reordenar ni agrupar
+- [ ] Sin doble `==` — el separador de clave es solo el primer `=` de la línea
+
+---
+
+## 🔒 Términos invariables — lookup rápido
+
+Copiar exactamente como en el original. Contexto completo en sección 2 y glosarios.
+
+| Término | Contexto | NO usar |
+|---------|---------|---------|
+| `Starmap` | siempre | `Mapa Estelar` |
+| `Quantum Drive` | nombres de item | `Motor Cuántico` |
+| `(Modified)` | sufijos de item | `(Modificado)` |
+| `(Woodland)` | sufijos de item | `(Boscoso)` |
+| `SMG` / `LMG` | nombres de arma | `Subfusil` / `Ametralladora ligera` |
+| `Tractor Beam` | nombres de item | `Rayo Tractor` |
+| `Blueprint` / `Blueprints` | siempre | `Plano/s` |
+| `Multi-tool` | siempre | `Multiherramienta` |
+| `Datapad` | siempre | `Panel de datos` |
+| `CrimeStat` | siempre | `Estadística criminal` |
+| `mobiGlas` / `UEC` / `aUEC` / `QT` / `Master Modes` | siempre | — |
+| `comm array` / `Comm Array` | siempre | `Matriz de comunicaciones` |
+| `SPECTRUM` (Arena Commander) | siempre | `Espectro` |
+| `Data Runner` | rol de NPC | `Corredor de Datos` |
+| `Scrap` (commodity) | como recurso | `Chatarra` |
+| `Krypton` / `Corundum` (minerales SC) | siempre | `Criptón` / `Corindón` |
+| Minerales ficticios SC (Taranite, Bexalite...) | en nombres | `Taranita`, `Bexalita`... |
+| Modelos de componente (Explorer, Odyssey...) | en nombres | `Explorador`, `Odisea`... |
+| Alfanumérico NATO (Alpha, Bravo, November...) | siempre | `Alfa`, `Bravo`... |
+| Pinturas de nave (`_Paint_*`) | `item_Name*` | `Librea` / traducir el nombre |
+| Nombres propios de naves | siempre | `Vengador`, `Mercurio`... |
+| Nombres de facciones y empresas | siempre | `Cabezas Buscadoras`... |
+| Archivos de hacking (`*.bat`) | siempre | — |
+
+---
+
 ### Contexto del juego
 
 **Star Citizen** es un MMO de simulación espacial desarrollado por Cloud Imperium Games, ambientado en el siglo XXXI. La humanidad ha colonizado varios sistemas estelares bajo el gobierno de la **UEE (United Empire of Earth)**. El universo incluye planetas, lunas, estaciones espaciales y naves con alto nivel de detalle.
@@ -135,18 +180,21 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 - **Arranques nominales** — evitar empezar una frase con un sustantivo plural o grupo nominal calcado del inglés cuando en español suena más natural empezar por la consecuencia, el sujeto agente o una reformulación verbal:
   - `Faulty air filters have caused...` → `Una avería en los filtros de aire ha desatado...` (no: "Filtros de aire defectuosos han causado...")
   - `Damaged systems are preventing...` → `Un fallo en los sistemas impide...` (no: "Sistemas dañados están impidiendo...")
-- **Calcos estructurales a evitar** — construcciones que suenan traducidas literalmente del inglés:
-  - `en terminos de` → `en cuanto a` / `respecto a` (calco de "in terms of")
-  - `en lo que respecta a` → `en cuanto a` / `en materia de` / simplificar con `con` (calco de "as far as X goes")
-  - `hacer referencia a` → `referirse a` / `llamar` (calco de "to reference something as")
-  - `hacer frente a` → `enfrentarse a` / `combatir` / `detener` / `neutralizar` segun contexto (calco de "deal with")
-  - `al mismo tiempo` → `a la vez` en dialogo y narración. Mantener en descripciones técnicas de producto donde funciona como "while also providing X"
-  - `por parte de` → evitar cuando sea posible; usar voz activa o genitivo directo `de`. Excepcion: texto legal formal donde es correcto
-    - `la compra por parte de Crusader` → `la compra de Crusader` / `antes de que Crusader comprara`
-    - `entrega programada por parte de ~mission(Client)` → `~mission(Client) ha programado una entrega`
-  - `a nivel de` → simplificar: `de administrador` (no "a nivel de administrador"), `a escala de especie`, `para todo el sistema`
-  - `se encuentra` (pasiva) → `esta` / voz activa cuando sea posible. Excepcion: texto formal donde la pasiva es apropiada
-  - `en este momento` → `ahora` / `ahora mismo` en dialogo de NPC. Mantener en textos formales escritos
+- **Calcos estructurales a evitar:**
+
+| Evitar | Usar en su lugar | Excepción |
+|--------|-----------------|-----------|
+| `en términos de` | `en cuanto a` / `respecto a` | — |
+| `en lo que respecta a` | `en cuanto a` / `en materia de` | — |
+| `hacer referencia a` | `referirse a` / `llamar` | — |
+| `hacer frente a` | `enfrentarse a` / `combatir` / `neutralizar` | — |
+| `al mismo tiempo` | `a la vez` | Desc. técnicas de producto |
+| `por parte de` | `de` / voz activa | Texto legal formal |
+| `a nivel de` | `de [rol]` / `a escala de` | — |
+| `se encuentra` (pasiva) | `está` / voz activa | Texto formal |
+| `en este momento` | `ahora` / `ahora mismo` | Textos formales escritos |
+
+  Ejemplos `por parte de`: `la compra por parte de Crusader` → `la compra de Crusader`; `entrega programada por parte de ~mission(Client)` → `~mission(Client) ha programado una entrega`
 - **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
   - `understand that` (aviso/advertencia imperativa) → `ten en cuenta que` (NO: "comprende que" — suena formal y forzado). Mantener "comprende" solo en tercera persona: "la empresa comprende que..."
   - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
@@ -230,6 +278,16 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
     - Cierre de radio: `X out.` → `X fuera.` (NO: "Fuera X.") → `Dulli out.` → `Dulli fuera.` / `Ruto out.` → `Ruto fuera.`
     - La CDF como organización: siempre singular → `la CDF` (NO: "las FDC", "la FDC", "FCD")
     - `Dispatch` (vocativo de radio, al llamar a central) → `Central` (NO: "Despacho", "Envio") → `Dispatch, we have a contact` → `Central, tenemos un contacto`
+- **Mapeado de prefijo de clave → perfil de NPC:**
+
+| Prefijo de clave | NPC | Perfil de voz (resumen) |
+|-----------------|-----|------------------------|
+| `PU_RUTO_*` / `mg_ruto_*` | Ruto | Frío, calculador, slang criminal Nine Tails |
+| `PU_PARR_*` | Eddie Parr | Muy coloquial, slang de barrio, expresivo |
+| `PU_SHAW_*` | Shaw | Ansioso, urgente, frases cortas |
+| `PU_BATTAGLIA_*` | Battaglia (Recco) | Pragmático, directo, tono minero |
+| `CDF_*` / `SAIC_*` | Militares / SAIC | Protocolo de radio, seco, tuteo |
+
 - **NPCs criminales específicos — perfiles de voz:**
   - **Ruto** (`PU_RUTO_*`, `mg_ruto_*`): fixer criminal con cara holográfica de celebridad. Tono frío y calculador, coloquial pero profesional. Primera persona siempre. Mucho slang criminal (ver tabla de slang). Broker de Nine Tails en Grim HEX.
     - `It's Ruto. We need to talk.` → `Aquí Ruto. Necesitamos hablar.`
