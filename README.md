@@ -10,16 +10,34 @@ Algunos términos propios del universo se mantienen en inglés de forma intencio
 
 Además de la traducción base, se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings):
 
-- Los contratos que ofrecen blueprints muestran al final de la descripción la lista de **posibles blueprints**
-- Los contratos con blueprints incluyen `[BP]` en el título
+### Contratos
+
+- Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
+- Los contratos con BP incluyen `[BP]` en el título
     - `[BP]*` indica que el texto es compartido entre varios contratos y solo uno otorga el blueprint específico, que se indica en la descripción
-- Prefijo de aviso para sustancias ilegales [!]
-- Tipo, tamaño y grado del componente prefijados al nombre (ej: `Mil/2/C`)
-- *Hephaestanite (Bruto)* abreviado a *Heph (Bruto)*
+    - Por la misma razón, y por variaciones regionales de los pools, puede aparecer una segunda lista
+        - Ciertos contratos (como Tactical Strike Groups) tienen 2 pools que se otorgan al completarlos
+    - Los componentes en el pool muestran Nombre (Tipo), ej: *SnowBlind (Enfriador)*
 - Títulos de contratos de transporte mejorados, con *Direct* subrayado
-- Entrada del diario de la guía de minería reformateada agrupando los minerales por rareza
+- Los contratos que otorgan progreso de escenario (ej: Return of Xenothreat) muestran cuántos puntos otorgan y si son divididos
+
+### Minería
+
+- *Hephaestanite (Bruto)* abreviado a *Heph (Bruto)*
+- Textos de la UI de minería abreviados para evitar solapamiento con los valores
+- Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de aparecerlo como prefijo
+
+### Objetos
+
+- Prefijo de aviso `[!]` para sustancias ilegales
+- Tipo, tamaño y grado del componente prefijados al nombre
+    - Ej: *Tundra* → *Mil/1/D Tundra*
 - Prefijo de tipo para misiles (sugerencia de WhisperDark en Discord)
     - Ej: *Misil Dominator II* → *[EM] Misil Dominator II*
+
+### Diario
+
+- Entrada del diario de la guía de minería reformateada, agrupando los minerales por rareza
 
 ---
 
