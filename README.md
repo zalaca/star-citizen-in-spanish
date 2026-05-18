@@ -6,10 +6,6 @@ Algunos términos propios del universo se mantienen en inglés de forma intencio
 
 ---
 
-## Extras incluidos
-
-Además de la traducción base, se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings):
-
 ### Contratos
 
 - Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
@@ -19,6 +15,7 @@ Además de la traducción base, se incorporan mejoras tomadas del proyecto [Star
         - Ciertos contratos (como Tactical Strike Groups) tienen 2 pools que se otorgan al completarlos
     - Los componentes en el pool muestran Nombre (Tipo), ej: *SnowBlind (Enfriador)*
 - Títulos de contratos de transporte mejorados, con *Direct* subrayado
+- Los contratos muestran la cantidad de reputación que otorgan
 - Los contratos que otorgan progreso de escenario (ej: Return of Xenothreat) muestran cuántos puntos otorgan y si son divididos
 
 ### Minería
@@ -104,6 +101,10 @@ El proceso combina dos elementos:
 El objetivo es una traducción natural al español de España, evitando calcos del inglés y adaptando expresiones idiomáticas sin perder la esencia del universo de Star Citizen.
 
 ---
+
+## Extras incluidos
+
+Se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings):
 
 ## Notas
 
