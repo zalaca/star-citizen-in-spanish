@@ -104,7 +104,7 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 
 ## Extras incluidos
 
-Se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings):
+Se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings)
 
 ## Notas
 
