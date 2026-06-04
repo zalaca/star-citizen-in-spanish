@@ -809,6 +809,7 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | Comm Array / comm array | mantener en inglés — es un nombre propio. Capitalización según el original: "Comm Array" en UI formal, "comm array" en diálogos/terminales. Artículo "el/un". Ej: "Disable uplink at Comm Array 625" → "Desactiva la conexion en el Comm Array 625"; "Hack a comm array" → "Piratea un comm array" (NO: "matriz de comunicaciones") |
 | Imperativo en objetivos de misión | usar siempre 2ª persona del singular informal (tú): "Viaja", "Localiza", "Protege", "Contacta", "Elimina" (NO: "Viaje", "Localice", "Proteger", "Informe" — son formas de usted/infinitivo, incorrectas en objetivos dirigidos al jugador) |
 | Report to [NPC/lugar] (objetivo de misión) | Contacta con [NPC/lugar] (NO: "Informe a" — "informar" en imperativo de usted suena arcaico y formal) |
+| Rendezvous with [nave] (objetivo de misión) | Reúnete con la [nave] (NO: "rinde encuentro con" — calco literal sin sentido en español) |
 | Travel to [ubicación] (objetivo de misión) | Viaja a [ubicacion] (NO: "Viaje a" — usted formal; NO: "al [código]" — usar "en [código]" para coordenadas/identificadores) |
 | [verbo en infinitivo] como objetivo de misión | convertir a imperativo informal. Ej: "Proteger al civil" → "Protege al civil"; "Localizar restos" → mantener infinitivo solo en _Short, imperativo en _Long |
 | pirate threat attacking X (amenaza pirata atacando) | los piratas que atacan X (NO: "la amenaza pirata atacando" — gerundio adjetival incorrecto en español; usar oración de relativo) |
