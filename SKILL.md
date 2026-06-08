@@ -1096,6 +1096,84 @@ Patrones para traducir tiempo y duración de forma natural:
 
 ---
 
+### HUD/UI — Compresión de texto
+
+Cuando un valor es-ES supera en **+5 o más caracteres** al original en-EN, el texto puede cortarse en displays del juego (MFD, HUD, botones, radiales). Objetivo: igualar o aproximarse a la longitud del original inglés.
+
+**Cómo detectar entradas con overage (script Python):**
+```python
+diff = len(es_value) - len(en_value)
+# Filtrar: len(en_value) <= 45 y diff >= 6
+```
+Filtrar entradas con EN corto (≤45 chars) y ES con +6 o más de sobrante. Las entradas de EN largo ya tienen espacio de sobra.
+
+**Abreviaturas estándar aprobadas para UI compacta:**
+
+| Término completo | Abreviatura | Contexto |
+|---|---|---|
+| almacenamiento | `Almac.` | Inventario, contenedores, FillerStation |
+| mantenimiento | `Manten` (sin punto) | Botones de acción (`Manten ~action(...)`) |
+| asistencia | `Asist.` | Balizas, servicios |
+| rendimiento | `Rend.` | Stats, contadores HUD |
+| combustible | `Comb.` | Depósitos, estados (ej: `Sin Comb. Quantum`) |
+| tratamiento | `Trat.` | Niveles médicos (`Trat. de Nivel X requerido`) |
+| seleccionar | `Sel.` | Botones de acción (`Sel. tamaño de caja`) |
+| monitorizado | `Monitor.` | Estados de espacio (`Espacio Monitor.`) |
+| depósito | `Dep.` | Recursos (`Dep. de combustible`) |
+| preparando | `Prep.` | Acciones en curso (`Prep. para fabricar`) |
+
+**Patrones de reducción frecuentes:**
+- `mantener pulsado` → `mantener` (en etiquetas tipo `Manten ~action(...)`) — no añade información ya que el action hint ya lo implica
+- `Seleccionar [X]` → `Sel. [X]`
+- `Almacenamiento de [X]` → `Almac. [X]` o `Almac. [X] total:`
+- `Plataforma de Aterrizaje 0X` → `Plataforma Aterrizaje 0X` (eliminar "de" en etiquetas compuestas)
+- `Sala de Combustible` → `Sala Combustible`
+- `Establecer Modo de Operacion de X` → `Modo Operador X`
+- `Comportamiento de Comando IFCS [On/Off]` → `Comando IFCS [Activado/Desactivado]`
+- `Desequipar [pieza] actual` → `Desequipar [pieza]` (sin "actual" — el contexto ya lo indica)
+
+**Términos que se mantienen en inglés en UI:**
+- `uplink` (contexto Comm Array) — ej: `Uplink de red en línea` (NO: "enlace ascendente")
+- `Tractor Beam` — ya documentado arriba
+- Abreviaturas de estado: `RDR`, `QT`, `IFCS`, `MFD`, `EVA`
+
+**Workflow aprobado para sesiones de compresión de HUD:**
+1. Buscar entradas con overage por sección (prefijo: `hud_`, `ui_`, `vehicle_`, etc.)
+2. Filtrar por EN ≤45 chars y diff ≥6
+3. Agrupar por temática y presentar tabla de propuestas con EN, ES actual, y propuesta
+4. **SIEMPRE mostrar propuestas antes de aplicar** — nunca aplicar sin confirmación del usuario
+5. Cuando el usuario lista strings específicas en la respuesta: son las que hay que **CONSERVAR** tal como están — "el resto aplicalo" = aplicar todo lo no listado
+6. Usar `replace_all=True` en el Edit tool cuando la misma string aparece en múltiples claves
+
+---
+
+### Nuevos términos de UI/HUD establecidos
+
+Añadir al glosario general de términos:
+
+| en-EN | es-ES | Notas |
+|-------|-------|-------|
+| rescue beacon | baliza de rescate | HUD médico, respawn |
+| refueling beacon | baliza de repostaje | Notificaciones de repostaje |
+| combat assist beacon | baliza de asist. combate | Notificaciones |
+| medbed / ICU (spawn point) | UCI | Unidad de Cuidados Intensivos — punto de reaparición médico |
+| armistice zone | zona de armisticio | Zona sin combate (HUD, notificaciones) |
+| monitored space | espacio monitorizado | (`Espacio Monitor.` en forma compacta) |
+| filler station | estación de llenado | Estación de llenado de cajas de carga en desguace |
+| salvage head | cabezal de desguace | Componente de la Reclaimer/Vulture |
+| tractor beam turret | torreta tractora | (`torreta tractora izquierda/derecha`) |
+| EVA fuel | combustible EVA | (`Comb. EVA Vacío` en HUD) |
+| uplink (Comm Array) | uplink | Mantener en inglés — término técnico del juego |
+| docking — excessive linear/angular speed | velocidad lineal/angular excesiva | Mensajes de docking |
+| docking — linear/angular misalignment | desalineación lineal/angular | Mensajes de docking |
+| Auto Slowdown (IFCS) | Autodesaceleración | Configuración MFD de IFCS |
+| item beyond repair | artículo irreparable | Error de reparación |
+| CM Launchers | Lanzacontramedidas | Categoría de inventario (una sola palabra) |
+| Port Lock / Port Unlock (nave) | Bloqueo/Desbloqueo de anclaje | Puertos de equipamiento de nave |
+| server renderer (dev) | Renderizador de servidor | Opción de desarrollador |
+
+---
+
 ## Apéndice: Lista de naves
 
 Todas las naves son **femeninas** y **no se traducen** (`la X`, `de la X`, `una X`).
