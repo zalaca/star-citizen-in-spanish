@@ -80,6 +80,13 @@ Copiar exactamente como en el original. Contexto completo en sección 2 y glosar
   - **Sustantivos de tipo de nave** — usar siempre `nave` como genérico, nunca "barco", "buque" ni "embarcación":
     - `Esta nave de lujo` (no: "Este buque de lujo" / "Esta embarcación")
   - **Listado de naves conocidas** — todas femeninas, ninguna se traduce. Ver [Apéndice: Lista de naves](#apéndice-lista-de-naves) al final del documento.
+    - El **X1** (moto/vehículo de cabina abierta de Origin) también es **femenino** (`la X1`), aunque el EN lo describa como *"vehicle"* — confirmado por el usuario.
+  - **CUIDADO con homónimos al barrer concordancia de género**: muchos misiles, motores, cascos y componentes llevan el mismo nombre que una nave, pero concuerdan con SU sustantivo (masculino), NO con "nave". NO cambiar a femenino en esos casos:
+    - `el Arrow` / `el Pioneer` / `el Talon Stalker` cuando son **misiles/torpedos** (`item_DescMISL_*`, `item_DescGMISL_*`) → masculino correcto (`el misil`)
+    - `el Vulcan` cuando es un **motor cuántico** (`item_DescQDRV_*`) → masculino correcto (`el motor`)
+    - `el Odyssey` cuando es un **casco** (`..._helmet_*`) → masculino correcto (`el casco`)
+    - `el Blade` cuando es un **Server Blade** (hardware de hackeo, no la nave Blade) → masculino correcto
+    - Regla práctica: comprobar el `Item Type:` del EN o el contexto antes de feminizar un nombre que coincide con una nave.
 - **Género de otras entidades** — referencia rápida para concordancia:
 
   | Sustantivo | Género | Ejemplos |
