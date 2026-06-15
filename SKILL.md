@@ -1182,6 +1182,7 @@ Añadir al glosario general de términos:
 | navpoint (HUD motor cuántico) | navpoint | Mantener en inglés en etiquetas compactas: `BLOQUEADO POR NAVPOINT`, `OCULTO POR NAVPOINT` |
 | docking (acción) | acoplamiento | NO: "muelle" (ese es el sentido físico de *dock*). Ej: "Docking Terminated" → "Acoplamiento cancelado" |
 | ATC "X Landing Services" | Servicios de aterrizaje X | Frase en minúscula, NO Title Case ("de Aterrizaje") — el español no capitaliza sustantivos comunes |
+| hail (comms: contactar por radio) | Llamar / Contactar objetivo | NUNCA "Saludo"/"Saludar" (eso es greeting). `Llamar` para acción de botón/marcador HUD; `Contactar objetivo` para etiquetas de target. Excepción: saludos reales en diálogo (`Hail, fellow pilot` → `Saludos`, `All hail` → `salve`) |
 | server renderer (dev) | Renderizador de servidor | Opción de desarrollador |
 
 ---
