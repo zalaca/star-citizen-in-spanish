@@ -195,6 +195,12 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 | `en este momento` | `ahora` / `ahora mismo` | Textos formales escritos |
 
   Ejemplos `por parte de`: `la compra por parte de Crusader` → `la compra de Crusader`; `entrega programada por parte de ~mission(Client)` → `~mission(Client) ha programado una entrega`
+
+  **Matizaciones al barrer estos calcos (experiencia Fase 4):**
+  - `así como` → solo es calco cuando es **mera adición** (`además de` / `y`); cuando expresa **comparación/modo** es legítimo y se conserva. Falsos positivos frecuentes que NO se tocan: `casi como`, `así como así`, `¿es así como...?`, `tal y como`.
+  - `se encuentra` → la inmensa mayoría de apariciones son **locativas/existenciales** (`se encuentra en...`, `se encuentra a bordo`) y son correctas. Solo se corrige la **perífrasis pasiva o de gerundio** forzada: `se encuentra suspendida` → `está suspendida`; `se encuentra buscando` → `busca`; `se encuentra flotando` → `acaba flotando`.
+  - `por parte de` → en práctica casi todo aparece en **texto legal formal** (disclaimers de confidencialidad, infracciones, contratos): se conserva. Solo reescribir en prosa no jurídica.
+  - `al mismo tiempo` → en descripciones técnicas de producto (componentes, armaduras, naves) se conserva; corregir solo en diálogo y prosa narrativa.
 - **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
   - `understand that` (aviso/advertencia imperativa) → `ten en cuenta que` (NO: "comprende que" — suena formal y forzado). Mantener "comprende" solo en tercera persona: "la empresa comprende que..."
   - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
@@ -1145,6 +1151,8 @@ Filtrar entradas con EN corto (≤45 chars) y ES con +6 o más de sobrante. Las 
 5. Cuando el usuario lista strings específicas en la respuesta: son las que hay que **CONSERVAR** tal como están — "el resto aplicalo" = aplicar todo lo no listado
 6. Usar `replace_all=True` en el Edit tool cuando la misma string aparece en múltiples claves
 
+**Advertencia clave (experiencia Fase 5):** el filtro `diff ≥6` arroja varios miles de candidatos, pero **la gran mayoría son expansión natural del español** (es ~20% más largo que el inglés) y son traducciones **correctas** que NO hay que tocar (`Profundidad 9` ← `Depth 9`, `Plataforma 03` ← `Pad 03`, `Recompensa de la Misión` ← `Mission Reward`). Comprimirlas degrada la calidad. El valor real está **solo** en namespaces con espacio genuinamente restringido (HUD de vuelo: `annun_`, `airlock_`, `item_qt_`, `comm_`, `flightHUD_`). Los menús (`pause_`), kioscos (`freightelevator_`, `repairoxygenkiosk_`) y paneles `mfd_`/`scan_`/`atc_` NO necesitan compresión; ahí buscar **errores e inconsistencias reales**, no longitud bruta.
+
 ---
 
 ### Nuevos términos de UI/HUD establecidos
@@ -1170,6 +1178,10 @@ Añadir al glosario general de términos:
 | item beyond repair | artículo irreparable | Error de reparación |
 | CM Launchers | Lanzacontramedidas | Categoría de inventario (una sola palabra) |
 | Port Lock / Port Unlock (nave) | Bloqueo/Desbloqueo de anclaje | Puertos de equipamiento de nave |
+| airlock: depressurized / pressurized | despresurizado / presurizado | Formas partidas del HUD de esclusa: `DESPRES-\nURIZADO`, `PRESUR-\nIZADO` (NO: "DEPRIMIR", "PRESIONIZADA") |
+| navpoint (HUD motor cuántico) | navpoint | Mantener en inglés en etiquetas compactas: `BLOQUEADO POR NAVPOINT`, `OCULTO POR NAVPOINT` |
+| docking (acción) | acoplamiento | NO: "muelle" (ese es el sentido físico de *dock*). Ej: "Docking Terminated" → "Acoplamiento cancelado" |
+| ATC "X Landing Services" | Servicios de aterrizaje X | Frase en minúscula, NO Title Case ("de Aterrizaje") — el español no capitaliza sustantivos comunes |
 | server renderer (dev) | Renderizador de servidor | Opción de desarrollador |
 
 ---
