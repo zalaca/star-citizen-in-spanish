@@ -165,7 +165,9 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 
 #### 3. Convenciones de traducción
 - Usar **español de España** (léxico europeo)
+  - **Léxico latinoamericano a evitar** (corregir a la forma de España): `enojar(se)/enojado` → `enfadar(se)` o `cabrear(se)/cabreado` (en pullas de combate); `lindo/linda` → `bonito/mono`; `boleto` → `ticket` (vale de certificación) o `billete` (transporte); `computadora` → `ordenador`; `celular` → `móvil`; `carro` (coche) → `coche` (ojo: `carro`=carrito de hospital es válido); `rentar` → `alquilar`; `checar` → `comprobar`. Falsos positivos habituales: `Halo` (Aaron Halo) NO es "jalar"; `tomar/agarrar/plata`(=metal)/`botar`(=bota) son válidos en España.
 - **Tutear** al jugador (tú, no usted)
+  - **Plural informal = `vosotros`, no `ustedes`**: en diálogo de NPC y texto informal, convertir `ustedes` → `vosotros` con su conjugación (`mantienen`→`mantenéis`, `han`→`habéis`, `están`→`estáis`, imperativos `vengan/sellen/olviden`→`venid/sellad/olvidad`, `los veré`→`os veré`). **Excepción:** cartas/comunicados corporativos formales (despedida de CEO, avisos oficiales) donde `ustedes` es registro formal legítimo y consistente — ahí se mantiene.
 - **Consistencia de forma verbal en UI**: usar siempre infinitivo para acciones de botón (`Apagar`, `Encender`, `Activar`, `Desactivar`), nunca mezclar con imperativo (`Apaga`, `Enciende`) dentro del mismo grupo de claves
 - **ON/OFF en etiquetas de UI**: mantener `[ON]` / `[OFF]` si el original los incluye, y añadirlos en la contraparte si uno los tiene y el otro no
 - **IU compacta** (campos `annun_`, `airlock_`, botones cortos): brevedad máxima, en mayúsculas si el original lo está
