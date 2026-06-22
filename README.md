@@ -1,4 +1,4 @@
-# Star Citizen en Español
+# Star Citizen en Castellano
 
 Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.8.2**.
 ---
