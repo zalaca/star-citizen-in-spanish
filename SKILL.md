@@ -1026,6 +1026,28 @@ Errores recurrentes detectados en el proyecto — no repetir:
 | `Adicionalmente,` (conector) | `Ademas,` | Calco de "Additionally" (ojo: `tradicionalmente` NO es esto) |
 | `honestamente` (muletilla) | `sinceramente` | Anglicismo de "honestly" |
 | `basado en` | _(se conserva tal cual)_ | NO es calco — correcto y aceptado por la RAE; no reescribir |
+| `asumir que` (= suponer) | `suponer que` / `dar por hecho que` | Anglicismo de "assume that"; "asumir" en ES = aceptar/cargar con algo |
+| `de larga data` | `de siempre` / `de larga trayectoria` | LatAm; calco de "long-standing" |
+| `dramatico` (aumento/caida) | `drastico` | "dramatic increase/drop" = drástico; SÍ válido para teatral/visual |
+| `eventual` (victoria/disolucion) | `final` / `posterior` | "eventual" EN = que acaba ocurriendo; en ES = posible/temporal. SÍ válido: "eventualidad" |
+| `mantener un ojo en` | `no perder de vista` / `vigilar` | Calco de "keep an eye on" |
+| `un numero de` (= varios) | `varios` / `cierto numero de` | Calco de "a number of". SÍ válido: número de serie/diagnóstico |
+| `la habilidad para` (capacidad) | `la capacidad de` | "ability" = capacidad; "habilidad" = destreza |
+| `severo` (síntoma/daño médico) | `intenso` / `grave` / `agudo` | "severe"; SÍ válido: clima/castigo/condiciones severas |
+| `dejame saber` | `avísame` / `dime` | Calco de "let me know". SÍ válido: "házmelo saber" |
+| `¡Amigable abajo!` | `¡Aliado caído!` | Doble calco de "Friendly down" (friendly=aliado/de los nuestros, down=caído/abatido) |
+| `precio/X amigable con el [grupo]` | `asequible` / `pensado para` | Calco de "[X]-friendly". SÍ válido: persona amigable (cordial) |
+| `por accidente` | `por casualidad` / `sin querer` | Calco de "by accident" |
+| `gran trato` (oferta) | `gran oferta` / `buen trato` | "great deal" = oferta; NO confundir con "no es gran cosa" (válido) |
+| `[X] abajo` (combate, = down) | `derribado` / `abatido` / `caído` | "down" = abatido. SÍ válido: cuesta abajo, planta de abajo |
+| `uno abajo` / `tengo uno abajo` | `uno menos` / `he abatido a uno` | "one down" |
+| `copia eso` | `recibido` / `entendido` | "copy that" (radio) |
+| `Presiona/presionar` (botón/tecla UI) | `Pulsa/pulsar` | España usa "pulsar" (proyecto: 58 usos). SÍ válido: presionar a alguien, presionar para que (figurado) |
+| `resetear` / `reseteo` | `restablecer` / `reinicio` | Anglicismo de "reset" |
+
+**Más falsos positivos:** `customizar`/`remove` solo aparecen en nombres de clave (los valores ya usan "Personalizar"/traducción), `setear` (= re**setear**), `refrescarse` (válido), `carroñero` (no "carro"), `copiado` (= copiar datos, válido).
+
+**Falsos positivos frecuentes al barrer calcos (NO son errores):** `previo aviso` (no "previo a"), `performance` solo aparece en nombres de clave, `tambien una manera` (no "en una manera"), `sucesor` (no "suceso"), `colocacion` (no "locacion"), `enfrentar` (no "rentar"), `tradicionalmente` (no "adicionalmente"), `variedad de propositos` (no "de proposito"), `relleno con` (no "lleno con"), `hacer de X un Y` (válido), `dejar/deja ir` a alguien (válido).
 
 ---
 
