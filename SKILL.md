@@ -455,7 +455,7 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 **Términos que NO se traducen en nombres de items:**
 - `(Modified)` — nunca `(Modificado)`
 - `(Woodland)` — nunca `(Boscoso)` ni `(Forestal)`
-- `Tractor Beam` — nunca `Rayo Tractor`
+- `Tractor Beam` — nunca `Rayo Tractor` **en nombres de ítem** (`item_Name*`) ni en listas BP. En **prosa genérica de misiones** sí se usa `rayo tractor` (ej: "rayo tractor de mano") — es la forma establecida del proyecto, no unificar
 - `SMG` — nunca `Subfusil`
 - `LMG` — nunca `Ametralladora ligera`
 - `Quantum Drive` — nunca `Motor Cuántico`
@@ -653,7 +653,7 @@ Jerga usada por personajes del submundo criminal. Traducir siempre el sentido, n
 | wet work (jerga: asesinato encubierto) | Trabajo Sucio (NO: "trabajo mojado" — calco literal sin sentido)                                                                                                                                                                                     |
 | I'll be damned (exclamación de sorpresa/asombro) | Segun contexto: "¡No me lo puedo creer!" (sorpresa positiva), "Anda." (sorpresa contenida), "¿Esto es lo que se siente?" (agonía). (NO: "sere condenado" / "voy a ser condenado" — calco literal sin sentido en español)                             |
 | wiped out of existence | desaparezca del mapa (NO: "eliminada de la existencia" — calco literal)                                                                                                                                                                              |
-| quantum engines / quantum drives | motores cuanticos (NO: "motores quantums" — mezcla español/inglés)                                                                                                                                                                                   |
+| quantum engines / quantum drives | motores quantum (preferencia del usuario — mantener "quantum" invariable; NO: "motores cuánticos", NO: "motores Quantums" con -s inglesa)                                                                                                                                                                                   |
 | power usage / power consumption | Consumo de energia (NO: "Uso de Energia" — calco de "usage")                                                                                                                                                                                         |
 | [faction]_RepUI_Focus sin traducir | traducir siempre. Ej: Advocacy → "Aplicacion de la Ley" (NO: "Enfoque de los Advocacy")                                                                                                                                                              |
 | CommRelay (nombre de servicio) | comunicaciones (NO: dejar en inglés "CommRelay")                                                                                                                                                                                                     |
@@ -1014,6 +1014,18 @@ Errores recurrentes detectados en el proyecto — no repetir:
 | `te llevara algunos pasos ponerla operativa` | `no sera sencillo ponerla operativa` | Calco de "it'll take some steps to get it operational" |
 | `ten cuidado porque ya que` | `ten en cuenta que` | Conectores redundantes, usar uno solo |
 | `Leyes de la Autoridad Xenotrade` | `Actas de la Autoridad de Xenocomercio` | Forma unificada en BHG_Certification_Criminal_Desc |
+| `eventualmente` (= al final) | `tarde o temprano` / `al final` | Calco de "eventually"; en ES significa "posiblemente/de vez en cuando" |
+| `al final del dia` (muletilla) | `a fin de cuentas` | Calco de "at the end of the day" |
+| `en el corto plazo` | `a corto plazo` | Calco; en ES no lleva "en el" |
+| `hacer la diferencia` | `marcar la diferencia` | Calco de "make a difference" |
+| `removido` (sacar/quitar) | `retirado` / `expulsado` | "remover" en ES = agitar/revolver, no quitar |
+| `ingresar a` (entrar) | `entrar/acceder a` / `introducir` | LatAm; en ES "ingresar" solo para dinero u hospital |
+| `reportarse a/para` (report in) | `presentarse en/para` / `dar parte` | LatAm. SÍ válidos: "reportar beneficios" y "Nada que reportar" |
+| `consistentemente` | `de forma constante/sistematica` | Calco de "consistently" |
+| `severamente` + adjetivo | `gravemente` / `drasticamente` / `con dureza` | Calco de "severely" |
+| `Adicionalmente,` (conector) | `Ademas,` | Calco de "Additionally" (ojo: `tradicionalmente` NO es esto) |
+| `honestamente` (muletilla) | `sinceramente` | Anglicismo de "honestly" |
+| `basado en` | _(se conserva tal cual)_ | NO es calco — correcto y aceptado por la RAE; no reescribir |
 
 ---
 
