@@ -467,6 +467,35 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 
 **Secciones BP:** los nombres de items en listas `\n- Item` deben coincidir exactamente con los `item_Name*` correspondientes.
 
+#### 8c. Bloques de recompensa y blueprints (final de misión)
+Muchas descripciones de misión terminan con un bloque de reputación/blueprints. **La estructura debe cuadrar exactamente con el en-EN/kraken**: mismo número de viñetas, mismo orden y las mismas cabeceras. Si el en-EN añade o quita el bloque (o una viñeta), el es-ES también.
+
+**Cabeceras `<EM4>`:**
+| en-EN | es-ES |
+|-------|-------|
+| `Reputation Awarded:</EM4> N` | `Reputación otorgada:</EM4> N` |
+| `Reputation Awarded (by difficulty):</EM4> X / Y` | `Reputación otorgada (por dificultad):</EM4> X / Y` |
+| `Potential Blueprints</EM4>` | `Posibles Blueprints</EM4>` |
+| `Potential Blueprints (Repeat Only)</EM4>` | `Posibles Blueprints (Solo repetición)</EM4>` |
+| `Multiple Blueprint Pools</EM4>` | `Posibles Blueprints</EM4>` (el es no distingue) |
+| `Pool 1</EM4>`, `Pool 2`... | igual, **en inglés** |
+| `Awarded from X level variants</EM4>` | `Otorgado en variantes de nivel X</EM4>` |
+| `[Regional Variants] example locations: L</EM4>` | `[Variantes regionales] ubicaciones de ejemplo: L</EM4>` |
+| `Scenario Progress Points N</EM4>` | `Puntos de progreso del escenario N</EM4>` |
+
+**Escalafón de contratista** (en la línea "Otorgado en variantes de nivel …"):
+`Applicant`→`Aspirante`; `Neutral`→`Neutral`; `Apprentice`→`Aprendiz`; `Jr. Mechanic`→`Mecánico Jr.`; `Contractor`→`Contratista`; `Jr. Contractor`→`Contratista Jr.`; `Sr. Contractor`→`Contratista Sénior`; `Veteran Contractor`→`Contratista Veterano`; `Head Contractor`→`Contratista Jefe`; `(Jr./—/Sr.) Security Contractor`→`Contratista de Seguridad (Jr./—/Sénior)`.
+
+**Ubicaciones de ejemplo** (`example locations:`): mantener los tokens tal cual (`RAB-XXXX`, `Cluster XXX-000`, `Checkmate`, `Monox`, `Pyro I`, `microTech`, `Hurston`…), **salvo** `X System` → `Sistema X` (`Nyx System`→`Sistema Nyx`, `Stanton System`→`Sistema Stanton`).
+
+**Viñetas de blueprint (`\n- Item`):**
+- El nombre coincide con su `item_Name*` (tipo delante: `Casco X`, `Brazos X`, `Cañón X`…).
+- Sufijos de tipo: `(Cooler)`→`(Enfriador)`, `(Shield)`→`(Escudo)`, `(Powerplant)`/`(Power Plant)`→`(Planta de Energía)`, `(Fuel Nozzle)`→`(Boquilla de combustible)`, `(Missile)`→`(Misil)`. Se **mantienen en inglés**: `(Radar)`, `(Mining Laser)`, `(Salvage Mod)`, `(Torpedo)`, `(Quantum Drive)`.
+- Códigos crudos `bp_craft_*` se dejan tal cual (CIG no los traduce).
+- **Ítems duplicados entre pools son fieles al origen** (CIG lista la misma batería/cargador en varios pools) — NO deduplicar.
+
+**Sufijo `,P` en claves:** es la convención de CIG para claves *placeholder* (`clave,P=PH - …`). Los drops de inglés nuevos las finalizan quitando el `,P` y dando el texto real; al aplicar el diff, convertir `clave,P=PH…` → `clave=<traducción>`. Ver memoria [[kraken-diff-workflow]].
+
 #### 9. Fin de archivo
 El archivo debe terminar con una **nueva línea al final** (no terminar la última línea sin `\n`).
 
