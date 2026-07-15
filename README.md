@@ -1,6 +1,6 @@
 # Star Citizen en Castellano
 
-Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.8.2**.
+Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.9.0** (*Frontier Tensions*).
 ---
 
 ### Contratos
