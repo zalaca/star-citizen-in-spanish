@@ -484,7 +484,19 @@ Muchas descripciones de misión terminan con un bloque de reputación/blueprints
 | `Scenario Progress Points N</EM4>` | `Puntos de progreso del escenario N</EM4>` |
 
 **Escalafón de contratista** (en la línea "Otorgado en variantes de nivel …"):
-`Applicant`→`Aspirante`; `Neutral`→`Neutral`; `Apprentice`→`Aprendiz`; `Jr. Mechanic`→`Mecánico Jr.`; `Contractor`→`Contratista`; `Jr. Contractor`→`Contratista Jr.`; `Sr. Contractor`→`Contratista Sénior`; `Veteran Contractor`→`Contratista Veterano`; `Head Contractor`→`Contratista Jefe`; `(Jr./—/Sr.) Security Contractor`→`Contratista de Seguridad (Jr./—/Sénior)`.
+`Applicant`→`Aspirante`; `Neutral`→`Neutral`; `Apprentice`→`Aprendiz`; `Jr. Mechanic`→`Mecánico Jr.`; `Contractor`→`Contratista`; `Jr. Contractor`→`Contratista Jr.`; `Sr. Contractor`→`Contratista Sénior`; `Veteran Contractor`→`Contratista Veterano`; `Head Contractor`→`Contratista Jefe`; `Elite Contractor`→`Contratista de Élite`; `(Jr./—/Sr.) Security Contractor`→`Contratista de Seguridad (Jr./—/Sénior)`.
+
+**Escalafón de socio (People's Alliance / misiones Battaglia)** — introducido en el drop kraken2, sustituye al escalafón técnico anterior en estas misiones:
+
+| en-EN | es-ES |
+|-------|-------|
+| `Prospective Associate` | `Aspirante a Socio` |
+| `Associate` | `Socio` |
+| `Trusted Associate` | `Socio de Confianza` |
+
+Encaja con el tono cooperativo de la facción («Stronger When United»). Alternativa válida para el primero: `Candidato a Socio` — usar `Aspirante a Socio` por consistencia.
+
+**Rangos retirados por kraken2** en las misiones Battaglia (no reintroducir): `Apprentice`→`Associate`; `Jr. Mechanic`/`Technician`/`Prestige 3`→`Trusted Associate`; `Neutral`→`Prospective Associate` (solo en Battaglia; `Neutral` sigue vigente en el resto de misiones).
 
 **Ubicaciones de ejemplo** (`example locations:`): mantener los tokens tal cual (`RAB-XXXX`, `Cluster XXX-000`, `Checkmate`, `Monox`, `Pyro I`, `microTech`, `Hurston`…), **salvo** `X System` → `Sistema X` (`Nyx System`→`Sistema Nyx`, `Stanton System`→`Sistema Stanton`).
 
