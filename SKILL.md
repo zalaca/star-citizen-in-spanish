@@ -211,6 +211,15 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
   - `por parte de` → en práctica casi todo aparece en **texto legal formal** (disclaimers de confidencialidad, infracciones, contratos): se conserva. Solo reescribir en prosa no jurídica.
   - `al mismo tiempo` → en descripciones técnicas de producto (componentes, armaduras, naves) se conserva; corregir solo en diálogo y prosa narrativa.
 - **Expresiones idiomáticas y calcos frecuentes** — traducir el sentido, nunca la literalidad:
+  - `fair share of X` (its fair share of trouble) → `más problemas de la cuenta` / `más que suficientes` (NO: "su parte justa de problemas" — calco literal)
+  - `in one piece` (volver ileso) → `sano y salvo` / `de una pieza` (NO: "en una sola pieza" — calco)
+  - `a real fight` → `una pelea de verdad` (NO: "una pelea real" — aquí "real" = "de verdad", no el adjetivo "real")
+  - `would hate to (have/see)` → `sería una pena` / `no querría` (NO: "odiaría tener/ver" — calco de la cortesía inglesa)
+  - `run` (trayecto/reparto de entrega) → `trayecto` / `reparto` / `viaje` (NO: "carrera" — solo es "carrera" si es competición o profesión)
+  - `back to X` (llevar de vuelta) → `de vuelta a` (NO: "de regreso a" — sabor latinoamericano)
+  - `by any means necessary` → `por todos los medios` / `cueste lo que cueste` (NO: "por cualquier medio necesario" — calco)
+  - `to confront (someone)` → `enfrentarse a` / `plantar cara a` (NO: "confrontar a" — anglicismo, suena latinoamericano)
+  - `at the time of / upon X` → `en el momento de X` / `al [infinitivo]` (NO: "al momento de" — sabor latinoamericano)
   - `understand that` (aviso/advertencia imperativa) → `ten en cuenta que` (NO: "comprende que" — suena formal y forzado). Mantener "comprende" solo en tercera persona: "la empresa comprende que..."
   - En diálogo informal de NPC, preferir `Eso si, ...` sobre `Solo ten en cuenta que...` cuando el contexto es una advertencia coloquial. Evitar doblar la misma palabra en la misma frase ("Solo ten en cuenta que solo...").
   - En narrativa de acción: `but understand you will be the hunted` → `ten en cuenta que ahora seras el cazado` (mantener el dramatismo del original)
