@@ -202,6 +202,10 @@ Algunos términos del universo y de la UI no se traducen aunque tengan equivalen
 | `a nivel de` | `de [rol]` / `a escala de` | — |
 | `se encuentra` (pasiva) | `está` / voz activa | Texto formal |
 | `en este momento` | `ahora` / `ahora mismo` | Textos formales escritos |
+| gerundio anglicado (`piratas operando en X`) | relativo: `piratas que operan en X` | Gerundio de posterioridad/modo legítimo |
+| `enfrentar [algo]` (transitivo) | `enfrentarse a` / `hacer frente a` | — (transitivo directo es latinoamericano) |
+| `emitir` (un pago/bono/plus) | `abonar` / `conceder` / `pagar` | `emitir` sí vale para documentos, señales, deuda |
+| pasiva perifrástica forzada (`el minero es acompañado`) | voz activa / refleja (`el minero llega`, `se acompaña al minero`) | Texto legal/formal |
 
   Ejemplos `por parte de`: `la compra por parte de Crusader` → `la compra de Crusader`; `entrega programada por parte de ~mission(Client)` → `~mission(Client) ha programado una entrega`
 
