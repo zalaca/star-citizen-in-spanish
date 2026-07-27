@@ -519,7 +519,11 @@ Encaja con el tono cooperativo de la facción («Stronger When United»). Altern
 - Códigos crudos `bp_craft_*` se dejan tal cual (CIG no los traduce).
 - **Ítems duplicados entre pools son fieles al origen** (CIG lista la misma batería/cargador en varios pools) — NO deduplicar.
 
-**Sufijo `,P` en claves:** es la convención de CIG para claves *placeholder* (`clave,P=PH - …`). Los drops de inglés nuevos las finalizan quitando el `,P` y dando el texto real; al aplicar el diff, convertir `clave,P=PH…` → `clave=<traducción>`. Ver memoria [[kraken-diff-workflow]].
+**Sufijo `,P` en claves:** es un marcador de *provisional* que usa CIG (`clave,P=PH - …`). **A efectos de identidad de clave NO es relevante: `clave` y `clave,P` son la misma clave.** Al comparar con en-EN o contar claves para paridad, **normalizar el `,P`** (tratar `clave` == `clave,P`); nunca deben coexistir ambas formas de la misma clave.
+
+- El nombre de la clave en es-ES debe llevar **el mismo sufijo que use el en-EN del drop actual**: si en-EN tiene `clave,P`, el es-ES usa `clave,P`; si en-EN la deja como `clave`, el es-ES usa `clave`. CIG a veces mantiene el `,P` al finalizar y a veces lo quita — seguir siempre al en-EN.
+- Si el valor provisional es un placeholder (`PH - …`, `PLACEHOLDER`), traducir el texto real del en-EN. Si el en-EN ya trae texto real bajo `clave,P`, traducir ese y conservar el `,P` en la clave.
+- Ver memoria [[kraken-diff-workflow]].
 
 #### 9. Fin de archivo
 El archivo debe terminar con una **nueva línea al final** (no terminar la última línea sin `\n`).
