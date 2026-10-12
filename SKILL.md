@@ -1286,6 +1286,27 @@ Añadir al glosario general de términos:
 | hail (comms: contactar por radio) | Llamar / Contactar objetivo | NUNCA "Saludo"/"Saludar" (eso es greeting). `Llamar` para acción de botón/marcador HUD; `Contactar objetivo` para etiquetas de target. Excepción: saludos reales en diálogo (`Hail, fellow pilot` → `Saludos`, `All hail` → `salve`) |
 | server renderer (dev) | Renderizador de servidor | Opción de desarrollador |
 
+## Publicación: formato de la release (tag)
+
+La descripción de cada release sale de `.github/RELEASE_NOTES.md` (el workflow la usa como `body_path`) y el título se genera solo a partir de la etiqueta: `v4.10.2` → **LIVE 4.10.2**.
+
+Al publicar una versión nueva, actualiza `RELEASE_NOTES.md` manteniendo siempre esta estructura y este orden:
+
+1. `## NOVEDADES` — primera línea: `Actualizado al parche **LIVE X.Y.Z** (*Nombre del parche*).` Después, una línea por novedad:
+   - `✅` para contenido nuevo traducido (eventos, naves, armaduras, armas, componentes, recompensas…), con los nombres propios en **negrita**.
+   - `✅` para mejoras generales de la traducción (revisiones, correcciones de calcos…).
+   - `🔧` al final para ajustes y fixes menores.
+2. `## :point_down: DESCARGA VERSIÓN ESPAÑOL :point_down:` — enlace a `releases/latest/download/star-citizen-en-espanol.zip`.
+3. `## INSTALACIÓN` — pasos, árbol `LIVE/ → user.cfg + data/Localization/spanish_(spain)/global.ini`, nota de `user.cfg`, nota de PTU y enlace al tutorial en vídeo.
+4. `## EXTRAS INCLUIDOS` — crédito a StarStrings.
+5. `## CONTRIBUIR` — Discord **Solyza#0535** y enlace a issues.
+
+Reglas:
+- Solo contenido propio del proyecto: nada de códigos de referido, Discords, Twitch, foros o menciones de otros proyectos de traducción.
+- Sin `@everyone` ni saludos de Discord en la release (eso es para el anuncio).
+- Commits y etiquetas siempre a nombre de **zalaca**, sin ninguna atribución a Claude.
+- El contador de descargas se reinicia cada vez que se mueve la etiqueta (se vuelve a subir el ZIP). Una vez anunciada una versión, no muevas su etiqueta: los cambios posteriores van en una etiqueta nueva.
+
 ---
 
 ## Apéndice: Lista de naves
