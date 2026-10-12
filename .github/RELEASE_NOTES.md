@@ -8,6 +8,8 @@ Actualizado al parche **LIVE 4.10.2** (*Siege of Orison*).
 ✅ Nuevas armaduras: **Monolith** de Kilgore & Poole, **Morozov-SH-I**, **Venture**, **Zeus Exploration** y ediciones **Akuma** y **Skeleton**.
 ✅ Nuevas variantes de armas, componentes RSI (**Helios**, **Sovereign**, **BriskAir**, **Delphi**) y **recompensas de Orison Relief**.
 ✅ Revisión completa contra el inglés: interfaz, HUD, interacciones, misiones, objetos y diálogos, corrigiendo traducciones literales y textos incompletos.
+✅ Diálogos más naturales: torre de control, tenderos, camareros, vendedores de naves, pilotos en combate, forajidos, la Advocacy (Dulli), NPC y capitanes civiles.
+✅ Objetivos y títulos de misión reescritos para que suenen naturales; menú de opciones y controles unificado (Activar/Desactivar, Apuntado, Desplazamiento…).
 🔧 Ajustes de la refinería, Cornerstone Developments, textos del HUD recortados y varios fixes menores.
 
 ## :point_down: DESCARGA VERSIÓN ESPAÑOL :point_down:
