@@ -20,7 +20,13 @@ jobs:
           cd copy
           zip -r ../star-citizen-en-espanol.zip . -x "**/.DS_Store"
 
+      - name: Version
+        id: ver
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
+          name: LIVE ${{ steps.ver.outputs.version }}
+          body_path: .github/RELEASE_NOTES.md
           files: star-citizen-en-espanol.zip
