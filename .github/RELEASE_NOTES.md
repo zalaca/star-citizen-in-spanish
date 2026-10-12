@@ -1,12 +1,14 @@
 ## NOVEDADES
 Actualizado al parche **LIVE 4.10.2** (*Siege of Orison*).
-Traducción al español de España de Star Citizen, revisada a mano contra el texto original en inglés.
 
-- Revisión completa de interfaz, HUD, interacciones, misiones, objetos y diálogos
-- Corrección de traducciones literales y de textos incompletos o inventados
-- Los contratos con blueprints muestran `[BP]` en el título y la lista de posibles blueprints en la descripción
-- Los contratos muestran la reputación que otorgan
-- Prefijo `[!]` en sustancias ilegales y tipo/tamaño/grado delante del nombre de los componentes
+✅ **RSI Discovery Month:** todos los contratos del evento traducidos (mensajería, patrullas, repostaje, minería, desguace y recuperación de paquetes), además del diario y las recompensas por niveles.
+✅ **RSI Constellation Mk V** (Centaurus, Aquila y Taurus) y la nueva **RSI Skylark**, con sus pinturas, torretas y Flight Blades.
+✅ **Constellation Mk IV:** nombres, pinturas y maquetas actualizados a la nueva nomenclatura.
+✅ **Aegis Sabre Raven EX** y **ATLS IKTI Akuma**.
+✅ Nuevas armaduras: **Monolith** de Kilgore & Poole, **Morozov-SH-I**, **Venture**, **Zeus Exploration** y ediciones **Akuma** y **Skeleton**.
+✅ Nuevas variantes de armas, componentes RSI (**Helios**, **Sovereign**, **BriskAir**, **Delphi**) y **recompensas de Orison Relief**.
+✅ Revisión completa contra el inglés: interfaz, HUD, interacciones, misiones, objetos y diálogos, corrigiendo traducciones literales y textos incompletos.
+🔧 Ajustes de la refinería, Cornerstone Developments, textos del HUD recortados y varios fixes menores.
 
 ## :point_down: DESCARGA VERSIÓN ESPAÑOL :point_down:
 Descarga la traducción en el siguiente enlace :point_right: [star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip) :point_left:
