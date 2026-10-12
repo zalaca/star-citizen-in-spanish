@@ -17,7 +17,7 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 ### Minería
 
-- *Hephaestanite (Bruto)* abreviado a *Heph (Bruto)*
+- *Hephaestanite (Raw)* abreviado a *Heph (R)*
 - Textos de la UI de minería abreviados para evitar solapamiento con los valores
 - Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de aparecerlo como prefijo
 
