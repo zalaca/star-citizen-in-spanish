@@ -10,6 +10,7 @@ Actualizado al parche **LIVE 4.10.2** (*Siege of Orison*).
 ✅ Revisión completa contra el inglés: interfaz, HUD, interacciones, misiones, objetos y diálogos, corrigiendo traducciones literales y textos incompletos.
 ✅ Diálogos más naturales: torre de control, tenderos, camareros, vendedores de naves, pilotos en combate, forajidos, la Advocacy (Dulli), NPC y capitanes civiles.
 ✅ Objetivos y títulos de misión reescritos para que suenen naturales; menú de opciones y controles unificado (Activar/Desactivar, Apuntado, Desplazamiento…).
+✅ Descripciones de misiones de todos los contratistas revisadas: textos incompletos completados, frases forzadas reescritas y firmas, pies legales y nombres unificados (Council Scrip, MG Scrip, Moho Molina, Second Life…).
 🔧 Ajustes de la refinería, Cornerstone Developments, textos del HUD recortados y varios fixes menores.
 
 ## :point_down: DESCARGA VERSIÓN ESPAÑOL :point_down:
