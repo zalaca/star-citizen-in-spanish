@@ -5,7 +5,7 @@ Uso:
 
 Estructura (si falla algo, sale con codigo 1 y la release no se publica):
   - es-ES.ini tiene las mismas claves que en-EN.ini y en el mismo orden
-  - cada linea es clave=valor, sin saltos de linea reales ni caracteres de control
+  - cada linea es clave=valor, sin finales de linea mezclados ni caracteres de control
   - no falta ningun placeholder del ingles (~mission(...), %ls, %d...)
   - la copia de copy/ es identica a locales/es-ES.ini
 
@@ -53,11 +53,11 @@ GLOSARIO = [
 def estructura(errores):
     with open(ES, encoding='utf-8-sig', newline='') as f:
         texto = f.read()
-    if '\r\n' not in texto:
-        errores.append('es-ES.ini no usa CRLF')
-    sueltos = texto.count('\n') - texto.count('\r\n')
-    if sueltos:
-        errores.append(f'{sueltos} saltos de linea LF sueltos (deben ser \\n literales)')
+    # Git guarda LF y en Windows se extrae con CRLF: vale cualquiera de los dos, pero no mezclados
+    crlf = texto.count('\r\n')
+    lf = texto.count('\n') - crlf
+    if crlf and lf:
+        errores.append(f'finales de linea mezclados: {crlf} CRLF y {lf} LF')
     control = sum(1 for c in texto if ord(c) < 32 and c not in '\r\n\t')
     if control:
         errores.append(f'{control} caracteres de control')
