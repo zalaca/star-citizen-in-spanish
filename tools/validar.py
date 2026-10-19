@@ -50,6 +50,9 @@ GLOSARIO = [
 ]
 
 
+SALTOS = re.compile(r'(?:\\n)+')
+
+
 def estructura(errores):
     with open(ES, encoding='utf-8-sig', newline='') as f:
         texto = f.read()
@@ -80,6 +83,10 @@ def estructura(errores):
         falta = Counter(PLACEHOLDER.findall(en[k])) - Counter(PLACEHOLDER.findall(es.get(k, '')))
         if k in es and falta:
             errores.append(f'{k}: falta {", ".join(falta)}')
+        # mismos cortes que en-EN pero con distintos saltos: un \n\n que se quedo en \n o al reves
+        saltos_en, saltos_es = SALTOS.findall(en[k]), SALTOS.findall(es.get(k, ''))
+        if len(saltos_en) == len(saltos_es) and saltos_en != saltos_es:
+            errores.append(f'{k}: saltos de linea distintos de en-EN')
 
     if COPIA.read_bytes() != ES.read_bytes():
         errores.append(f'{COPIA.relative_to(ES.parent.parent)} no es identica a locales/es-ES.ini')
