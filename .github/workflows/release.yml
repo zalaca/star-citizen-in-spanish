@@ -15,6 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validar traduccion
+        run: python3 tools/validar.py
+
       - name: Create ZIP
         run: |
           cd copy
