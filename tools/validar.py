@@ -46,6 +46,7 @@ GLOSARIO = [
     ('apto, no elegible', r'(?i)\belegibles?\b', None, None),
     ('ordnance', r'(?i)\bordenanzas?\b', r'(?i)\bordnance\b', None),
     ('desguace', r'(?i)\bchatarre(o|r[ií]a)\b|\bsalvamento\b', r'(?i)\bsalvag', None),
+    ('outlaw = pirata', r'(?i)\bforajid[oa]s?\b', None, None),
     ('castellano', r'(?i)\bcomputadoras?\b|\brentar\b|\bchecar\b|\benojad[oa]s?\b', None, None),
 ]
 
