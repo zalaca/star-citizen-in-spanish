@@ -1318,7 +1318,11 @@ Decisiones tomadas por el usuario durante las revisiones aleatorias. Respetarlas
 - **Frases repetidas**: la misma frase en-EN debe tener la misma traducción en todas sus claves (unificar con la variante mejor, sin añadir tildes).
 - **Megafonía/diálogos `PU_`**: prioridad baja; primero UI, misiones, objetos y mapa.
 - **Comprobaciones útiles en revisiones aleatorias**: claves con el en-EN vacío y texto en es-ES (dejarlas vacías), nombres duplicados o recortados, dobles espacios, mezcla usted/tú, calcos (*signature* = `firma`, *signal* = `señal`; no confundirlas), tipos de objeto incoherentes entre variantes del mismo item, unidades de las fichas distintas del en-EN.
-- **Falsos positivos conocidos**: `Size:` coincide dentro de `Magazine Size:`; `Tetsudo` del en-EN es errata (se usa `Testudo`); `Lightning Power Ltd.` y `Roberts Space Industries` corrigen erratas del en-EN; decimales `0.5` se dejan como en el original. `Heph (B)` (Hephaestanite en bruto) va abreviado a propósito, como en Kraken (`Heph (Raw)`), porque no cabe en el terminal; no expandirlo.
+- **Falsos positivos conocidos**: `Size:` coincide dentro de `Magazine Size:`; `Tetsudo` del en-EN es errata (se usa `Testudo`); `Lightning Power Ltd.` y `Roberts Space Industries` corrigen erratas del en-EN; decimales `0.5` se dejan como en el original. `Heph (B)` (Hephaestanite en bruto) va abreviado a propósito, como en Kraken (`Heph (Raw)`), porque no cabe en el terminal; no expandirlo. Los `
+` añadidos en botones cortos (`Ascensor
+en camino`, `Modo 
+de juego`, `Ningun articulo seleccionado
+...`) son intencionados para que el texto quepa en el botón; no quitarlos aunque el en-EN no los tenga.
 
 ### Flujo de cada lote
 
