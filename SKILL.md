@@ -441,7 +441,7 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 | `Magazine Size:` | `Tamaño del cargador:` |
 | `N/A (Beam)` | `N/A (Rayo)` |
 | `Effects:` (comida/bebida) | `Efectos:` + mismo término para el mismo efecto: `Dehydrating` → `deshidratante`, `Cognitive Boost` → `refuerzo cognitivo`, `Immune Boost` → `Estimulacion inmune` |
-| Item Type `Missile Rack` | `Rack de misiles` (NO: "Soporte de misiles", "Plataforma") |
+| Item Type `Missile Rack` / `Bomb Rack` | `Rack de misiles` / `Rack de bombas` (NO: "Soporte de...", "Plataforma") |
 | Item Type `Utility` (Multi-tool, Cambio SRT) | `Herramienta` (NO: "Utilidad", "Utilitario"); `Heavy Utility` se queda `Utilitario pesado` |
 | Item Type `Mass Driver Cannon` | `Cañon Mass Driver` |
 | `Ammo Box` (nombres de caja de munición) | `Caja de municion ...` delante (NO: "Caja de balas", tipo al final) |
@@ -469,7 +469,7 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 | `Legs` | `Piernas` |
 | `Helmet` | `Casco` |
 | `Backpack` | `Mochila` |
-| `Undersuit` | `Traje interior` |
+| `Undersuit` | `Mono` (delante: `Mono Levin Ochre`; NO: "Traje interior") |
 
 **Sufijos de tipo de item (en paréntesis):**
 | en-EN | es-ES |
@@ -1317,7 +1317,7 @@ Decisiones tomadas por el usuario durante las revisiones aleatorias. Respetarlas
 - **Mayúsculas**: no revisar Title Case; solo errores de traducción.
 - **Frases repetidas**: la misma frase en-EN debe tener la misma traducción en todas sus claves (unificar con la variante mejor, sin añadir tildes).
 - **Megafonía/diálogos `PU_`**: prioridad baja; primero UI, misiones, objetos y mapa.
-- **Comprobaciones útiles en revisiones aleatorias**: nombres duplicados o recortados, dobles espacios, mezcla usted/tú, calcos (*signature* = `firma`, *signal* = `señal`; no confundirlas), tipos de objeto incoherentes entre variantes del mismo item, unidades de las fichas distintas del en-EN.
+- **Comprobaciones útiles en revisiones aleatorias**: claves con el en-EN vacío y texto en es-ES (dejarlas vacías), nombres duplicados o recortados, dobles espacios, mezcla usted/tú, calcos (*signature* = `firma`, *signal* = `señal`; no confundirlas), tipos de objeto incoherentes entre variantes del mismo item, unidades de las fichas distintas del en-EN.
 - **Falsos positivos conocidos**: `Size:` coincide dentro de `Magazine Size:`; `Tetsudo` del en-EN es errata (se usa `Testudo`); `Lightning Power Ltd.` y `Roberts Space Industries` corrigen erratas del en-EN; decimales `0.5` se dejan como en el original.
 
 ### Flujo de cada lote
