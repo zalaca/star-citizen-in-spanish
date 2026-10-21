@@ -5,7 +5,9 @@
 - **Placeholders: NUNCA modificar** — `~mission(NombreVariable)`, `%ls`, `%d`, `%s`, `%S`, `%i`, `%Is` se copian exactamente como están, incluyendo mayúsculas. Nunca inventar placeholders que no existan en en-EN.
 - **`\n` son literales** — dos caracteres `\` + `n`, nunca un salto de línea real. Cada clave ocupa exactamente una línea.
 - **Orden de claves = en-EN.ini** — no reordenar, no agrupar, no alphabetizar.
-- **Tildes y ñ SÍ se usan** — `á, é, í, ó, ú, ñ` son correctas en todos los valores.
+- **Tildes y ñ: NO añadirlas** — el juego a veces procesa mal la ñ y las tildes. No corregir en masa las que faltan, no introducir nuevas al reescribir una frase y no contarlas como error al evaluar la traducción (ver 5c).
+- **El en-EN oficial manda** — de `locales/kraken.ini` solo se aprovechan sus añadidos; datos, cifras y textos base salen siempre del en-EN (ver «Decisiones de revisión»).
+- **Ficheros de referencia locales, nunca a git**: `locales/kraken.ini` y `locales/t.ini` (excluidos en `.git/info/exclude`).
 - **Antes de traducir: leer la clave en en-EN.ini** — el contexto original es imprescindible.
 - **Español de España (castellano)** — nunca variantes latinoamericanas.
 - **Tutear al jugador** — tú, no usted.
@@ -36,7 +38,13 @@ Copiar exactamente como en el original. Contexto completo en sección 2 y glosar
 | `(Modified)` | sufijos de item | `(Modificado)` |
 | `(Woodland)` | sufijos de item | `(Boscoso)` |
 | `SMG` / `LMG` | nombres de arma | `Subfusil` / `Ametralladora ligera` |
-| `Tractor Beam` | nombres de item | `Rayo Tractor` |
+| `Tractor Beam` | nombres de item (salvo accesorio de Multi-tool: `Rayo tractor TruHold`) | `Rayo Tractor` |
+| `Comm Array` | siempre | `Repetidor/Satélite de comunicaciones` |
+| `Starman` (rango de la Armada) | siempre | `Marinero`, `Hombre estelar` |
+| `Stealth` (Clase) / `Bespoke` (Grado) | fichas de componentes | `Sigilo` / `A medida` |
+| `Mk I` / `Mk II` (Aurora) | nombres de nave | omitirlo (`Aurora CL` → `Aurora Mk I CL`) |
+| Marcas de producto (`ReadyMeal`, `Sakura Fun`, `Samaritan`, `Lifesaver`, `Sweeper`, `Testudo`...) | siempre | traducirlas o perderlas |
+| `RMC` (Recycled Material Composite) | siempre | `MCR` |
 | `Blueprint` / `Blueprints` | siempre | `Plano/s` |
 | `Multi-tool` | siempre | `Multiherramienta` |
 | `Datapad` | siempre | `Panel de datos` |
@@ -364,7 +372,7 @@ grep -P '=(?:El|el)$' es-ES.ini
 ```
 
 #### 5c. Tildes y ñ
-**En traducciones nuevas, usar tildes y ñ con normalidad** — `á, é, í, ó, ú, ñ` son correctas y deben incluirse donde corresponda gramaticalmente.
+**Decisión del usuario (oct 2026): tildes y ñ «rompen el juego»** — el fichero está escrito mayoritariamente sin ellas (`Pequeno`, `senal`, `municion`) y así debe seguir. No añadirlas al reescribir y no proponerlas como mejora ni restarlas en una evaluación. Excepción aprobada: `Cañon` (tipo de arma, ya aplicado).
 
 - No modificar claves existentes solo para añadir o corregir tildes — solo corregir errores sustanciales de traducción.
 - En revisiones masivas, no tocar acentuación de entradas ya existentes.
@@ -427,7 +435,16 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 | `Temp. Rating:` | `Clasificación de Temp.:` |
 | `Radiation Protection:` | `Protección contra la radiación:` |
 | `Radiation Scrub Rate:` | `Tasa de limpieza de radiación:` |
-| `Carrying Capacity:` | `Capacidad de carga:` |
+| `Carrying Capacity:` | `Capacidad de carga:` (NO: "Capacidad de transporte") |
+| `µSCU` / `SCU` | igual que el en-EN — copiar la unidad exacta (`2K µSCU`, nunca cambiar µSCU por SCU) |
+| `Rate of Fire:` | `Cadencia de fuego:` (NO: "Cadencia de tiro") |
+| `Magazine Size:` | `Tamaño del cargador:` |
+| `N/A (Beam)` | `N/A (Rayo)` |
+| `Effects:` (comida/bebida) | `Efectos:` + mismo término para el mismo efecto: `Dehydrating` → `deshidratante`, `Cognitive Boost` → `refuerzo cognitivo`, `Immune Boost` → `Estimulacion inmune` |
+| Item Type `Missile Rack` | `Rack de misiles` (NO: "Soporte de misiles", "Plataforma") |
+| Item Type `Utility` (Multi-tool, Cambio SRT) | `Herramienta` (NO: "Utilidad", "Utilitario"); `Heavy Utility` se queda `Utilitario pesado` |
+| Item Type `Mass Driver Cannon` | `Cañon Mass Driver` |
+| `Ammo Box` (nombres de caja de munición) | `Caja de municion ...` delante (NO: "Caja de balas", tipo al final) |
 | `Core Compatibility:` | `Compatibilidad de torso:` |
 | `Backpacks:` | `Mochilas:` |
 | Class `Industrial` | `Industrial` |
@@ -468,7 +485,7 @@ Los items del juego (radares, armaduras, mochilas, armas, etc.) tienen un bloque
 **Términos que NO se traducen en nombres de items:**
 - `(Modified)` — nunca `(Modificado)`
 - `(Woodland)` — nunca `(Boscoso)` ni `(Forestal)`
-- `Tractor Beam` — nunca `Rayo Tractor` **en nombres de ítem** (`item_Name*`) ni en listas BP. En **prosa genérica de misiones** sí se usa `rayo tractor` (ej: "rayo tractor de mano") — es la forma establecida del proyecto, no unificar
+- `Tractor Beam` — nunca `Rayo Tractor` **en nombres de ítem** (`item_Name*`) ni en listas BP (excepción: el accesorio de Multi-tool `Rayo tractor TruHold`). En **prosa genérica de misiones** sí se usa `rayo tractor` (ej: "rayo tractor de mano") — es la forma establecida del proyecto, no unificar
 - `SMG` — nunca `Subfusil`
 - `LMG` — nunca `Ametralladora ligera`
 - `Quantum Drive` — nunca `Motor Cuántico`
@@ -1285,6 +1302,30 @@ Añadir al glosario general de términos:
 | ATC "X Landing Services" | Servicios de aterrizaje X | Frase en minúscula, NO Title Case ("de Aterrizaje") — el español no capitaliza sustantivos comunes |
 | hail (comms: contactar por radio) | Llamar / Contactar objetivo | NUNCA "Saludo"/"Saludar" (eso es greeting). `Llamar` para acción de botón/marcador HUD; `Contactar objetivo` para etiquetas de target. Excepción: saludos reales en diálogo (`Hail, fellow pilot` → `Saludos`, `All hail` → `salve`) |
 | server renderer (dev) | Renderizador de servidor | Opción de desarrollador |
+
+## Decisiones de revisión (oct 2026)
+
+Decisiones tomadas por el usuario durante las revisiones aleatorias. Respetarlas en traducciones futuras:
+
+- **Oficial sobre Kraken**: `kraken.ini` (pack de MrKraken) sirve para ver añadidos (bloques de reputación `<EM4>`, formato `[CS1] Misil Spark` de misiles, que se mantiene). Si Kraken y en-EN difieren en datos o texto base, gana el en-EN. Lo que no esté ni en Kraken ni en en-EN se elimina.
+- **Chaff** → `ruido` en UI/HUD (`Ruido listo`, `Ruido agotado`). Nunca tocar el código de icono `~icon(Chaff|22|22)` ni el apellido `Chaffee`.
+- **Navy** → `Armada` (nunca "Marina", salvo Marina Mercante / Infantería de Marina). Adjetivo `Naval` se mantiene.
+- **outlaw** → `forajido`; `pirata` solo si el inglés dice *pirate*.
+- **port / starboard** → `izquierda / derecha` (nunca babor/estribor).
+- **Accesorios de Multi-tool** (nombres cortos, decisión cerrada): `Mineria OreBit`, `Corte OxyTorch`, `Medico LifeGuard`, `SRT Cambio-Lite`, `Rayo tractor TruHold`.
+- **Canister** (bidón/contenedor/cartucho): **pausado** — no unificar hasta que el usuario decida.
+- **Mayúsculas**: no revisar Title Case; solo errores de traducción.
+- **Frases repetidas**: la misma frase en-EN debe tener la misma traducción en todas sus claves (unificar con la variante mejor, sin añadir tildes).
+- **Megafonía/diálogos `PU_`**: prioridad baja; primero UI, misiones, objetos y mapa.
+- **Comprobaciones útiles en revisiones aleatorias**: nombres duplicados o recortados, dobles espacios, mezcla usted/tú, calcos (*signature* = `firma`, *signal* = `señal`; no confundirlas), tipos de objeto incoherentes entre variantes del mismo item, unidades de las fichas distintas del en-EN.
+- **Falsos positivos conocidos**: `Size:` coincide dentro de `Magazine Size:`; `Tetsudo` del en-EN es errata (se usa `Testudo`); `Lightning Power Ltd.` y `Roberts Space Industries` corrigen erratas del en-EN; decimales `0.5` se dejan como en el original.
+
+### Flujo de cada lote
+
+1. Aplicar cambios a `locales/es-ES.ini` **y** `copy/data/Localization/spanish_(spain)/global.ini` (mismo contenido, UTF-8 con BOM, CRLF).
+2. `python tools/validar.py`.
+3. Commit como `zalaca` (`git -c user.name=zalaca -c user.email=juza989@gmail.com commit`), **sin** líneas `Co-Authored-By`.
+4. `git push origin master`, y mover la etiqueta de la versión actual a HEAD (`git tag -f vX.Y.Z HEAD && git push -f origin vX.Y.Z`) cuando el usuario diga «pisa la tag».
 
 ## Publicación: formato de la release (tag)
 
