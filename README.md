@@ -6,43 +6,7 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 **[Descargar star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)**
 
-Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes los pasos detallados en [Instalación](#instalación).
-
----
-
-## Mejoras incluidas
-
-### Contratos
-
-- Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
-- Los contratos con BP incluyen `[BP]` en el título
-    - `[BP]*` indica que el texto es compartido entre varios contratos y solo uno otorga el blueprint específico, que se indica en la descripción
-    - Por la misma razón, y por variaciones regionales de los pools, puede aparecer una segunda lista
-        - Ciertos contratos (como Tactical Strike Groups) tienen 2 pools que se otorgan al completarlos
-    - Los componentes en el pool muestran Nombre (Tipo), ej: *SnowBlind (Enfriador)*
-- Títulos de contratos de transporte mejorados, con *Direct* subrayado
-- Los contratos muestran la cantidad de reputación que otorgan
-- Los contratos que otorgan progreso de escenario (ej: Return of Xenothreat) muestran cuántos puntos otorgan y si son divididos
-
-### Minería
-
-- *Hephaestanite (Bruto)* abreviado a *Heph (B)*
-- Textos de la UI de minería abreviados para evitar solapamiento con los valores
-- Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de llevarlo como prefijo
-
-### Objetos
-
-- Prefijo de aviso `[!]` para sustancias ilegales
-- Tipo, tamaño y grado del componente prefijados al nombre
-    - Ej: *Tundra* → *Mil/1/D Tundra*
-- Prefijo de tipo de guiado y tamaño para misiles (sugerencia de WhisperDark en Discord)
-    - Ej: *Misil Pioneer-G* → *[EM1] Misil Pioneer-G*, *Misil Spark-G* → *[CS1] Misil Spark-G*
-
-### Diario
-
-- Entrada del diario de la guía de minería reformateada, agrupando los minerales por rareza
-
-<sub>Mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).</sub>
+Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes los pasos detallados justo debajo.
 
 ---
 
@@ -93,6 +57,42 @@ LIVE/
 Si prefieres seguir una guía visual, aquí tienes un tutorial de instalación paso a paso:
 
 [![Tutorial de instalación en YouTube](https://img.youtube.com/vi/EX0GIHF1M6U/0.jpg)](https://youtu.be/EX0GIHF1M6U?si=gU0ifCQ9Qxf7nNJD)
+
+---
+
+## Mejoras incluidas
+
+### Contratos
+
+- Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
+- Los contratos con BP incluyen `[BP]` en el título
+    - `[BP]*` indica que el texto es compartido entre varios contratos y solo uno otorga el blueprint específico, que se indica en la descripción
+    - Por la misma razón, y por variaciones regionales de los pools, puede aparecer una segunda lista
+        - Ciertos contratos (como Tactical Strike Groups) tienen 2 pools que se otorgan al completarlos
+    - Los componentes en el pool muestran Nombre (Tipo), ej: *SnowBlind (Enfriador)*
+- Títulos de contratos de transporte mejorados, con *Direct* subrayado
+- Los contratos muestran la cantidad de reputación que otorgan
+- Los contratos que otorgan progreso de escenario (ej: Return of Xenothreat) muestran cuántos puntos otorgan y si son divididos
+
+### Minería
+
+- *Hephaestanite (Bruto)* abreviado a *Heph (B)*
+- Textos de la UI de minería abreviados para evitar solapamiento con los valores
+- Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de llevarlo como prefijo
+
+### Objetos
+
+- Prefijo de aviso `[!]` para sustancias ilegales
+- Tipo, tamaño y grado del componente prefijados al nombre
+    - Ej: *Tundra* → *Mil/1/D Tundra*
+- Prefijo de tipo de guiado y tamaño para misiles (sugerencia de WhisperDark en Discord)
+    - Ej: *Misil Pioneer-G* → *[EM1] Misil Pioneer-G*, *Misil Spark-G* → *[CS1] Misil Spark-G*
+
+### Diario
+
+- Entrada del diario de la guía de minería reformateada, agrupando los minerales por rareza
+
+<sub>Mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).</sub>
 
 ---
 
