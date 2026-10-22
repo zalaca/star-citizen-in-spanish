@@ -1,6 +1,13 @@
 # Star Citizen en Castellano
 
 Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.10.2** (*Siege of Orison*).
+
+## ⬇ Descarga
+
+**[Descargar star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)**
+
+Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes los pasos detallados en [Instalación](#instalación).
+
 ---
 
 ### Contratos
@@ -39,8 +46,7 @@ Traducción al español de España para **Star Citizen** — actualizada con los
 
 ### Descarga
 
-1. Descarga el ZIP desde el último release:
-   **[⬇ Descargar star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)**
+1. Descarga el ZIP desde el último release ([enlace de descarga](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)).
 2. Extrae el ZIP.
 3. Copia el contenido extraído en el directorio de instalación de Star Citizen:
 
