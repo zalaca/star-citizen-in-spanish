@@ -12,8 +12,6 @@ Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes lo
 
 ## Mejoras incluidas
 
-Además de la traducción, se incorporan mejoras de calidad de vida tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
-
 ### Contratos
 
 - Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
@@ -43,6 +41,8 @@ Además de la traducción, se incorporan mejoras de calidad de vida tomadas del 
 ### Diario
 
 - Entrada del diario de la guía de minería reformateada, agrupando los minerales por rareza
+
+<sub>Mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).</sub>
 
 ---
 
