@@ -15,8 +15,10 @@ Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes lo
 ### Descarga
 
 1. Descarga el ZIP de la última versión ([enlace de descarga](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip)).
-2. Extrae el ZIP.
-3. Copia el contenido extraído en el directorio de instalación de Star Citizen:
+2. Extrae el ZIP. Contiene **una carpeta y un archivo**:
+   - la carpeta `data`, con la traducción (`data/Localization/spanish_(spain)/global.ini`)
+   - el archivo `user.cfg`, que le dice al juego que use el español
+3. Copia **las dos cosas** (la carpeta `data` y el archivo `user.cfg`) dentro de la carpeta `LIVE` de tu instalación de Star Citizen:
 
 ---
 
