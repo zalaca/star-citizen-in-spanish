@@ -10,6 +10,10 @@ Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes lo
 
 ---
 
+## Mejoras incluidas
+
+Además de la traducción, se incorporan mejoras de calidad de vida tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings).
+
 ### Contratos
 
 - Los contratos que ofrecen blueprints muestran la lista de posibles blueprints al final de la descripción
@@ -26,15 +30,15 @@ Extrae el ZIP en la carpeta `LIVE` de tu instalación de Star Citizen. Tienes lo
 
 - *Hephaestanite (Bruto)* abreviado a *Heph (B)*
 - Textos de la UI de minería abreviados para evitar solapamiento con los valores
-- Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de aparecerlo como prefijo
+- Las entradas de materias primas que empiezan por "Bruto..." llevan el sufijo *(Bruto)* en lugar de llevarlo como prefijo
 
 ### Objetos
 
 - Prefijo de aviso `[!]` para sustancias ilegales
 - Tipo, tamaño y grado del componente prefijados al nombre
     - Ej: *Tundra* → *Mil/1/D Tundra*
-- Prefijo de tipo para misiles (sugerencia de WhisperDark en Discord)
-    - Ej: *Misil Dominator II* → *[EM] Misil Dominator II*
+- Prefijo de tipo de guiado y tamaño para misiles (sugerencia de WhisperDark en Discord)
+    - Ej: *Misil Pioneer-G* → *[EM1] Misil Pioneer-G*, *Misil Spark-G* → *[CS1] Misil Spark-G*
 
 ### Diario
 
@@ -105,14 +109,10 @@ El objetivo es una traducción natural al español de España, evitando calcos d
 
 ---
 
-## Extras incluidos
-
-Se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKraken/StarStrings)
-
 ## Notas
 
-- Compatible con la versión **LIVE** de Star Citizen.
-- La traducción es un trabajo en progreso — se actualiza regularmente.
+- Compatible con las versiones **LIVE** y **PTU** de Star Citizen.
+- La traducción se mantiene al día con cada parche. Puedes ver qué cambia en cada versión en las [notas de la última versión](https://github.com/zalaca/star-citizen-in-spanish/releases/latest).
 
 ---
 
@@ -120,7 +120,7 @@ Se incorporan mejoras tomadas del proyecto [StarStrings](https://github.com/MrKr
 
 Si encuentras errores o quieres sugerir mejoras:
 
-- Contacta por Discord con **Solyza#0535**.
+- Contacta por Discord con **Solyza**.
 - Abre un [issue](../../issues) en este repositorio.
 
 Cualquier aportación es bienvenida y muy agradecida.
