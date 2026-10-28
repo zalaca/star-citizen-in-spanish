@@ -41,7 +41,7 @@ GLOSARIO = [
     ('Navy = Armada', r'(?<!Infanteria de )(?<!Infantería de )\bMarina\b(?! Mercante)', r'\bNavy\b', None),
     ('Starman', r'(?i)\bmarineros?\b|\bhombres? estelar', r'(?i)\bstarm[ae]n\b', None),
     ('izquierda/derecha', r'(?i)\b(babor|estribor)\b', None, None),
-    ('nave, no barco', r'(?i)\b(barcos?|buques?)\b', None, None),
+    ('nave, no barco', r'(?i)\b(barcos?|buques?)\b', None, r'^(?!Human_)'),  # Barco es apellido de PNJ
     ('pilotar', r'(?i)\bpilote(a|ar|an|aba|aban|ando)\b', None, None),
     ('apto, no elegible', r'(?i)\belegibles?\b', None, None),
     ('ordnance', r'(?i)\bordenanzas?\b', r'(?i)\bordnance\b', None),
