@@ -1,6 +1,6 @@
 # Star Citizen en Castellano
 
-Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.10.2** (*Siege of Orison*).
+Traducción al español de España para **Star Citizen** — actualizada con los cambios de la versión **4.10.3** (*Siege of Orison*).
 
 ## ⬇ Descarga
 

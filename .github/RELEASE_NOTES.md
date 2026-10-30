@@ -1,17 +1,12 @@
 ## NOVEDADES
-Actualizado al parche **LIVE 4.10.2** (*Siege of Orison*).
+Actualizado al parche **LIVE 4.10.3** (*Siege of Orison*).
 
-✅ **RSI Discovery Month:** todos los contratos del evento traducidos (mensajería, patrullas, repostaje, minería, desguace y recuperación de paquetes), además del diario y las recompensas por niveles.
-✅ **RSI Constellation Mk V** (Centaurus, Aquila y Taurus) y la nueva **RSI Skylark**, con sus pinturas, torretas y Flight Blades.
-✅ **Constellation Mk IV:** nombres, pinturas y maquetas actualizados a la nueva nomenclatura.
-✅ **Aegis Sabre Raven EX** y **ATLS IKTI Akuma**.
-✅ Nuevas armaduras: **Monolith** de Kilgore & Poole, **Morozov-SH-I**, **Venture**, **Zeus Exploration** y ediciones **Akuma** y **Skeleton**.
-✅ Nuevas variantes de armas, componentes RSI (**Helios**, **Sovereign**, **BriskAir**, **Delphi**) y **recompensas de Orison Relief**.
-✅ Revisión completa contra el inglés: interfaz, HUD, interacciones, misiones, objetos y diálogos, corrigiendo traducciones literales y textos incompletos.
-✅ Diálogos más naturales: torre de control, tenderos, camareros, vendedores de naves, pilotos en combate, forajidos, la Advocacy (Dulli), NPC y capitanes civiles.
-✅ Objetivos y títulos de misión reescritos para que suenen naturales; menú de opciones y controles unificado (Activar/Desactivar, Apuntado, Desplazamiento…).
-✅ Descripciones de misiones de todos los contratistas revisadas: textos incompletos completados, frases forzadas reescritas y firmas, pies legales y nombres unificados (Council Scrip, MG Scrip, Moho Molina, Second Life…).
-🔧 Ajustes de la refinería, Cornerstone Developments, textos del HUD recortados y varios fixes menores.
+✅ **Nuevas misiones de InterSec en Nyx** contra los Vanduul y los Shattered Blade: cazas de Maulers, flotas Vanduul, asalto a bases auxiliares, recuperar una nave abordada y la **muestra Vanduul viva** en criopod.
+✅ Nuevo **rifle Skarnov** de Lightning Bolt Co. (Raider Camo, Ferrite, Relay y Sparkplug) y visores **Omarof** Venom, Mirage, Deadeye e Igniter.
+✅ Ediciones **Raider Camo**: cañones M3A/M4A/M5A, armaduras Corbel y Palatino y traje de vuelo Tailwind.
+✅ Nuevo radar **Lephari** de WillsOp.
+✅ Terminales de petición ahora hablan de **vehículos**, las guaridas de los Frontier Fighters pasan a ser **instalaciones abandonadas** y corregidos los nombres Starwalker/Infrared de la Venture.
+✅ Más revisión contra el inglés: "pintura" en todas las pinturas de naves, género femenino de las naves, blindaje en vez de armadura, nombres cortos de armas y misiles unificados, marcadores de objetivo en infinitivo, el habla de Wikelo y varios calcos corregidos.
 
 ## :point_down: DESCARGA VERSIÓN ESPAÑOL :point_down:
 Descarga la traducción en el siguiente enlace :point_right: [star-citizen-en-espanol.zip](https://github.com/zalaca/star-citizen-in-spanish/releases/latest/download/star-citizen-en-espanol.zip) :point_left:
